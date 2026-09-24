@@ -8,76 +8,59 @@ permalink: /structure/
 
 FRC Team 1073 operates through four specialized subgroups, each bringing unique expertise and skills to our competition efforts. Every group is essential to building and operating a competitive FRC robot.
 
-## Electromechanical
+## [Electromechanical](/structure/electromechanical/)
 
-The Electromechanical subgroup is responsible for designing, fabricating, and maintaining all mechanical systems and structures of the robot.
+The Electromechanical subgroup designs, fabricates, and maintains all mechanical systems and structures of the robot. They turn ideas into metal and make the robot move.
 
-**Responsibilities:**
-- CAD design and simulation
-- Robot fabrication and assembly
+**Key Areas:**
+- Robot design and CAD modeling
+- CNC machining, welding, and fabrication
+- Systems integration
 - Mechanical testing and validation
-- Maintenance and repairs
-- Electrical wiring and integration
 
-**Skills Developed:**
-- Engineering design
-- Manufacturing processes
-- Problem-solving under constraints
-- Hands-on technical skills
+**[Learn more about Electromechanical →](/structure/electromechanical/)**
 
-## Software
+---
 
-The Software subgroup develops all code systems that control the robot, from autonomous operation to driver control systems.
+## [Software](/structure/software/)
 
-**Responsibilities:**
-- Autonomous programming
-- Teleop control systems
+The Software subgroup develops all code systems that control the robot, from the autonomous 15-second period to driver-controlled competition. They are the brains behind the robot.
+
+**Key Areas:**
+- Autonomous and teleop programming
 - Vision processing and targeting
-- Robot feedback and sensor integration
-- Dashboard and diagnostics software
+- Control systems and feedback loops
+- Driver dashboard and diagnostics
 
-**Skills Developed:**
-- Software engineering best practices
-- Real-time programming
-- Computer vision
-- Debugging and problem-solving
-- Git version control
+**[Learn more about Software →](/structure/software/)**
 
-## Business
+---
 
-The Business subgroup manages strategy, partnerships, sponsorships, and community engagement—keeping the team running and funded.
+## [Business](/structure/business/)
 
-**Responsibilities:**
-- Team sponsorships and fundraising
-- Community outreach and partnerships
+The Business subgroup manages sponsorships, fundraising, marketing, and community partnerships. They keep the team funded, connected, and in the spotlight.
+
+**Key Areas:**
+- Sponsorships and grant writing
+- Social media and marketing
 - Event planning and logistics
-- Social media and communications
-- Business planning and strategy
+- Community outreach and partnerships
 
-**Skills Developed:**
-- Project management
-- Business development
-- Communication and presentation
-- Community engagement
-- Leadership skills
+**[Learn more about Business →](/structure/business/)**
 
-## Strategy
+---
 
-The Strategy subgroup analyzes the competition game, scouts opponents, and develops winning competition strategies.
+## [Strategy](/structure/strategy/)
 
-**Responsibilities:**
+The Strategy subgroup analyzes the game, scouts opponents, and develops winning strategies. They are the analytical mind of Team 1073, turning data into victory.
+
+**Key Areas:**
 - Game analysis and rule interpretation
-- Opponent scouting and data analysis
-- Match strategy and alliance selection
-- Pit operations during events
-- Data-driven decision making
-
-**Skills Developed:**
-- Game analysis
+- Opponent scouting and performance tracking
+- Match strategy and alliance planning
 - Data collection and analysis
-- Strategic planning
-- Communication and teamwork
-- Rapid decision-making under pressure
+
+**[Learn more about Strategy →](/structure/strategy/)**
 
 ---
 
