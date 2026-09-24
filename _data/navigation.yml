@@ -1,0 +1,78 @@
+- title: Home
+  url: /
+
+- title: About the Team
+  url: /about
+  children:
+    - title: Member History
+      url: /about/member-history
+    - title: What is FIRST
+      url: /about/what-is-first
+    - title: Our Awards
+      url: /about/our-awards
+
+- title: Safety
+  url: /safety
+  children:
+    - title: Workplace
+      url: /safety/workplace
+    - title: Personnel
+      url: /safety/personnel
+
+- title: Structure
+  url: /structure
+  children:
+    - title: Electromechanical
+      url: /structure/electromechanical
+    - title: Software
+      url: /structure/software
+    - title: Business
+      url: /structure/business
+    - title: Strategy
+      url: /structure/strategy
+
+- title: Raffle
+  url: /raffle
+  children:
+    - title: About the Raffle
+      url: /raffle
+    - title: Raffle Terms and Conditions
+      url: /raffle/terms-conditions
+
+- title: Media
+  url: /media
+  children:
+    - title: FRC 1073 in the News
+      url: /media/in-the-news
+    - title: 1073's Social Media
+      url: /media/social-media
+
+- title: Shop 1073
+  url: /shop
+
+- title: Resources
+  url: /resources
+  children:
+    - title: Our Events
+      url: /resources/our-events
+    - title: Scouting App
+      url: /resources/scouting-app
+    - title: STEM and The Force Team
+      url: /resources/stem-initiatives
+    - title: FIRST Lego League Explore Expo
+      url: /resources/first-lego-league
+    - title: Our Calendar
+      url: /resources/our-calendar
+    - title: External Resources
+      url: /resources/external-resources
+
+- title: Support
+  url: /support
+  children:
+    - title: Donate
+      url: /support/donate
+    - title: Our Sponsors
+      url: /support/our-sponsors
+
+- title: Contact Us
+  url: /contact

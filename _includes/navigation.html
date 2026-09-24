@@ -1,0 +1,22 @@
+<nav class="navbar">
+  <ul class="navbar-menu">
+    {% for item in site.data.navigation %}
+      <li class="navbar-item {% if item.children %}has-dropdown{% endif %}">
+        <a href="{{ item.url | prepend: site.baseurl }}" class="navbar-link">
+          {{ item.title }}
+        </a>
+        {% if item.children %}
+          <ul class="navbar-submenu">
+            {% for child in item.children %}
+              <li class="navbar-subitem">
+                <a href="{{ child.url | prepend: site.baseurl }}" class="navbar-sublink">
+                  {{ child.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
