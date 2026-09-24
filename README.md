@@ -24,14 +24,17 @@ The site will be available at `http://localhost:4000`
 ├── _config.yml           # Site configuration
 ├── index.md              # Homepage
 ├── pages/                # Page content
-│   ├── about.md
-│   ├── contact.md
-│   ├── resources.md
-│   ├── safety.md
-│   ├── support.md
-│   └── raffle.md
-├── _data/                # Data files (for navigation, etc.)
-└── files/                # PDFs, documents, etc.
+│   ├── about.md          # About the team
+│   ├── structure.md      # Team subgroups (Electromechanical, Software, Business, Strategy)
+│   ├── resources.md      # Competition schedule, events, technical resources
+│   ├── safety.md         # Safety policies and guidelines
+│   ├── support.md        # Donations and sponsorship information
+│   ├── raffle.md         # 2026 Raffle information
+│   ├── media.md          # News, photos, videos, press coverage
+│   ├── shop.md           # Team merchandise store
+│   └── contact.md        # Contact information
+├── files/                # PDFs, documents, engineering notebooks
+└── _data/                # Data files (for navigation, etc.)
 ```
 
 ## Editing Content
@@ -80,19 +83,30 @@ To require adult approval before publishing:
 
 ## Content Migration from Wix
 
-Content from the old Wix site has been migrated to:
-- `/pages/` - All main pages
-- `/index.md` - Updated homepage
-- PDFs and files stored in `/files/`
+✅ **Migrated Content:**
+- Homepage with 2026 season highlights
+- About page with team mission and 2026 accomplishments
+- Team structure pages (Electromechanical, Software, Business, Strategy)
+- Competition schedule and resources
+- Safety policies and guidelines
+- Support and sponsorship information
+- Raffle information and details
+- Media and news page
+- Team merchandise store page
+- Contact information
+- Social media links
 
 ## Next Steps
 
-1. [ ] Update the social media links in pages (currently placeholders)
-2. [ ] Add team photos and media
-3. [ ] Set up custom domain (if desired)
-4. [ ] Configure branch protection rules
-5. [ ] Set up Decap CMS for visual editing (optional)
-6. [ ] Add more detailed content from Wix
+1. [ ] Add team photos and competition photos to `/media.md`
+2. [ ] Upload engineering notebooks and PDFs to `/files/`
+3. [ ] Link to external merchandise shop (if available)
+4. [ ] Set up custom domain (if desired)
+5. [ ] Configure branch protection rules for approval workflow
+6. [ ] Set up Decap CMS for visual editing (optional - allows students to edit without git)
+7. [ ] Add specific mentors/leadership bios
+8. [ ] Create detailed sponsorship packages page
+9. [ ] Add video gallery/highlights
 
 ## Questions?
 

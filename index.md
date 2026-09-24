@@ -3,31 +3,49 @@ layout: home
 title: FRC Team 1073 - The Force Team
 ---
 
-# Welcome to FRC Team 1073
+# Welcome to FRC Team 1073 - The Force Team
 
-**The Force Team** from Hollis-Brookline High School in New Hampshire
+**A high school FIRST Robotics Competition team from Hollis-Brookline High School, serving Hollis and Brookline, New Hampshire**
 
 ## Our Mission
 
-Inspiring students to become leaders, innovators, and technologically-literate citizens of tomorrow through FIRST Robotics Competition engagement.
+We inspire and prepare our students to become the leaders, innovators, and technologically-literate citizens of tomorrow. Through FIRST's vision, we build an accessible, innovative program that develops self-confidence, knowledge, professionalism, and life skills in science, technology, engineering, and mathematics.
+
+## 2026 Season Highlights
+
+### UVM District Event Success (April 2-4, 2026)
+Our robot **"Crashout"** made a tremendous impact:
+
+- **Top 4% Global Ranking**: Expected Points Added (EPA) of 144.9
+- **Quality Award**: Recognized for robustness and superior workmanship
+- **Alliance Selection**: Selected as 1st pick for Alliance 3
+- **Leadership**: Team member Vivi S. named Semi-Finalist for FIRST Leadership Award
+- **Next Step**: Advancing to New England District Championship
 
 ## Quick Links
 
 - [About the Team](/about)
-- [Competition Updates](/resources)
-- [Support Us](/support)
-- [Contact](/contact)
+- [Team Structure](/structure)
+- [Competition & Events](/resources)
+- [Support & Donations](/support)
+- [Raffle 2026](/raffle)
+- [Contact Us](/contact)
 
-## Latest News
+## Our Team
 
-### 2026 UVM District Event Success
-Our team demonstrated excellence at the UVM District Event, earning a Quality Award and leadership recognition. Read more in our [Engineering Notebook](/files/2025-engineering-notebook.pdf).
+We are organized into four specialized subgroups working together to compete at the highest levels:
 
-### 2026 Raffle
-Help support Team 1073! [Learn about our raffle](/raffle).
+- **Electromechanical** – Robot design, fabrication, mechanical systems
+- **Software** – Programming, automation, autonomous systems
+- **Business** – Strategy, partnerships, community outreach
+- **Strategy** – Game analysis, competition planning
 
 ## Connect With Us
 
 - [X (Twitter)](https://x.com/frcteam1073)
 - [Facebook](https://facebook.com/frcteam1073)
 - [Instagram](https://instagram.com/frcteam1073)
+
+---
+
+**Help us continue this success!** [Support Team 1073](/support) through donations or sponsorships.
