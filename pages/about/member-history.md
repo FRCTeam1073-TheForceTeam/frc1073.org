@@ -36,8 +36,8 @@ Many of our alumni continue to be involved with Team 1073 through mentorship, vo
 
 ## Join Our Community
 
-Are you interested in joining Team 1073 or becoming a mentor? [Contact us](/contact) to learn more about becoming part of our legacy!
+Are you interested in joining Team 1073 or becoming a mentor? [Contact us]({{ site.baseurl }}/contact) to learn more about becoming part of our legacy!
 
 ---
 
-**Have photos or historical information to share?** [Contact us](/contact) to contribute to our team history.
+**Have photos or historical information to share?** [Contact us]({{ site.baseurl }}/contact) to contribute to our team history.

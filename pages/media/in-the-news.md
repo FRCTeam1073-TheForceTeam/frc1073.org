@@ -48,7 +48,7 @@ Team 1073 has been featured for:
 
 ## Be Part of Our Story
 
-Have a story idea? Want to cover Team 1073? [Contact us](/contact) to discuss media opportunities!
+Have a story idea? Want to cover Team 1073? [Contact us]({{ site.baseurl }}/contact) to discuss media opportunities!
 
 **Guidelines for Featuring Team 1073:**
 - We welcome local, regional, and national media coverage

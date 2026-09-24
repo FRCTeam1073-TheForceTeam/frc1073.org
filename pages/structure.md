@@ -8,7 +8,7 @@ permalink: /structure/
 
 FRC Team 1073 operates through four specialized subgroups, each bringing unique expertise and skills to our competition efforts. Every group is essential to building and operating a competitive FRC robot.
 
-## [Electromechanical](/structure/electromechanical/)
+## [Electromechanical]({{ site.baseurl }}/structure/electromechanical/)
 
 The Electromechanical subgroup designs, fabricates, and maintains all mechanical systems and structures of the robot. They turn ideas into metal and make the robot move.
 
@@ -18,11 +18,11 @@ The Electromechanical subgroup designs, fabricates, and maintains all mechanical
 - Systems integration
 - Mechanical testing and validation
 
-**[Learn more about Electromechanical →](/structure/electromechanical/)**
+**[Learn more about Electromechanical →]({{ site.baseurl }}/structure/electromechanical/)**
 
 ---
 
-## [Software](/structure/software/)
+## [Software]({{ site.baseurl }}/structure/software/)
 
 The Software subgroup develops all code systems that control the robot, from the autonomous 15-second period to driver-controlled competition. They are the brains behind the robot.
 
@@ -32,11 +32,11 @@ The Software subgroup develops all code systems that control the robot, from the
 - Control systems and feedback loops
 - Driver dashboard and diagnostics
 
-**[Learn more about Software →](/structure/software/)**
+**[Learn more about Software →]({{ site.baseurl }}/structure/software/)**
 
 ---
 
-## [Business](/structure/business/)
+## [Business]({{ site.baseurl }}/structure/business/)
 
 The Business subgroup manages sponsorships, fundraising, marketing, and community partnerships. They keep the team funded, connected, and in the spotlight.
 
@@ -46,11 +46,11 @@ The Business subgroup manages sponsorships, fundraising, marketing, and communit
 - Event planning and logistics
 - Community outreach and partnerships
 
-**[Learn more about Business →](/structure/business/)**
+**[Learn more about Business →]({{ site.baseurl }}/structure/business/)**
 
 ---
 
-## [Strategy](/structure/strategy/)
+## [Strategy]({{ site.baseurl }}/structure/strategy/)
 
 The Strategy subgroup analyzes the game, scouts opponents, and develops winning strategies. They are the analytical mind of Team 1073, turning data into victory.
 
@@ -60,10 +60,10 @@ The Strategy subgroup analyzes the game, scouts opponents, and develops winning 
 - Match strategy and alliance planning
 - Data collection and analysis
 
-**[Learn more about Strategy →](/structure/strategy/)**
+**[Learn more about Strategy →]({{ site.baseurl }}/structure/strategy/)**
 
 ---
 
 ## Joining a Subgroup
 
-All students can contribute regardless of prior experience. We provide training and mentorship in all areas. Interested in joining? [Contact us](/contact)!
+All students can contribute regardless of prior experience. We provide training and mentorship in all areas. Interested in joining? [Contact us]({{ site.baseurl }}/contact)!

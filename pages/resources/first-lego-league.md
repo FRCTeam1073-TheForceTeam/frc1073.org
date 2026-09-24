@@ -72,13 +72,13 @@ FLL programs:
 
 ### As a Student
 
-Does your school have an FLL team? If not, consider starting one! [Contact us](/contact) for guidance on forming a team.
+Does your school have an FLL team? If not, consider starting one! [Contact us]({{ site.baseurl }}/contact) for guidance on forming a team.
 
 ### As a Mentor
 
 FRC 1073 is always looking for volunteers to mentor FLL teams and assist at events. Whether you're a current FRC team member or community volunteer, your expertise is valuable!
 
-**[Contact us](/contact) to volunteer as an FLL mentor**
+**[Contact us]({{ site.baseurl }}/contact) to volunteer as an FLL mentor**
 
 ### For Schools & Organizations
 
@@ -89,7 +89,7 @@ Interested in starting an FLL program at your school or organization?
 - Help you register for competitions
 - Share our experience hosting and participating
 
-**[Contact us](/contact) for information about starting an FLL program**
+**[Contact us]({{ site.baseurl }}/contact) for information about starting an FLL program**
 
 ## FIRST Programs Pathway
 
@@ -105,6 +105,6 @@ Each program builds on the previous one, creating a clear pathway to competitive
 
 ---
 
-**Questions about FIRST LEGO League?** [Contact us](/contact)
+**Questions about FIRST LEGO League?** [Contact us]({{ site.baseurl }}/contact)
 
-**Interested in FIRST Robotics?** [Learn about FRC](/about/what-is-first)
+**Interested in FIRST Robotics?** [Learn about FRC]({{ site.baseurl }}/about/what-is-first)

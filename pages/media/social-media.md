@@ -76,11 +76,11 @@ Follow us to see:
 Have a quick question? You can reach out via:
 - Direct message on any platform
 - Comments on our posts
-- [Contact us](/contact) for longer inquiries
+- [Contact us]({{ site.baseurl }}/contact) for longer inquiries
 
 ## Other Platforms?
 
-**Don't see us on your platform?** [Suggest it to us](/contact) – we'd love to expand to reach more of our community!
+**Don't see us on your platform?** [Suggest it to us]({{ site.baseurl }}/contact) – we'd love to expand to reach more of our community!
 
 ---
 

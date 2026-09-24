@@ -1,6 +1,6 @@
 title: FRC Team 1073 - The Force Team
 description: Inspiring leaders, innovators, and technologically-literate citizens through robotics
-baseurl: ""
+baseurl: "/frc1073.org"
 url: "https://frc1073.org"
 
 remote_theme: pages-themes/minimal@v0.2.0

@@ -74,6 +74,6 @@ Safety is our highest priority in the fabrication shop and during all team activ
 
 ---
 
-**Safety Questions?** [Contact us](/contact)
+**Safety Questions?** [Contact us]({{ site.baseurl }}/contact)
 
 **This is a living document.** Safety procedures are reviewed and updated regularly to reflect new challenges and best practices.

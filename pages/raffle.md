@@ -52,8 +52,8 @@ No purchase necessary to enter (alternative method of entry available upon reque
 
 Whether you purchase raffle tickets or make a direct donation, every contribution helps Team 1073 compete and inspire young people to pursue STEM careers.
 
-**[Other ways to support us](/support)**
+**[Other ways to support us]({{ site.baseurl }}/support)**
 
 ---
 
-**Questions about the raffle?** [Contact us](/contact)
+**Questions about the raffle?** [Contact us]({{ site.baseurl }}/contact)

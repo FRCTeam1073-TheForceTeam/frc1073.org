@@ -44,7 +44,7 @@ Our most popular items:
 
 Interested in ordering custom merchandise for your school, organization, or event? 
 
-[Contact us](/contact) for bulk order inquiries and custom design options.
+[Contact us]({{ site.baseurl }}/contact) for bulk order inquiries and custom design options.
 
 ---
 

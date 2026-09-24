@@ -29,7 +29,7 @@ Hollis-Brookline High School
 Hollis and Brookline, New Hampshire
 
 ### Corporate Sponsorship
-Interested in a larger partnership? [Learn about sponsorship opportunities](/support/our-sponsors)
+Interested in a larger partnership? [Learn about sponsorship opportunities]({{ site.baseurl }}/support/our-sponsors)
 
 ## Donation Levels
 
@@ -61,7 +61,7 @@ We accept:
 - In-kind donations (equipment, materials, services)
 - Corporate matching donations
 
-[Contact us](/contact) for specific payment arrangements or in-kind donation inquiries.
+[Contact us]({{ site.baseurl }}/contact) for specific payment arrangements or in-kind donation inquiries.
 
 ## Impact Stories
 
@@ -86,7 +86,7 @@ Consider becoming a sustaining donor with monthly gifts. This helps us plan and 
 
 ## Questions?
 
-**Have questions about donating?** [Contact us](/contact)
+**Have questions about donating?** [Contact us]({{ site.baseurl }}/contact)
 
 **Want to sponsor specific team activities?** Email contact@frc1073.org with details about your interests.
 

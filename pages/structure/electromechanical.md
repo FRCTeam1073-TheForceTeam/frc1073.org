@@ -122,10 +122,10 @@ We welcome students with all levels of experience:
 
 [Leadership names and roles to be added]
 
-**Questions about Electromechanical?** [Contact us](/contact)
+**Questions about Electromechanical?** [Contact us]({{ site.baseurl }}/contact)
 
 ---
 
-**Ready to join?** Come to a team meeting or [reach out](/contact) to learn more!
+**Ready to join?** Come to a team meeting or [reach out]({{ site.baseurl }}/contact) to learn more!
 
-**Learn more about our team structure:** [Back to Structure](/structure)
+**Learn more about our team structure:** [Back to Structure]({{ site.baseurl }}/structure)

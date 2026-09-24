@@ -79,7 +79,7 @@ If you observe an unsafe condition or unsafe behavior:
 
 ## For More Information
 
-Team 1073 is committed to maintaining the highest safety standards. For detailed safety information, specific guidelines, or to report a concern, please [contact our team leadership](/contact).
+Team 1073 is committed to maintaining the highest safety standards. For detailed safety information, specific guidelines, or to report a concern, please [contact our team leadership]({{ site.baseurl }}/contact).
 
 ---
 

@@ -77,7 +77,7 @@ Team members who need support for any reason should reach out to:
 
 ---
 
-**Questions or concerns?** [Contact us](/contact)
+**Questions or concerns?** [Contact us]({{ site.baseurl }}/contact)
 
 **Reporting concerns:** Direct all safety, conduct, or wellbeing concerns to team leadership at contact@frc1073.org
 

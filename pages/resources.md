@@ -24,7 +24,7 @@ Team 1073 competes in the **New England District** of FIRST Robotics.
 
 ## Engineering Documentation
 
-- [Engineering Notebook 2025](/files/2025-engineering-notebook.pdf) – Complete documentation of our 2025 robot design and development
+- [Engineering Notebook 2025]({{ site.baseurl }}/files/2025-engineering-notebook.pdf) – Complete documentation of our 2025 robot design and development
 
 ## Scouting Tools
 
@@ -62,4 +62,4 @@ Team 1073 is committed to inspiring younger students and the broader community t
 
 ## Support Team 1073
 
-Team 1073 operates on a combination of school support and community contributions. [Learn how to support us](/support).
+Team 1073 operates on a combination of school support and community contributions. [Learn how to support us]({{ site.baseurl }}/support).

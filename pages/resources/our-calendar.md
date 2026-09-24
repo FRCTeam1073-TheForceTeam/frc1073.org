@@ -115,11 +115,11 @@ Follow us for real-time updates:
 
 ## Get Involved
 
-**Want to volunteer at events?** [Contact us](/contact)
+**Want to volunteer at events?** [Contact us]({{ site.baseurl }}/contact)
 
-**Need the calendar for your school?** [Let us know](/contact)
+**Need the calendar for your school?** [Let us know]({{ site.baseurl }}/contact)
 
-**Questions about a specific event?** [Contact us](/contact)
+**Questions about a specific event?** [Contact us]({{ site.baseurl }}/contact)
 
 ---
 

@@ -55,7 +55,7 @@ Companies sponsoring Team 1073 receive:
 
 Interested in supporting Team 1073? We offer sponsorship packages at multiple levels to fit your organization's needs and budget.
 
-**[Learn about sponsorship opportunities](/support)**
+**[Learn about sponsorship opportunities]({{ site.baseurl }}/support)**
 
 Contact us at contact@frc1073.org to discuss partnership opportunities.
 

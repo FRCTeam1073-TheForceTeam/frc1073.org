@@ -27,7 +27,7 @@ Team 1073 supports younger students through FIRST programs:
 - **FIRST LEGO League Jr. Expo** – Kindergarten to 4th grade students learn engineering fundamentals
 - **FIRST LEGO League Tournament** – 3rd to 6th graders collaborate on robot design and teamwork
 
-[Learn more about FLL](/resources/first-lego-league)
+[Learn more about FLL]({{ site.baseurl }}/resources/first-lego-league)
 
 ### School Presentations
 
@@ -97,6 +97,6 @@ STEM education:
 
 ---
 
-**Interested in partnering with us on STEM education?** [Contact us](/contact)
+**Interested in partnering with us on STEM education?** [Contact us]({{ site.baseurl }}/contact)
 
-**Want to learn more about robotics and STEM?** [Explore our resources](/resources)
+**Want to learn more about robotics and STEM?** [Explore our resources]({{ site.baseurl }}/resources)

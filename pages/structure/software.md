@@ -152,7 +152,7 @@ We welcome students with all backgrounds:
 
 [Leadership names and roles to be added]
 
-**Questions about Software?** [Contact us](/contact)
+**Questions about Software?** [Contact us]({{ site.baseurl }}/contact)
 
 ---
 
@@ -162,6 +162,6 @@ We welcome students with all backgrounds:
 - **[Chief Delphi](https://www.chiefdelphi.com)** – FRC programming community
 - **[GitHub WPILib Examples](https://github.com/wpilibsuite/allwpilib/tree/main/wpilibjava/examples)** – Code examples
 
-**Ready to join?** Come to a team meeting or [reach out](/contact) to learn more!
+**Ready to join?** Come to a team meeting or [reach out]({{ site.baseurl }}/contact) to learn more!
 
-**Learn more about our team structure:** [Back to Structure](/structure)
+**Learn more about our team structure:** [Back to Structure]({{ site.baseurl }}/structure)

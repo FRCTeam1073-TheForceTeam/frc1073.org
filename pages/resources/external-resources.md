@@ -99,6 +99,6 @@ A curated collection of resources useful for FRC teams, students, and robotics e
 
 ## Submit a Resource
 
-Know of a great resource for FRC teams? [Suggest it to us](/contact) and we'll add it to the list!
+Know of a great resource for FRC teams? [Suggest it to us]({{ site.baseurl }}/contact) and we'll add it to the list!
 
 **Have feedback on these resources?** Let us know what's helpful and what we should add.

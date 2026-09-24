@@ -52,4 +52,4 @@ At the University of Vermont District Event (April 2-4, 2026):
 
 Interested in joining Team 1073? We welcome students from all backgrounds and experience levels—no prior robotics experience required! Whether you're interested in engineering, programming, business, or strategy, there's a place for you on our team.
 
-[Contact us](/contact) to learn more about joining!
+[Contact us]({{ site.baseurl }}/contact) to learn more about joining!

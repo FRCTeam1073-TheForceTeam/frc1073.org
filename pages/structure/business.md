@@ -192,7 +192,7 @@ Business subgroup members gain experience in:
 
 [Leadership names and roles to be added]
 
-**Questions about Business?** [Contact us](/contact)
+**Questions about Business?** [Contact us]({{ site.baseurl }}/contact)
 
 ---
 
@@ -206,6 +206,6 @@ Every successful robot needs:
 
 The Business subgroup makes all of this happen!
 
-**Ready to join?** Come to a team meeting or [reach out](/contact) to learn more!
+**Ready to join?** Come to a team meeting or [reach out]({{ site.baseurl }}/contact) to learn more!
 
-**Learn more about our team structure:** [Back to Structure](/structure)
+**Learn more about our team structure:** [Back to Structure]({{ site.baseurl }}/structure)

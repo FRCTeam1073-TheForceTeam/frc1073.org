@@ -26,7 +26,7 @@ Connect with Team 1073 on social media for the latest updates, photos, and behin
 
 ## Engineering Documentation
 
-- [2025 Engineering Notebook](/files/2025-engineering-notebook.pdf) – Complete documentation of robot design and development
+- [2025 Engineering Notebook]({{ site.baseurl }}/files/2025-engineering-notebook.pdf) – Complete documentation of robot design and development
 
 ## Press & Coverage
 
@@ -51,4 +51,4 @@ Subscribe to our updates to receive news about competitions, events, and fundrai
 
 [Subscribe](#)
 
-Questions about media or press inquiries? [Contact us](/contact)
+Questions about media or press inquiries? [Contact us]({{ site.baseurl }}/contact)

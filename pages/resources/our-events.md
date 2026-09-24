@@ -50,8 +50,8 @@ Want to know about upcoming events? Follow us on social media:
 - [Facebook](https://facebook.com/frcteam1073)
 - [Instagram - @frc1073](https://instagram.com/frcteam1073)
 
-[View our calendar](/resources/our-calendar) for complete schedule details.
+[View our calendar]({{ site.baseurl }}/resources/our-calendar) for complete schedule details.
 
 ---
 
-**Interested in attending or partnering on an event?** [Contact us](/contact)
+**Interested in attending or partnering on an event?** [Contact us]({{ site.baseurl }}/contact)

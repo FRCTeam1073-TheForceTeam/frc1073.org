@@ -46,7 +46,7 @@ Team 1073's 2026 raffle is operated by FRC Team 1073, a 501(c)(3) non-profit org
 
 ### Prize Details
 - [Prize information to be added]
-- List of prizes and values available [here](/raffle)
+- List of prizes and values available [here]({{ site.baseurl }}/raffle)
 
 ### Prize Eligibility
 - One prize per winning ticket
@@ -118,7 +118,7 @@ Team 1073 reserves the right to modify these terms and conditions if required by
 
 ## Questions?
 
-**Have questions about the raffle?** [Contact us](/contact)
+**Have questions about the raffle?** [Contact us]({{ site.baseurl }}/contact)
 
 **Report suspected fraud or violations:** Contact team leadership at contact@frc1073.org
 

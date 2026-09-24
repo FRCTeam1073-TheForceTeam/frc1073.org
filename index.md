@@ -24,12 +24,12 @@ Our robot **"Crashout"** made a tremendous impact:
 
 ## Quick Links
 
-- [About the Team](/about)
-- [Team Structure](/structure)
-- [Competition & Events](/resources)
-- [Support & Donations](/support)
-- [Raffle 2026](/raffle)
-- [Contact Us](/contact)
+- [About the Team]({{ site.baseurl }}/about)
+- [Team Structure]({{ site.baseurl }}/structure)
+- [Competition & Events]({{ site.baseurl }}/resources)
+- [Support & Donations]({{ site.baseurl }}/support)
+- [Raffle 2026]({{ site.baseurl }}/raffle)
+- [Contact Us]({{ site.baseurl }}/contact)
 
 ## Our Team
 
@@ -48,4 +48,4 @@ We are organized into four specialized subgroups working together to compete at 
 
 ---
 
-**Help us continue this success!** [Support Team 1073](/support) through donations or sponsorships.
+**Help us continue this success!** [Support Team 1073]({{ site.baseurl }}/support) through donations or sponsorships.

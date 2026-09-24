@@ -77,4 +77,4 @@ Common FRC awards recognize:
 
 ---
 
-**Celebrate our achievements!** [Support Team 1073](/support) and be part of our continued success.
+**Celebrate our achievements!** [Support Team 1073]({{ site.baseurl }}/support) and be part of our continued success.

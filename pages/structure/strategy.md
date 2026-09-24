@@ -115,7 +115,7 @@ Team 1073 has developed an **open-source electronic scouting system** available 
 - **Data visualization** – Analyze trends and patterns
 - **Customizable** – Modify for your game and needs
 
-[Learn more about our scouting app](/resources/scouting-app)
+[Learn more about our scouting app]({{ site.baseurl }}/resources/scouting-app)
 
 ## Strategy Analysis
 
@@ -212,7 +212,7 @@ Strategy members gain experience with:
 
 [Leadership names and roles to be added]
 
-**Questions about Strategy?** [Contact us](/contact)
+**Questions about Strategy?** [Contact us]({{ site.baseurl }}/contact)
 
 ---
 
@@ -226,8 +226,8 @@ Teams with strong strategy:
 - Coordinate better with allies
 - Learn faster from each match
 
-**Ready to join?** Come to a team meeting or [reach out](/contact) to learn more!
+**Ready to join?** Come to a team meeting or [reach out]({{ site.baseurl }}/contact) to learn more!
 
-**Learn more about our team structure:** [Back to Structure](/structure)
+**Learn more about our team structure:** [Back to Structure]({{ site.baseurl }}/structure)
 
 **Check out our scouting tools:** [Visit WebScout on GitHub](https://github.com/FRCTeam1073-TheForceTeam)

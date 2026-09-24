@@ -44,7 +44,7 @@ Are you a business interested in sponsoring Team 1073? Sponsorships help us main
 
 Purchase tickets for our 2026 raffle! A portion of proceeds supports Team 1073, and you'll have a chance to win great prizes.
 
-**[Learn more about our 2026 raffle](/raffle)**
+**[Learn more about our 2026 raffle]({{ site.baseurl }}/raffle)**
 
 ### In-Kind Donations
 
@@ -56,7 +56,7 @@ We welcome donations of materials, equipment, or professional services that supp
 - Professional consulting services
 - Marketing or web design assistance
 
-**[Contact us](/contact)** to discuss how you can contribute!
+**[Contact us]({{ site.baseurl }}/contact)** to discuss how you can contribute!
 
 ### Volunteer Support
 
@@ -77,6 +77,6 @@ With community support, Team 1073 has achieved:
 
 ---
 
-**Questions?** [Contact us](/contact) to learn more about supporting Team 1073.
+**Questions?** [Contact us]({{ site.baseurl }}/contact) to learn more about supporting Team 1073.
 
 *Team 1073 is a 501(c)(3) non-profit organization. Your donations are tax-deductible.*

@@ -53,6 +53,6 @@ Using analytics and scouting data, Team 1073 has:
 
 ---
 
-**Have questions about our scouting system?** [Contact us](/contact) or reach out to our Strategy subgroup.
+**Have questions about our scouting system?** [Contact us]({{ site.baseurl }}/contact) or reach out to our Strategy subgroup.
 
 **Want to use our scouting app?** Check out the open-source project on our GitHub and feel free to modify it for your team's needs!
