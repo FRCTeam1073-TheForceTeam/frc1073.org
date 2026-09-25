@@ -1,57 +1,13 @@
 ---
 layout: page
 title: Our Events
-permalink: /resources/our-events/
+permalink: /our-events/
 ---
 
-# Team 1073 Events
+# Our Events
 
-Team 1073 hosts several events throughout the year, from FRC competitions to community outreach programs.
+Team 1073 annually hosts a FIRST® Lego League Jr. Expo for more than 36 area teams of up to 6 students from kindergarten to 4th grade. These students have worked long and hard to brainstorm and engineer solutions to real world problems. Each year students are given a different problem to solve. Using LEGO bricks, these students construct simple machines to build innovative solutions.
 
-## FRC Competition Season
+We annually host a FIRST® LEGO League tournament for 24 teams of 10 to 15 students in 3rd to 6th grade. These brilliant students have worked long and hard to collaboratively engineer LEGO robots that perform tasks. These students are not just judged based on their robots, but also about their team's core values. Some 1073 students mentor FLL teams.
 
-### 2026 District Events
-- **UVM District Event** (April 2-4, 2026) – Team competed with robot "Crashout," finishing in top 4% globally
-- **New England District Championship** – Advancing (May 2026)
-
-## Community Events Hosted
-
-### FIRST LEGO League Jr. Expo
-- **Participants:** Over 36 area teams
-- **Age Group:** Kindergarten to 4th grade (up to 6 students per team)
-- **Focus:** Students brainstorm and engineer solutions to real-world problems using LEGO bricks to construct simple machines
-- **Annual Hosting:** Helps younger students experience STEM and robotics
-
-### FIRST LEGO League Tournament
-- **Participants:** 24 teams annually
-- **Age Group:** 3rd to 6th grade (10-15 students per team)
-- **Description:** Students collaboratively engineer LEGO robots to perform tasks and are evaluated on both robot performance and team values
-- **Mentorship:** Many FRC 1073 members mentor participating FLL teams
-
-## Team Events
-
-### Alumni Sponsor Night
-- **Type:** Invitation-only event for team alumni
-- **Purpose:** Current team members interact with alumni who share stories and experiences
-- **Status:** Relatively new event for Team 1073 that continues to grow annually
-- **Impact:** Builds connections between generations of roboticists
-
-### Regular Team Meetings
-- Build sessions
-- Strategy planning meetings
-- Professional development workshops
-- Team bonding activities
-
-## Stay Connected
-
-Want to know about upcoming events? Follow us on social media:
-
-- [X (Twitter) - @frc1073](https://x.com/frcteam1073)
-- [Facebook](https://facebook.com/frcteam1073)
-- [Instagram - @frc1073](https://instagram.com/frcteam1073)
-
-[View our calendar]({{ site.baseurl }}/resources/our-calendar) for complete schedule details.
-
----
-
-**Interested in attending or partnering on an event?** [Contact us]({{ site.baseurl }}/contact)
+All of our alumni are invited to interact and talk to current team members. This event is new enough to Team 1073 that we are growing the event each year. Our alum love visiting the team each year and sharing current and past stories.

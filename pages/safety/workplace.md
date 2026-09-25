@@ -1,79 +1,37 @@
 ---
 layout: page
 title: Workplace Safety
-permalink: /safety/workplace/
+permalink: /workplace/
 ---
 
-# Workplace Safety Guidelines
+# Workplace Safety
 
-Safety is our highest priority in the fabrication shop and during all team activities. All team members must follow these guidelines.
+## Material Safety
 
-## Personal Protective Equipment (PPE)
+When handling materials with uneven surfaces like wood, students must wear gloves to prevent splinters. For drilling into thick materials such as aluminum box stock or steel, Tap Magic and Windex are used to cool and lubricate the drill bit (all of which are included in our SDS binder). Again, if a mentor determines the risk to be too high for the student, or that a material is unsafe to machine and/or handle, they will take over so the student will not hurt themselves. Meanwhile, this provides an opportunity for the student to observe and learn from them, while staying safe.
 
-- **Safety Glasses** – Required at all times in the shop. Those with eyeglasses should get prescription safety glasses or wear safety glasses over regular glasses
-- **Gloves** – Mandatory when handling equipment that could cause injury or when working with materials with uneven surfaces (e.g., wood to prevent splinters)
-- **Proper Clothing** – Closed-toe shoes required; avoid loose clothing or jewelry that could get caught
+## Field Safety
 
-## Material Handling
+Batteries are secured tightly, so they will not move when the robot is in motion. If on a practice field, whomever is controlling the robot will announce "enabling" when enabling the robot to inform everyone that the robot will be moving momentarily.
 
-- Wear gloves when handling materials with uneven surfaces like wood
-- **Tap Magic and Windex** are used to cool and lubricate drill bits when drilling thick materials
-- Use proper lifting techniques: **lift with your legs, not your back** (OSHA guidelines)
-- At least one person must position themselves on each side of the robot during lifting
-- Maintain constant communication when moving equipment
+## Moving the Robot to the Field
+
+Every year, there is a requirement to have hand holds with carabiners for easier lifting of the robot. The carabiner hand holds are brought to the field in order to transfer the robot to and from the cart. When holding the robot, students lift with their legs, ensuring that their back is not hurt in the process of lifting. Following OSHA guidelines on lifting and lower back safety, we train to lift the robot up properly. There is always one person on either side of the robot, holding it and communicating when the robot is being lifted, lowered, or re-positioned.
+
+## Equipment Safety
+
+The Force Team always keeps a full battery spill kit with instructions with us in the shop and during competitions. We also have mini spill kits, also equipped with instructions, to hand out to other teams during competitions.
+
+There are multiple fire extinguishers in the shop and the surrounding areas as well as four mini ones in our office near by; two of those four go with us to competition.
+
+Team members are trained in the acronym PASS–standing for Pull the pin, Aim the nozzle, Spray the can, and Sweep at the base of the fire–to learn how to operate these fire extinguishers. One of our mentors has also had a formal PASS training with fire extinguisher training units led by the NH Fire Academy.
+
+## Evacuation Plans
+
+Wherever the team goes, it is the job of Integration members to scope out and plan an evacuation method, including muster point, in case of a fire or other emergency; they then share it with the team. This information exchange usually happens in our structured team communication app, SportsYou. At our base of operations, we have multiple evacuation routes dependent on where team members may be at any given moment.
 
 ## Robot Safety
 
-### Handling and Transport
-- Hand holds with carabiners facilitate safe robot lifting and movement
-- **Never lift alone** – always have spotters on both sides
-- Batteries must be secured tightly to prevent movement during robot operation
+We utilize a Systems Team approach to define the robot requirements. On The Force Team, representatives from all aspects of the team are involved to ensure proper stakeholder representation and interests. As safety is a primary focus of the Integration subgroup, many aspects of the robot are designed purposefully to be "fail safe" such that their failure mode is safe and not one that actuates unsafely. This can be done in many ways, and often is accomplished through a collaboration between mechanical design, electrical safety, and software.
 
-### Operation
-- **Robots remain powered off during work** when possible
-- Operators announce **"Enabling!"** before activating the robot on practice fields
-- Emergency stops (E-Stop) are used for controlled shutdowns
-- Field operators announce "enabling" before powering on during practice
-
-## Equipment & Tool Safety
-
-- Only operate equipment after authorized training
-- Never modify safety guards on tools
-- Keep hands clear of moving parts
-- Report broken or unsafe equipment immediately
-
-## Fire Safety
-
-- **Multiple fire extinguishers** positioned throughout the shop and nearby areas
-- Full battery spill kits with instructions maintained in shop and at competitions
-- Team members trained in **PASS acronym**:
-  - **P**ull the pin
-  - **A**im the nozzle
-  - **S**pray the can
-  - **S**weep at the base
-- At least one mentor has formal fire extinguisher training from the NH Fire Academy
-
-## Evacuation Procedures
-
-- Integration members identify evacuation routes and muster points for all locations
-- Emergency procedures communicated via team's SportsYou app
-- All team members must know evacuation procedures
-
-## Risk Assessment
-
-- Mentors assess risk levels for all tasks
-- Mentors take over tasks deemed too hazardous for students
-- A Systems Team approach ensures safety considerations across all design aspects
-
-## Workshop Culture
-
-- Keep work areas clean and organized
-- Maintain clear emergency exits
-- Report hazards or unsafe conditions immediately
-- Practice and reinforce Gracious Professionalism® through safety
-
----
-
-**Safety Questions?** [Contact us]({{ site.baseurl }}/contact)
-
-**This is a living document.** Safety procedures are reviewed and updated regularly to reflect new challenges and best practices.
+When the robot is being worked on, we have the robot completely off when possible (some testing requires the robot to be powered) and, when we are enabling the robot for testing, we have the person in control of the driver station yell, "Enable!". Conversely, when people go to turn off the robot in a controlled way there is an announcement so those who don't have code saved, save their code. Regardless of if code would be affected, if the robot must be stopped, it is E-Stopped.

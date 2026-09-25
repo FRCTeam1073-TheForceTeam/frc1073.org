@@ -1,64 +1,39 @@
 ---
 layout: page
 title: Our Sponsors
-permalink: /support/our-sponsors/
+permalink: /our-sponsors/
 ---
 
 # Our Sponsors
 
-Team 1073 is grateful to our generous sponsors who make our mission possible. Their support enables us to compete at the highest levels and inspire the next generation of STEM leaders.
+Thank you to our sponsors!
 
-## Premier Sponsors
+## PREMIER LEVEL SPONSORS
 
-Our most generous supporters at the Premier level:
+- New Hampshire Department of Education
+- L3 Harris
 
-- **New Hampshire Department of Education**
-- **L3 Harris**
+## DIAMOND LEVEL SPONSORS
 
-## Diamond Sponsors
+- Viasat
+- Hollis Brookline Rotary Club
+- RTX
+- REV Robotics
 
-Supporting our team at the Diamond level:
+## PLATINUM LEVEL SPONSORS
 
-- **Viasat**
-- **Hollis Brookline Rotary Club**
-- **RTX**
-- **REV Robotics**
+- NextMove Technologies
+- Northwoods Software
 
-## Platinum Sponsors
+## GOLD LEVEL SPONSORS
 
-Our Platinum-level partners:
+- (None at this time)
 
-- **NextMove Technologies**
-- **Northwoods Software**
+## SILVER LEVEL SPONSORS
 
-## Silver Sponsors
+- Online Metals
+- Corus Ortho - Shieh LLC
+- MD Trash Removal
+- Alapage
 
-Generous support from our Silver sponsors:
-
-- **Online Metals**
-- **Corus Ortho - Shieh LLC**
-- **MD Trash Removal**
-- **Alapage**
-- **FabWorks**
-
-## Sponsorship Benefits
-
-Companies sponsoring Team 1073 receive:
-
-- Logo placement on team website and materials
-- Recognition at competition events
-- Social media recognition
-- Direct partnership with innovative young engineers
-- Tax deductible contribution (we're a 501(c)(3))
-
-## Become a Sponsor
-
-Interested in supporting Team 1073? We offer sponsorship packages at multiple levels to fit your organization's needs and budget.
-
-**[Learn about sponsorship opportunities]({{ site.baseurl }}/support)**
-
-Contact us at contact@frc1073.org to discuss partnership opportunities.
-
----
-
-**Thank you to all our sponsors for supporting STEM education, robotics innovation, and the next generation of leaders!**
+## Sponsor Tiers

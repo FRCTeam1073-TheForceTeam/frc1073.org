@@ -2,20 +2,20 @@
   url: /
 
 - title: About the Team
-  url: /about
+  url: /about-the-team
   children:
     - title: Member History
-      url: /about/member-history
+      url: /member-history/
     - title: What is FIRST
-      url: /about/what-is-first
+      url: /what-is-first/
     - title: Our Awards
-      url: /about/our-awards
+      url: /our-awards/
 
 - title: Safety
   url: /safety
   children:
     - title: Workplace
-      url: /safety/workplace
+      url: /workplace/
     - title: Personnel
       url: /safety/personnel
 
@@ -54,9 +54,9 @@
   url: /resources
   children:
     - title: Our Events
-      url: /resources/our-events
+      url: /our-events/
     - title: Scouting App
-      url: /resources/scouting-app
+      url: /scouting-app/
     - title: STEM and The Force Team
       url: /resources/stem-initiatives
     - title: FIRST Lego League Explore Expo
@@ -72,7 +72,7 @@
     - title: Donate
       url: /support/donate
     - title: Our Sponsors
-      url: /support/our-sponsors
+      url: /our-sponsors/
 
 - title: Contact Us
   url: /contact

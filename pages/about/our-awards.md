@@ -1,80 +1,123 @@
 ---
 layout: page
-title: Our Awards & Recognition
-permalink: /about/our-awards/
+title: 1073's Awards
+permalink: /our-awards/
 ---
 
-# Team 1073 Awards & Recognition
+# 1073's Awards
 
-Team 1073 has a proud history of technical excellence and community leadership. Here are the major awards and recognition we've received.
+## 2025
 
-## 2026 Season
+- **2025 BattleCry@WPI:** Silver Star
+- **2025 Week 0 Competition:** Finalist
+- **2025 NE FIRST® UVM Event:** Excellence in Engineering Award
+- **2025 NE FIRST® Waterbury Event:** District Engineering Inspiration Award
+- **2025 NE FIRST® District Championship:** Excellence in Engineering Award
 
-- **Quality Award** – UVM District Event (recognition for robustness and superior workmanship)
-- **FIRST Leadership Award Semi-Finalist** – Vivi S.
+## 2024
 
-## 2025 Season
+- **2024 Governor's Cup:** Finalist
+- **2024 River Rage:** Finalist
 
-- **Silver Star Award** – BattleCry@WPI
-- **Finalist** – Week 0 Competition
-- **Excellence in Engineering Award** – NE FIRST UVM Event
-- **District Engineering Inspiration Award** – NE FIRST Waterbury Event
-- **Excellence in Engineering Award** – NE FIRST District Championship
+## 2023
 
-## 2024 Season
+- **2023 Week 0 Competition:** Winner
+- **2023 NE FIRST® Granite State District Event:** District FIRST Impact Award
+- **2023 NE FIRST® Granite State District Event:** Finalist
+- **2023 NE FIRST® Robotics Competition District Championship Semi-Finalist:** Simar Sidhu
+- **2023 NE FIRST® District Championship:** Quality Award
 
-- **Finalist** – Governor's Cup
-- **Finalist** – River Rage
+## 2022
 
-## 2023 Season
+- **2022 North Shore District Event:** Excellence in Engineering Award
+- **2022 WPI District Event:** Winner
+- **2022 WPI District Event:** Excellence in Engineering
+- **2022 FIRST® Robotics Houston World Championship Division Carver:** Excellence in Engineering
 
-- **Week 0 Competition Winner**
-- **District FIRST Impact Award** – NE FIRST Granite State District Event
-- **Finalist** – Granite State District Event
-- **Quality Award** – NE FIRST District Championship
+## 2021
 
-## 2022 Season
+Due to the COVID-19 outbreak, FRC 1073 could not attend any in-person official competitions, and instead competed virtually in the "At Home" challenges. The team also competed in-person at off-season events including BattleCry@WPI (both days), River Rage, and Governor's Cup.
 
-- **Excellence in Engineering Award** – North Shore District Event
-- **Winner** – WPI District Event
-- **Excellence in Engineering** – WPI District Event
-- **Excellence in Engineering** – FIRST Robotics Houston World Championship
+- **2021 NE FIRST® Robotics Competition Dean's List District Championship Semi-Finalist:** Alex Hill
+- **2021 NE FIRST® Robotics Competition Dean's List District Championship Semi-Finalist:** Claudia Pack
+- **2021 NE FIRST® Robotics Competition District Chairman's Award**
+- **2021 Zinc Group for Infinite Recharge at Home:** Winner
+- **2021 Zinc Group for Infinite Recharge at Home:** Excellence in Engineering
+- **2021 Yttrium Group for Game Design Challenge:** Design Award
 
-## 2021 Season
+## 2020
 
-- **Dean's List** – Semi-Finalist honors (Alex Hill and Claudia Pack)
-- **District Chairman's Award**
-- **Winner** – Zinc Group for Infinite Recharge at Home
-- **Excellence in Engineering** – Infinite Recharge at Home
+Due to the COVID-19 outbreak, FRC 1073 could not attend any competitions.
 
-## 2019 Season
+- **2020 NE FIRST® Robotics Competition Dean's List District Championship Semi-Finalist:** Katherine Jesse
+- **2020 Governor's Cup:** Governor's Award
 
-- **Multiple Industrial Safety Awards**
-- **Engineering Inspiration Award**
-- **Entrepreneurship Award**
-- **Dean's List** – Recognition
-- **Sub-Division Winner: Curie** – Detroit World Championship
+## 2019
 
-## Historical Highlights (2003-2018)
+- **2019 North Shore District Event:** Industrial Safety Award
+- **2019 North Shore District Event:** Finalist
+- **2019 North Shore District Event Safety Star of the Day:** Victoria Rezzarday
+- **2019 Southern NH District Event:** Industrial Safety Award
+- **2019 Southern NH District Event Safety Star of the Day:** Victoria Rezzarday
+- **2019 Southern NH District Event:** Engineering Inspiration Award
+- **2019 Southern NH District Event Dean's List Finalist:** Cameron Hallett
+- **2019 Southern NH District Event Safety Star of the Day:** Maria Toupin
+- **2019 NE District Championship Industrial Safety Award**
+- **2019 NE District Championship:** Entrepreneurship Award
+- **2019 NE District Championship Dean's List Finalist:** Cameron Hallett
+- **2019 Detroit World Championship Safety Star of the Day:** Kimberly Jones
+- **2019 Detroit World Championship Dean's List Winner:** Cameron Hallett
+- **2019 Detroit World Championship:** Sub-Division Winner: Curie
+- **2019 Detroit World Championship:** FIRST® for Pit Safety
+- **2019 Mayhem in Merrimack:** Safety Award
 
-Over the past two decades, Team 1073 has earned numerous awards including:
-- Championship titles
-- Engineering Excellence awards
-- Innovation in Control recognition
-- Safety Awards
-- **2011 Woodie Flowers Award**
+## 2018
 
-## FRC Award Categories
+- **2018 Southern NH District Event:** Judges Award
+- **2018 Southern NH District Event:** Innovation in Control Award
+- **2018 NE District Championship:** Industrial Safety Award
+- **2018 Battle Cry @ WPI:** Medal of Honor
 
-Common FRC awards recognize:
+## 2017
 
-- **Excellence in Engineering** – Superior robot design and function
-- **Quality Award** – Robustness, reliability, and superior workmanship
-- **Leadership & Culture** – Dean's List, Chairman's Award, Engineering Inspiration
-- **Safety** – Industrial Safety Award
-- **Entrepreneurship** – Business acumen and community partnerships
-- **Impact** – FIRST Impact Award for community engagement
+- **2017 Southern NH District Event:** Champions (Blue Banner)
+- **2017 Southern NH District Event:** Industrial Design Award
+- **2017 Southern NH District Event:** Industrial Safety Award
+- **2017 Southern NH District Event Dean's List Finalist:** Errica Cheng
+- **2017 UNH District Championship:** Champions (Blue Banner)
+- **2017 Worlds Carson Division:** Finalist
 
----
+## 2016
 
-**Celebrate our achievements!** [Support Team 1073]({{ site.baseurl }}/support) and be part of our continued success.
+- **2016 Boston District Championship:** Industrial Safety Award
+
+## 2015
+
+- **2015 North Shore District Event:** Industrial Safety Award
+- **2015 Boston District Event:** Quality Award
+- **2015 Boston District Event:** General Staff Award
+- **2015 Battle Cry @ WPI:** Judges' Award
+
+## 2014
+
+- **2014 UNH District Event:** Industrial Design Award
+- **2014 UNH District Event:** Safety Award
+- **2014 Northeastern District Event:** Judges Award
+- **2014 River Rage:** Best Team Costume
+
+## 2013
+
+- **2013 BAE Granite State Regional:** Judges Award
+
+## 2012
+
+- **2012 Northeast Utilities FIRST® Connecticut Regional:** Judges Award
+- **2012 Mayhem in Merrimack:** Champions
+- **2012 Website Excellence Award**
+
+## 2011
+
+- **2011 BAE Granite State Regional:** Woodie Flowers Award (Sue Hay)
+- **2011 BAE Granite State Regional:** Engineering Excellence Award
+- **2011 Northeast Utilities FIRST® Connecticut Regional:** Innovation in Control
+- **2011 Northeast Utilities FIRST® Connecticut Regional:** Finalists
