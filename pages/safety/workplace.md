@@ -10,6 +10,10 @@ permalink: /workplace/
 
 When handling materials with uneven surfaces like wood, students must wear gloves to prevent splinters. For drilling into thick materials such as aluminum box stock or steel, Tap Magic and Windex are used to cool and lubricate the drill bit (all of which are included in our SDS binder). Again, if a mentor determines the risk to be too high for the student, or that a material is unsafe to machine and/or handle, they will take over so the student will not hurt themselves. Meanwhile, this provides an opportunity for the student to observe and learn from them, while staying safe.
 
+![Team Working Safely]({{ site.baseurl }}/assets/images/workplace-team-working.jpg)
+
+---
+
 ## Field Safety
 
 Batteries are secured tightly, so they will not move when the robot is in motion. If on a practice field, whomever is controlling the robot will announce "enabling" when enabling the robot to inform everyone that the robot will be moving momentarily.
@@ -17,6 +21,8 @@ Batteries are secured tightly, so they will not move when the robot is in motion
 ## Moving the Robot to the Field
 
 Every year, there is a requirement to have hand holds with carabiners for easier lifting of the robot. The carabiner hand holds are brought to the field in order to transfer the robot to and from the cart. When holding the robot, students lift with their legs, ensuring that their back is not hurt in the process of lifting. Following OSHA guidelines on lifting and lower back safety, we train to lift the robot up properly. There is always one person on either side of the robot, holding it and communicating when the robot is being lifted, lowered, or re-positioned.
+
+![Safe Lifting Diagram]({{ site.baseurl }}/assets/images/workplace-safe-lifting.png)
 
 ## Equipment Safety
 
@@ -26,9 +32,17 @@ There are multiple fire extinguishers in the shop and the surrounding areas as w
 
 Team members are trained in the acronym PASS–standing for Pull the pin, Aim the nozzle, Spray the can, and Sweep at the base of the fire–to learn how to operate these fire extinguishers. One of our mentors has also had a formal PASS training with fire extinguisher training units led by the NH Fire Academy.
 
+![Safety Equipment 1]({{ site.baseurl }}/assets/images/workplace-equipment-1.jpg)
+
+![Safety Equipment 2]({{ site.baseurl }}/assets/images/workplace-equipment-2.jpg)
+
+![Safety Equipment 3]({{ site.baseurl }}/assets/images/workplace-equipment-3.jpg)
+
 ## Evacuation Plans
 
 Wherever the team goes, it is the job of Integration members to scope out and plan an evacuation method, including muster point, in case of a fire or other emergency; they then share it with the team. This information exchange usually happens in our structured team communication app, SportsYou. At our base of operations, we have multiple evacuation routes dependent on where team members may be at any given moment.
+
+![School Building Evacuation Plan]({{ site.baseurl }}/assets/images/workplace-evacuation-plan.png)
 
 ## Robot Safety
 

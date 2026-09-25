@@ -1,15 +1,22 @@
 <nav class="navbar">
+  <button class="navbar-toggle" aria-label="Toggle navigation">
+    <span class="hamburger"></span>
+  </button>
   <ul class="navbar-menu">
     {% for item in site.data.navigation %}
       <li class="navbar-item {% if item.children %}has-dropdown{% endif %}">
-        <a href="{{ item.url | prepend: site.baseurl }}" class="navbar-link">
-          {{ item.title }}
-        </a>
+        {% if item.url %}
+          <a href="{% if item.url contains '://' %}{{ item.url }}{% else %}{{ item.url | prepend: site.baseurl }}{% endif %}" class="navbar-link">
+            {{ item.title }}
+          </a>
+        {% else %}
+          <span class="navbar-label">{{ item.title }}</span>
+        {% endif %}
         {% if item.children %}
           <ul class="navbar-submenu">
             {% for child in item.children %}
               <li class="navbar-subitem">
-                <a href="{{ child.url | prepend: site.baseurl }}" class="navbar-sublink">
+                <a href="{% if child.url contains '://' %}{{ child.url }}{% else %}{{ child.url | prepend: site.baseurl }}{% endif %}" class="navbar-sublink">
                   {{ child.title }}
                 </a>
               </li>
@@ -20,3 +27,10 @@
     {% endfor %}
   </ul>
 </nav>
+
+<script>
+  document.querySelector('.navbar-toggle').addEventListener('click', function() {
+    this.classList.toggle('active');
+    document.querySelector('.navbar-menu').classList.toggle('active');
+  });
+</script>

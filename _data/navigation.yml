@@ -1,78 +1,77 @@
 - title: Home
-  url: /
+  url: "/"
 
 - title: About the Team
-  url: /about-the-team
+  url: "/about-the-team"
   children:
     - title: Member History
-      url: /member-history/
+      url: "/member-history/"
     - title: What is FIRST
-      url: /what-is-first/
+      url: "/what-is-first/"
     - title: Our Awards
-      url: /our-awards/
+      url: "/our-awards/"
 
 - title: Safety
-  url: /safety
+  url: "/safety"
   children:
     - title: Workplace
-      url: /workplace/
+      url: "/workplace/"
     - title: Personnel
-      url: /safety/personnel
+      url: "/sample/"
 
 - title: Structure
-  url: /structure
   children:
     - title: Electromechanical
-      url: /structure/electromechanical
+      url: "/subgroupelectromechanical/"
     - title: Software
-      url: /structure/software
+      url: "/subgroupsoftware/"
     - title: Business
-      url: /structure/business
+      url: "/subgroupbusiness/"
     - title: Strategy
-      url: /structure/strategy
+      url: "/subgroupstrategy/"
 
 - title: Raffle
-  url: /raffle
+  url: "/raffle"
   children:
     - title: About the Raffle
-      url: /raffle
+      url: "/raffle"
     - title: Raffle Terms and Conditions
-      url: /raffle/terms-conditions
+      url: "/raffle/terms-conditions"
 
 - title: Media
-  url: /media
+  url: "/media"
   children:
     - title: FRC 1073 in the News
-      url: /media/in-the-news
+      url: "/media/in-the-news"
     - title: 1073's Social Media
-      url: /media/social-media
+      url: "/media/social-media"
 
 - title: Shop 1073
-  url: /shop
+  url: "https://hbrb1073.wixsite.com/frc1073/shop"
 
 - title: Resources
-  url: /resources
+  url: "/resources"
   children:
     - title: Our Events
-      url: /our-events/
+      url: "/our-events/"
     - title: Scouting App
-      url: /scouting-app/
+      url: "/scouting-app/"
     - title: STEM and The Force Team
-      url: /resources/stem-initiatives
+      url: "/resources/stem-initiatives"
     - title: FIRST Lego League Explore Expo
-      url: /resources/first-lego-league
+      url: "/resources/first-lego-league"
     - title: Our Calendar
-      url: /resources/our-calendar
+      url: "/resources/our-calendar"
     - title: External Resources
-      url: /resources/external-resources
+      url: "/resources/external-resources"
 
 - title: Support
-  url: /support
+  url: "/support"
   children:
     - title: Donate
-      url: /support/donate
+      url: "/support/donate"
     - title: Our Sponsors
-      url: /our-sponsors/
+      url: "/our-sponsors/"
 
 - title: Contact Us
-  url: /contact
+  url: "/contact"

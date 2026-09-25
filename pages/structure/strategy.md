@@ -1,233 +1,43 @@
 ---
 layout: page
-title: Strategy Subgroup
-permalink: /structure/strategy/
+title: Strategy
+permalink: /subgroupstrategy/
 ---
 
-# Strategy Subgroup
+# Strategy
 
-The Strategy subgroup analyzes the competition game, scouts opponents, collects match data, and develops winning strategies. We are the analytical mind of Team 1073, turning data into victory.
+## Who We Are
 
-## What We Do
+Strategy is a non-technical subgroup that evaluates the FIRST® Robotics Competition (FRC) games, data, and runs Verification Tests on The Force Team's products. During the Off-Season, Strategy focuses on training its members on Game Analysis, Scouting, and Verification Testing. They also manage the Off-Season Drive Team at non-competitive competitions. During Build Season, Strategy focuses on learning about the new game, devising a strategy for the team to follow, creating and training the Official Drive Team, developing a Scouting System, and testing each requirement that is set by the Systems Team.
 
-### Game Analysis
-- Study and understand the competition game
-- Analyze game rules and scoring methods
-- Identify high-value scoring opportunities
-- Develop scoring strategies
-- Plan optimal robot utilization
-- Adapt strategies based on rule clarifications
+![Strategy team photo]({{ site.baseurl }}/assets/images/subgroupstrategy-team.png)
 
-### Opponent Scouting
-- Collect data on opponent robots and performance
-- Analyze team capabilities and strategies
-- Identify strengths and weaknesses
-- Create scouting reports
-- Predict opponent performance
-- Track robot improvements over season
+## Game Analysis
 
-### Match Planning
-- Develop match strategies before events
-- Plan alliance strategies with partners
-- Make real-time in-match adjustments
-- Coordinate pit operations
-- Manage match data collection
-- Optimize robot performance parameters
+Starting immediately after the release of each new FRC game, the Strategy group scrutinizes the official Game Manual to gain as much knowledge of the game as possible. This includes finding the dimensions of the field and field elements; taking in depth notes of the scoring methods; and finding out what violates the rules and results in penalties. After this process, those who went through Strategy Training in the Off-Season meet and determine the maximum score an alliance could achieve in an official match. Not only does this give the group a score to aim for while finding the most effective strategy, but it also allows for people to understand the rules and scoring methods. By the end of the night, the group makes a list of the best three possible game strategies that then get recommended to the Systems Task Group, a group of students who vote on requirements for the robot based off of one of the provided strategies.
 
-### Data Collection & Analysis
-- Design and deploy scouting apps
-- Collect real-time match data
-- Analyze performance metrics
-- Create data visualizations
-- Track team statistics
-- Identify trends and patterns
+Training of this task is open to all subgroups, but mostly consists of those within the subgroup. The Strategy subgroup runs the Game Analysis training, consisting of analysis from another year's FRC and FIRST® Tech Challenge (FTC) games. Students are organized into groups, tasked with using the game manual to make one strategy in an hour. After regrouping, each group proposes their strategies. Once all strategies have been shared, Strategy reviews what strategy was used to win that year's World Championship. This may be done with different variations of rules and years in the Off-Season to give new members as much experience as possible.
 
-### Alliance Selection
-- Evaluate opponent capabilities
-- Predict match outcomes
-- Choose optimal alliance partners
-- Negotiate alliance strategies
-- Maximize team synergy
+## Drive Team
 
-## Skills You'll Develop
+One of the most essential factors of a successful FRC team is a well trained and versed Drive Team. At "non-competitive" (as deemed by the leads) Off-Season events, any member of the team wishing to be a part of Drive Team is encouraged to sign up for the rotating Drive Team at these events. Strategy reviews the number of people who want each position and make varying combinations of students, so that everyone gets to try their desired position(s). During the event, the Drive Team Manager and Coach analyze the students' performances and use the most individuals who most effectively performed their roles during the Elimination Rounds at said event.
 
-- **Data Analysis** – Statistics, pattern recognition, interpretation
-- **Strategic Thinking** – Game analysis, decision-making
-- **Engineering Knowledge** – Understanding robot capabilities
-- **Communication** – Explaining strategies, coordinating teams
-- **Technology** – Scouting apps, spreadsheets, databases
-- **Observation** – Detailed note-taking, video analysis
-- **Mathematics** – Probability, scoring calculations
-- **Teamwork** – Collaborating with technical teams
+At District Competitions or competitive Off-Season events, an Official Drive Team is represents the team. Through a series of tests and interviews, the Official Drive Team is formed. Starting early Build Season, Strategy works on looking through the game manual to formulate questions that test every aspect of being on Drive Team including, but not limited to: scoring methods, penalties, and physical elements of the game. While one general test is made and administered to all who are trying out for a position on Drive Team, separate tests are made to focus on specific Drive Team positions such as Driver, Operator, and Human Player tests. These test more in-depth aspects of each position such as what their responsibilities are for their respective position(s). After all participants complete their tests, they are graded by the test makers. Those who scored within the top percentile continue on to the physical tests and interviews. The test makers create a cycle for the participants to take to test their performance on the field. Afterwards, they, their VP, the CEOs, and their Lead Mentor(s) are asked a series of questions to determine the personality of the participant and gain a better understanding of their character.
 
-## Responsibilities
+Whether on the Official Drive Team or just joining in for an Off-Season Competition, Strategy sets up time meeting times to practice with the robot and interact with the mock field. This gives them a sense of how long matches are, how to link up with different field elements, and work with actual or mock game pieces. This practice also allows for Strategy to remind them of the rules of the game and give Drive Team members the experience of being on a Drive Team.
 
-### During Build Season
-- Analyze the new game thoroughly
-- Develop preliminary strategies
-- Plan data collection methods
-- Design scouting forms and apps
-- Test scouting systems
-- Create strategy documentation
-- Mentor new members
+## Scouting
 
-### During Competition Season
-- Scout opponents at competitions
-- Collect real-time match data
-- Analyze performance live
-- Provide match strategy recommendations
-- Adjust strategies based on results
-- Coordinate with alliance partners
-- Document match videos and photos
+Gathering data on other teams at competitions, commonly referred to as "Scouting," leads to more effective strategy-making, thus improving our alliance's performance during matches. The Force Team uses three different types of Scouting: Pit Scouting, Match Scouting, and Elimination Scouting. As data is collected, the Drive Team will look at data on teams that we are competing against to form a Match Strategy. Match Strategies focus on finding ways we can win against the opposing alliance with the skills that our alliance has. Scouting Data lets the Drive Team Coach project teams' patterns that then allow us to make a counter strategy against them. The Scouting data is crucial to see who our team should play defense on based on which robot performed the best on the opposing alliance.
 
-### Off-Season
-- Compile season-long data analysis
-- Identify patterns and learnings
-- Document best practices
-- Update scouting tools
-- Train for next season
-- Share knowledge with other teams
+Scouting data provides data for our pick lists before Alliance Selection begins. If FRC 1073 is seeded in a picking position, or we believe that we may be a first pick, a Scouting Meeting is held to determine who we should pick and why. The data from Scouting can be organized to rank teams based on different traits that the Strategy Team believes that compliment our own. We review data on ourselves to see where we need to improve before Alliance Selection begins.
 
-## Tools & Technologies
+After the game is released, Strategy makes a list of all the ways of scoring that could be done during a match. They then take this list and meet with Software, who uses the list to create two apps. One app lets the Strategy group Pit Scout, or visit each team at a competition to see what the other teams claim that they can do and gather pictures. If Drive Team asks about a robot, Pit Scouting provides them that data, so that they can start strategizing with other teams while referencing what the team has already told them about themselves.
 
-### Scouting Applications
-- **Team 1073 WebScout** – Custom scouting application (open-source)
-- **Mobile devices** – Data collection at competitions
-- **Tablets & laptops** – Real-time data entry and analysis
+The other app is created for Match Scouting to track how each team scores and the quality of their performance in a Qualification Match at competitions. The app is uploaded onto six tablets, one per team in a match, and it is tested in the weeks leading up to the competition. If the app cannot be completed by each competition, Strategy makes a temporary paper-based system in its place. At the competition, the Lead Scouters will hand out sheets of paper to their team of Scouters and, after each match, will enter the data collected into either Excel or Google Sheets. Before each competition, Strategy will run Scouting Training to teach all everyone, as Scouting is a team-wide task, what system they are using, how the system works, and what to look for in a match. They will also answer questions that the Scouters have so that everyone understands what they are doing.
 
-### Data Management
-- **Spreadsheets** – Excel, Google Sheets for analysis
-- **Databases** – Data organization and queries
-- **Visualization tools** – Charts, graphs, dashboards
+If we are on an alliance during the Elimination Rounds, the Lead Scouters will conduct an entirely different way of Scouting, referred to as "Elimination Scouting." While Scouting in the Qualification Rounds focuses on one specific team, Elimination Scouting looks at how each alliance performs as a whole. Elimination Scouting provides data to make a Match Strategy that will affect not only one team, but all the teams on the opposing alliance. Elimination Scouting is done on paper. Scouters write down the names of all the teams and during the matches, keep track on who does what, how much is scored by each team, and notes that will help our alliance do better.
 
-### Analysis Tools
-- **Video analysis software** – Studying match footage
-- **Statistical tools** – Analyzing performance data
-- **Prediction models** – Forecasting match outcomes
+## Verification Testing
 
-## Scouting System
-
-### Team 1073's Open-Source Approach
-Team 1073 has developed an **open-source electronic scouting system** available for any FRC team to use and modify:
-
-- **[WebScout on GitHub](https://github.com/FRCTeam1073-TheForceTeam)** – Access our code
-- **Real-time collection** – Collect data during matches
-- **Data visualization** – Analyze trends and patterns
-- **Customizable** – Modify for your game and needs
-
-[Learn more about our scouting app]({{ site.baseurl }}/resources/scouting-app)
-
-## Strategy Analysis
-
-### Pre-Event Analysis
-- Opponent robots and capabilities
-- Team track records
-- Likely strategies
-- Alliance potential
-
-### Live Match Analysis
-- Robot performance metrics
-- Scoring efficiency
-- Penalty tracking
-- Adjustment recommendations
-
-### Post-Match Analysis
-- Performance metrics and statistics
-- Comparison to predictions
-- Lessons learned
-- Adjustments for next match
-
-## Match Strategy Examples
-
-### High-Scoring Strategy
-- Identify highest-value game elements
-- Optimize robot path and timing
-- Maximize scoring opportunities
-- Minimize wasted motion
-
-### Defensive Strategy
-- Predict opponent moves
-- Plan defensive positioning
-- Block scoring opportunities
-- Disrupt alliance strategies
-
-### Hybrid Strategies
-- Balance offense and defense
-- Adapt based on opponent
-- Maximize alliance compatibility
-- Adjust in real-time
-
-## Data-Driven Success
-
-### 2026 Season Results
-- **Top 4% Global Ranking** – EPA of 144.9
-- **Quality Award** – Recognition for superior design and performance
-- **Strategic Alliance Selection** – First pick in Alliance 3
-- **Data-Driven Adjustments** – Improved performance throughout season
-
-### Why Data Matters
-- Predictions > Guesses
-- Data-driven decisions > Assumptions
-- Preparation > Improvisation
-- Analysis > Luck
-
-## Join Strategy
-
-### No Data Science Experience Required!
-
-We welcome students with varied backgrounds:
-- Love data? Great for analysis
-- Good at noticing details? Perfect for scouting
-- Enjoy solving puzzles? Strategy is for you
-- Interested in improving team performance? Join us
-
-### How to Get Started
-
-1. **Learn the game** – Study current year challenge
-2. **Attend a team meeting** – See scouting in action
-3. **Start scouting** – Collect data at practices or events
-4. **Learn analysis** – Spreadsheets, patterns, interpretation
-5. **Develop strategies** – Apply insights to match planning
-
-### Perfect For Students Interested In:
-- Data analysis and statistics
-- Strategic thinking and planning
-- Problem-solving
-- Video game strategy (similar concepts!)
-- Analytics and research
-- Working with numbers
-- Game analysis and prediction
-
-## Real Competition Experience
-
-Strategy members gain experience with:
-- Real match analysis and prediction
-- Professional data collection
-- Strategic decision-making
-- Competition coordination
-- Alliance negotiations
-- Performance optimization
-
-## Team Leadership
-
-[Leadership names and roles to be added]
-
-**Questions about Strategy?** [Contact us]({{ site.baseurl }}/contact)
-
----
-
-## The Strategy Advantage
-
-Teams with strong strategy:
-- Make better alliance selections
-- Win more matches
-- Adapt quickly to new situations
-- Understand robot capabilities deeply
-- Coordinate better with allies
-- Learn faster from each match
-
-**Ready to join?** Come to a team meeting or [reach out]({{ site.baseurl }}/contact) to learn more!
-
-**Learn more about our team structure:** [Back to Structure]({{ site.baseurl }}/structure)
-
-**Check out our scouting tools:** [Visit WebScout on GitHub](https://github.com/FRCTeam1073-TheForceTeam)
+During the first Systems Team's meetings, the representatives vote on a list of set requirements for the competition and back-up robot to have. Verification Testing is the process that the team uses to make sure that the robots comply with our set requirements. The Strategy subgroup will take the list of requirements, then make a test protocol for each one, and give a definition for a pass or fail outcome of the requirement through the definition of acceptance criteria. All conditions of the test must be met for the requirement to pass, and if not, the Strategy team will tell the subgroup in charge of the requirement what must be done in order for it to pass.

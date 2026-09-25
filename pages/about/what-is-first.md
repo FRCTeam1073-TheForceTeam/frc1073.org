@@ -1,61 +1,17 @@
 ---
 layout: page
-title: What is FIRST?
-permalink: /about/what-is-first/
+title: What is FIRST®?
+permalink: /what-is-first/
 ---
 
-# What is FIRST Robotics?
+# What is FIRST®?
 
-## About FIRST
+FIRST®, abbreviated from "For Inspiration and Recognition of Science and Technology," was founded in 1989 in New Hampshire by Dean Kamen. The FIRST® Robotics Competition, shortened to FRC, is a program in which teams of high schoolers are given six weeks to design, build, and program a robot to play in an annual FIRST® game. The students are responsible for all aspects of their robot's construction and strategy, as well as team fundraising. FRC is a competitive sport, an educational opportunity, a life experience, and lots of fun.
 
-**FIRST®** stands for "For Inspiration and Recognition of Science and Technology." Founded in 1989 in New Hampshire by inventor Dean Kamen, FIRST has grown into a global movement inspiring young people to pursue careers in engineering and science.
+Thousands of volunteers and over 3000 teams worldwide participate in FRC.
 
-## FIRST's Impact
+Students who participate in FIRST® are significantly more likely to major in engineering, science, and technology. They are also more likely to earn a post-graduate degree and to volunteer in their communities. There is even a FIRST® scholarship program.
 
-FIRST engages thousands of volunteers and involves more than 3,000 teams globally. Students who participate in FIRST are statistically more likely to:
+![FIRST Program]({{ site.baseurl }}/assets/images/what-is-first-hero.png)
 
-- Pursue careers in engineering and science
-- Earn advanced degrees
-- Engage in community volunteer work
-- Demonstrate leadership and innovation
-
-## The FRC Program
-
-The FIRST Robotics Competition (FRC) is the flagship program for high school students. Here's how it works:
-
-### The Challenge
-Each year, FIRST releases a new robotics challenge. Teams have **six weeks** to:
-- Design a robot
-- Construct it from scratch
-- Program it for autonomous and driver-controlled operation
-- Develop strategy and team funding
-
-### Competition Scale
-- Over 3,000 high school teams worldwide
-- Regional and district competitions
-- World Championship in Houston
-
-### What Makes FRC Special
-
-FRC combines:
-- **Technical Challenge** – Complex engineering problems to solve
-- **Teamwork** – Students manage all aspects of development, strategy, and fundraising
-- **Mentorship** – Professionals from industry guide student learning
-- **Gracious Professionalism®** – Emphasis on respect, learning, and inclusive competition
-
-## Educational Value
-
-Students gain hands-on experience in:
-- Engineering design and problem-solving
-- Project management
-- Teamwork and leadership
-- Real-world technical skills
-- Professional communication
-
-## Why Team 1073 Loves FIRST
-
-Team 1073 has been part of the FIRST community since 2004, using robotics as a platform to inspire students to become the innovators and leaders of tomorrow.
-
----
-
-**Learn more about FIRST:** [Visit FIRST's official website](https://www.firstinspires.org/robotics/frc)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UCc9NPefTgs?wmode=transparent&autoplay=1&mute=1&theme=dark&controls=1&autohide=1&loop=1&showinfo=0&rel=0&enablejsapi=0&playlist=UCc9NPefTgs" frameborder="0" allowfullscreen></iframe>

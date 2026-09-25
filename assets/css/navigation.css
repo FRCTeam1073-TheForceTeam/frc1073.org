@@ -35,8 +35,26 @@
   background-color: #e8e8e8;
 }
 
+.navbar-label {
+  display: block;
+  padding: 0.75rem 1.25rem;
+  color: #333;
+  transition: background-color 0.2s ease;
+  cursor: default;
+}
+
+.navbar-label:hover {
+  background-color: #e8e8e8;
+}
+
 /* Dropdown menu styles */
 .navbar-item.has-dropdown .navbar-link::after {
+  content: " ▼";
+  font-size: 0.7em;
+  margin-left: 0.25rem;
+}
+
+.navbar-item.has-dropdown .navbar-label::after {
   content: " ▼";
   font-size: 0.7em;
   margin-left: 0.25rem;
@@ -79,11 +97,77 @@
   border-left-color: #007bff;
 }
 
+/* Hamburger button */
+.navbar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem 1.25rem;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.hamburger::before {
+  transform: translateY(-8px);
+}
+
+.hamburger::after {
+  transform: translateY(8px);
+}
+
+.navbar-toggle.active .hamburger {
+  background-color: transparent;
+}
+
+.navbar-toggle.active .hamburger::before {
+  transform: rotate(45deg) translateY(0);
+}
+
+.navbar-toggle.active .hamburger::after {
+  transform: rotate(-45deg) translateY(0);
+}
+
 /* Mobile responsive menu */
 @media (max-width: 768px) {
+  .navbar-toggle {
+    display: flex;
+  }
+
   .navbar-menu {
     flex-direction: column;
     gap: 0;
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .navbar-menu.active {
+    display: flex;
   }
 
   .navbar-submenu {

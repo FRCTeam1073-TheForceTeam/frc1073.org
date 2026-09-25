@@ -1,59 +1,44 @@
 ---
 layout: page
-title: 2026 Raffle
+title: About the Raffle
 permalink: /raffle/
 ---
 
-# Team 1073 2026 Raffle
+# About the Raffle
 
-Help support FRC Team 1073 by purchasing raffle tickets! All proceeds go directly to supporting our team's competition costs, travel, equipment, and STEM outreach initiatives.
+The Hollis-Brookline Robotics Raffle is operated by FIRST® Robotics Team 1073: The Force Team at Hollis-Brookline High School.
 
-## About the Raffle
+## Purpose
 
-The 2026 raffle is a major fundraising initiative for Team 1073. By purchasing tickets, you support:
+Founded in 2018, the raffle aims to raise funds for new equipment and the building of our robot while increasing community visibility for the team.
 
-- Competition entry fees
-- Travel and accommodations for district and regional events
-- Robot components and equipment
-- Professional mentorship programs
-- Community STEM outreach
+## Ticket Structure
 
-## Prize Information
+The team sells raffle tickets in four denominations:
 
-We're excited to offer amazing prizes this year! Details about specific prizes coming soon.
+- $10
+- $25
+- $50
+- $100
 
-[Learn about our amazing prizes](#)
+## Winning Formula
 
-## How to Purchase Tickets
+Prize payouts work on a tiered system: when the total pool stays below double the maximum potential earnings for a ticket type, winners receive up to half the final pool. Once the pool exceeds this threshold, winners receive 50 times their ticket's face value. For instance, a $10 ticket yields $500 when the pool reaches $2,000 or higher.
 
-Raffle tickets are now available! 
+## Financial Goals
 
-**[Buy raffle tickets](#)**
+The team targets raising $15,000 for the prize pool, with remaining revenue supporting team operations.
 
-You can also purchase tickets from team members or at school events.
+## Timeline
 
-## Raffle Details
+Ticket sales continue throughout the year, with the drawing scheduled for May 4th.
 
-- **Ticket Price:** [Price TBD]
-- **Drawing Date:** [Date TBD]
-- **Winners Announced:** [Date TBD]
+## Stay Connected
 
-## Official Rules & Terms
-
-All raffle participants must comply with New Hampshire raffle laws and regulations.
-
-**[View complete raffle terms and conditions](#)**
-
-No purchase necessary to enter (alternative method of entry available upon request).
+The team maintains social media presence on X, Facebook, and Instagram (@frc1073).
 
 ---
 
-## Support Team 1073
-
-Whether you purchase raffle tickets or make a direct donation, every contribution helps Team 1073 compete and inspire young people to pursue STEM careers.
-
-**[Other ways to support us]({{ site.baseurl }}/support)**
-
----
+**[View complete raffle terms and conditions]({{ site.baseurl }}/raffle/terms-conditions/)**
 
 **Questions about the raffle?** [Contact us]({{ site.baseurl }}/contact)
