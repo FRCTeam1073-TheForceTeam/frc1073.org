@@ -1,55 +1,63 @@
 ---
 layout: page
 title: About the Team
-permalink: /about/
+permalink: /about-the-team/
 ---
 
-# About FRC Team 1073 - The Force Team
+# About the Team
 
-## Who We Are
+## What is Team 1073?
 
-Team 1073, "The Force Team," is a high school FIRST Robotics Competition team based at Hollis-Brookline High School in Hollis and Brookline, New Hampshire. Since our founding, we've been dedicated to inspiring the next generation of STEM leaders through robotics competition and hands-on learning.
+The Force Team, under the alias of Team 1073, is a student-run FIRST® Competition Robotics Team at Hollis-Brookline High School in Hollis, New Hampshire. Founded officially in 2002, our team first competed in 2003. Since our founding, many of our alumni have pursued careers in STEM (Science, Technology, Engineering, and Math). The team believes in inclusion and strives to encourage the acceptance of all. Through promoting STEM and inclusion, The Force Team hopes to not only further the education of youth, but also connect with the communities around them.
 
-## Our Mission
+## Who are we?
 
-We aim to **inspire and prepare our students to become the leaders, innovators, and technologically-literate citizens of tomorrow**. We align with FIRST's vision of encouraging young people to pursue careers in STEM through an accessible, innovative program that builds:
+Our team organization forms cooperative, specialized subgroups, in keeping with our entrepreneurial spirit. Each spring, the student leadership positions are considered for the upcoming year, and the students that are interested in leadership positions must go through an interview process, similar to that of getting a job. These interviews are conducted by mentors and the current lead student(s) of the position being run for.
 
-- Self-confidence
-- Technical knowledge
-- Professionalism
-- Essential life skills
+In 2025, the team now includes 24 student members, three junior mentors, three mentors who were formerly junior mentors, and seven traditional mentors.
 
-## What is FIRST Robotics?
+In 2024, the team grew to 36 student members, one junior mentor, four mentors who were formerly junior mentors, and ten traditional mentors.
 
-FIRST (For Inspiration and Recognition of Science and Technology) was founded by inventor Dean Kamen to inspire young people's interest and participation in science and engineering. FRC is the premier robotics competition for high school students, combining engineering, teamwork, and competition.
+In 2023, Team 1073 is running without restriction and has approximately 22 student members, one junior mentor, three mentors who were formerly junior mentors, and ten traditional mentors.
 
-## Team Leadership & Organization
+In 2022 the team grew to 19 students and many returning mentors, re-learning how to meet in person at full capacity only to then have to limit attendance to competitions due to COVID-19 restrictions.
 
-Our team operates through four specialized subgroups, each crucial to our success:
+In 2021 the program was restarted at a limited capacity and we completed at-home challenges where only ten people could utilize the space at a time due to COVID-19 restrictions.
 
-### Electromechanical
-Designs, fabricates, and maintains the robot's mechanical systems, structures, and components.
+## Structure
 
-### Software
-Develops the robot's autonomous and teleop code, vision systems, and control software.
+The team is structured like a business. The team, run by two student co-CEOs, is broken down into four subgroups: Electromechanical, Software, Business and Strategy. Each subgroup is led by a student, who is referred to as a VP or Lead. This structure is a vital part of the team's dynamics, and greatly improves productivity through following chains of communication and order while still delegating tasks and specializing in skill sets. The team also encourages its members to attend meetings and projects of other groups to widen their skillsets and perspectives.
 
-### Business
-Manages team strategy, sponsorships, community partnerships, and fundraising initiatives.
+![Team Photo](/assets/images/team-photo-1.jpg)
 
-### Strategy
-Analyzes competition games, scouts opponents, and develops competitive strategies.
+> "Team 1073 has been the most fun learning experience for my high school career."
 
-## Recent Accomplishments
+> "FIRST® is so much more than robots—it teaches us cooperation and leadership skills."
 
-### 2026 Season
-At the University of Vermont District Event (April 2-4, 2026):
-- Robot "Crashout" achieved an Expected Points Added (EPA) of 144.9, placing us in the **top 4% globally**
-- Earned the **Quality Award** recognizing the robot's robustness and superior workmanship
-- Team member Vivi S. became a **Semi-Finalist for the FIRST Leadership Award**
-- Selected as 1st pick for Alliance 3
+![Team Photo 2](/assets/images/team-photo-2.jpg)
 
-## Recruiting
+## Season Schedule
 
-Interested in joining Team 1073? We welcome students from all backgrounds and experience levels—no prior robotics experience required! Whether you're interested in engineering, programming, business, or strategy, there's a place for you on our team.
+### Build Season
 
-[Contact us]({{ site.baseurl }}/contact) to learn more about joining!
+**WHEN:** January through Mid-February
+
+Starting on Kick-Off, a day that permits the building of the robot for that season, requires the team to meet almost daily. Each subgroup's schedule varies based off of their tasks, which ultimately lead to the goal of completing the robot by our first competition of the season. Here, we encourage interaction between students and mentors in a one-of-a-kind learning experience. This collaboration gives students valuable insights into engineering and real-world project development that will aid them for years to come.
+
+### Competition Season
+
+**WHEN:** Mid-February through April
+
+During this time, Team 1073 competes in two competitions that determine their ability to compete in the FIRST® Championship. The number of meets fluctuate depending on the state of the robot and the projects that need to be completed.
+
+### Off-Season
+
+**WHEN:** May through July
+
+The Force Team meets once to twice a week depending on the Off-Season projects, demo practices, and preparation for events.
+
+### Pre-Season
+
+**WHEN:** August through December
+
+The team meets once a week. During this time, we demo our robot, participate in competitions, host events, prepare for Build Season, and help our local community.
