@@ -36,4 +36,8 @@ Thank you to our sponsors!
 - MD Trash Removal
 - Alapage
 
+![Sponsor Tiers Graphic]({{ site.baseurl }}/assets/images/sponsors-tier-graphic.png)
+
 ## Sponsor Tiers
+
+![Sponsor Tiers Diagram]({{ site.baseurl }}/assets/images/sponsors-tiers-diagram.png)

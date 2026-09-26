@@ -2,7 +2,7 @@
   url: "/"
 
 - title: About the Team
-  url: "/about-the-team"
+  url: "/about-the-team/"
   children:
     - title: Member History
       url: "/member-history/"
@@ -12,7 +12,7 @@
       url: "/our-awards/"
 
 - title: Safety
-  url: "/safety"
+  url: "/safety/"
   children:
     - title: Workplace
       url: "/workplace/"
@@ -31,26 +31,23 @@
       url: "/subgroupstrategy/"
 
 - title: Raffle
-  url: "/raffle"
   children:
     - title: About the Raffle
-      url: "/raffle"
+      url: "/about-the-raffle/"
     - title: Raffle Terms and Conditions
-      url: "/raffle/terms-conditions"
+      url: "/raffle-terms-and-conditions/"
 
 - title: Media
-  url: "/media"
   children:
     - title: FRC 1073 in the News
-      url: "/media/in-the-news"
-    - title: 1073's Social Media
-      url: "/media/social-media"
+      url: "/frc-1073-in-the-news/"
+    - title: Social Media
+      url: "/media/"
 
 - title: Shop 1073
   url: "https://hbrb1073.wixsite.com/frc1073/shop"
 
 - title: Resources
-  url: "/resources"
   children:
     - title: Our Events
       url: "/our-events/"
@@ -59,19 +56,18 @@
     - title: STEM and The Force Team
       url: "/resources/stem-initiatives"
     - title: FIRST Lego League Explore Expo
-      url: "/resources/first-lego-league"
+      url: "/first-lego-league-jr-expo/"
     - title: Our Calendar
-      url: "/resources/our-calendar"
+      url: "/our-calendar/"
     - title: External Resources
-      url: "/resources/external-resources"
+      url: "/github/"
 
 - title: Support
-  url: "/support"
   children:
-    - title: Donate
-      url: "/support/donate"
+    - title: How to Help
+      url: "https://hbrb1073.wixsite.com/frc1073/how-to-help"
     - title: Our Sponsors
       url: "/our-sponsors/"
 
 - title: Contact Us
-  url: "/contact"
+  url: "/contact-us/"

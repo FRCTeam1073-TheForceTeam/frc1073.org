@@ -20,7 +20,8 @@ h2 {
   margin: 2rem calc(-50vw + 50%) 1rem calc(-50vw + 50%) !important;
   width: 100vw;
   font-size: 1.8rem !important;
-  font-weight: 700 !important;
+  font-weight: 400 !important;
+  font-family: 'Audiowide', sans-serif !important;
   text-align: center !important;
 }
 

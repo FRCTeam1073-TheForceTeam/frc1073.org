@@ -28,21 +28,15 @@ In 2021 the program was restarted at a limited capacity and we completed at-home
 
 The team is structured like a business. The team, run by two student co-CEOs, is broken down into four subgroups: Electromechanical, Software, Business and Strategy. Each subgroup is led by a student, who is referred to as a VP or Lead. This structure is a vital part of the team's dynamics, and greatly improves productivity through following chains of communication and order while still delegating tasks and specializing in skill sets. The team also encourages its members to attend meetings and projects of other groups to widen their skillsets and perspectives.
 
-![Team Photo](/assets/images/team-photo-1.jpg)
+![Team photo 1]({{ site.baseurl }}/assets/images/about-team-photo-1.jpg)
+
+![Team photo 2]({{ site.baseurl }}/assets/images/about-team-photo-2.jpg)
 
 > "Team 1073 has been the most fun learning experience for my high school career."
 
 > "FIRST® is so much more than robots—it teaches us cooperation and leadership skills."
 
-![Team Photo 2](/assets/images/team-photo-2.jpg)
-
 ## Season Schedule
-
-### Build Season
-
-**WHEN:** January through Mid-February
-
-Starting on Kick-Off, a day that permits the building of the robot for that season, requires the team to meet almost daily. Each subgroup's schedule varies based off of their tasks, which ultimately lead to the goal of completing the robot by our first competition of the season. Here, we encourage interaction between students and mentors in a one-of-a-kind learning experience. This collaboration gives students valuable insights into engineering and real-world project development that will aid them for years to come.
 
 ### Competition Season
 
@@ -61,3 +55,9 @@ The Force Team meets once to twice a week depending on the Off-Season projects, 
 **WHEN:** August through December
 
 The team meets once a week. During this time, we demo our robot, participate in competitions, host events, prepare for Build Season, and help our local community.
+
+### Build Season
+
+**WHEN:** January through Mid-February
+
+Starting on Kick-Off, a day that permits the building of the robot for that season, requires the team to meet almost daily. Each subgroup's schedule varies based off of their tasks, which ultimately lead to the goal of completing the robot by our first competition of the season. Here, we encourage interaction between students and mentors in a one-of-a-kind learning experience. This collaboration gives students valuable insights into engineering and real-world project development that will aid them for years to come.

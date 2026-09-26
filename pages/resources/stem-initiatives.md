@@ -4,99 +4,44 @@ title: STEM and The Force Team
 permalink: /resources/stem-initiatives/
 ---
 
-# STEM Initiatives & Community Outreach
+![STEM Slide 1]({{ site.baseurl }}/assets/images/stem-force-slide-01.png)
 
-Team 1073 is committed to inspiring the next generation of STEM leaders through innovative programs and community partnerships.
+![STEM Slide 2]({{ site.baseurl }}/assets/images/stem-force-slide-02.png)
 
-## Our STEM Mission
+![STEM Slide 3]({{ site.baseurl }}/assets/images/stem-force-slide-03.png)
 
-Beyond robotics competition, Team 1073 actively promotes STEM education in our community through:
+![STEM Slide 4]({{ site.baseurl }}/assets/images/stem-force-slide-04.png)
 
-- Direct mentorship of younger students
-- Hosting youth robotics events
-- Speaking at schools and community events
-- Providing resources and guidance to other teams
-- Demonstrating real-world engineering applications
+![STEM Slide 5]({{ site.baseurl }}/assets/images/stem-force-slide-05.png)
 
-## Outreach Programs
+![STEM Slide 6]({{ site.baseurl }}/assets/images/stem-force-slide-06.png)
 
-### FIRST LEGO League Programs
+![STEM Slide 7]({{ site.baseurl }}/assets/images/stem-force-slide-07.png)
 
-Team 1073 supports younger students through FIRST programs:
+![STEM Slide 8]({{ site.baseurl }}/assets/images/stem-force-slide-08.png)
 
-- **FIRST LEGO League Jr. Expo** – Kindergarten to 4th grade students learn engineering fundamentals
-- **FIRST LEGO League Tournament** – 3rd to 6th graders collaborate on robot design and teamwork
+![STEM Slide 9]({{ site.baseurl }}/assets/images/stem-force-slide-09.png)
 
-[Learn more about FLL]({{ site.baseurl }}/resources/first-lego-league)
+![STEM Slide 10]({{ site.baseurl }}/assets/images/stem-force-slide-10.png)
 
-### School Presentations
+![STEM Slide 11]({{ site.baseurl }}/assets/images/stem-force-slide-11.png)
 
-Team 1073 members present at local schools to:
-- Inspire interest in STEM careers
-- Demonstrate real robotics applications
-- Answer questions about robotics and engineering
-- Recruit new team members
+![STEM Slide 12]({{ site.baseurl }}/assets/images/stem-force-slide-12.png)
 
-### Community Demonstrations
+![STEM Slide 13]({{ site.baseurl }}/assets/images/stem-force-slide-13.png)
 
-We bring our robots to community events to:
-- Showcase engineering excellence
-- Answer questions about robotics
-- Inspire younger students
-- Demonstrate STEM in action
+![STEM Slide 14]({{ site.baseurl }}/assets/images/stem-force-slide-14.png)
 
-## Mentorship Opportunities
+![STEM Slide 15]({{ site.baseurl }}/assets/images/stem-force-slide-15.png)
 
-We welcome mentors from industry and academia. Mentorship roles include:
+![STEM Slide 16]({{ site.baseurl }}/assets/images/stem-force-slide-16.png)
 
-- **Technical Mentors** – Engineering professionals guiding robot design and programming
-- **Business Mentors** – Professionals advising on sponsorships and team operations
-- **Professional Development** – Industry speakers and career guidance
-- **Professional Networks** – Connecting students with STEM career paths
+![STEM Slide 17]({{ site.baseurl }}/assets/images/stem-force-slide-17.png)
 
-## Community Partnerships
+![STEM Slide 18]({{ site.baseurl }}/assets/images/stem-force-slide-18.png)
 
-Team 1073 partners with:
+![STEM Slide 19]({{ site.baseurl }}/assets/images/stem-force-slide-19.png)
 
-- **Hollis-Brookline High School** – Host school and primary facility
-- **Local Rotary Clubs** – Community support and sponsorship
-- **Industry Partners** – REV Robotics, RTX, Viasat, L3 Harris, and others
-- **Other FRC Teams** – Collaboration and friendly competition
+![STEM Slide 20]({{ site.baseurl }}/assets/images/stem-force-slide-20.png)
 
-## Educational Resources
-
-### For Students
-
-- Engineering notebook documentation and best practices
-- Open-source scouting tools and code
-- Tutorial resources and learning materials
-- Career guidance and networking opportunities
-
-### For Educators
-
-- Robotics curriculum integration ideas
-- STEM teaching resources
-- Student project ideas
-- Competition information and participation guides
-
-### For Parents
-
-- Information about STEM careers
-- How to support student roboticists
-- Team involvement opportunities
-- Robotics resources
-
-## Why STEM Matters
-
-STEM education:
-- Develops critical thinking and problem-solving skills
-- Opens doors to high-demand, well-paying careers
-- Builds confidence and leadership abilities
-- Creates innovators and future leaders
-- Addresses real-world challenges
-
----
-
-**Interested in partnering with us on STEM education?** [Contact us]({{ site.baseurl }}/contact)
-
-**Want to learn more about robotics and STEM?** [Explore our resources]({{ site.baseurl }}/resources)
+![STEM Slide 21]({{ site.baseurl }}/assets/images/stem-force-slide-21.png)
