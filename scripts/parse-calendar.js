@@ -7,10 +7,9 @@ const http = require('http');
 const CALENDAR_URL = process.env.CALENDAR_URL || 'https://calendar.google.com/calendar/ical/7v5hqq6ro7gdt7b8rrkibrfvks%40group.calendar.google.com/public/basic.ics';
 
 // Parse RRULE to expand recurring events
-function expandRecurrence(event, rruleStr, lookupDays = 7) {
+function expandRecurrence(event, rruleStr, lookupDays = 7, now = new Date()) {
   if (!rruleStr || !event.startDate) return [event];
 
-  const now = new Date();
   const cutoff = new Date(now.getTime() + lookupDays * 24 * 60 * 60 * 1000);
 
   // Parse RRULE parameters
@@ -84,7 +83,7 @@ function expandRecurrence(event, rruleStr, lookupDays = 7) {
 }
 
 // Parse ICS format
-function parseICS(icsContent) {
+function parseICS(icsContent, now = new Date()) {
   const events = [];
   const lines = icsContent.split('\n');
   let currentEvent = null;
@@ -105,7 +104,7 @@ function parseICS(icsContent) {
       currentRRule = null;
     } else if (line === 'END:VEVENT' && currentEvent) {
       // Expand recurring events
-      const expandedEvents = expandRecurrence(currentEvent, currentRRule);
+      const expandedEvents = expandRecurrence(currentEvent, currentRRule, 7, now);
       events.push(...expandedEvents);
       currentEvent = null;
       currentRRule = null;
@@ -192,23 +191,22 @@ function categorizeEvent(event) {
   const eventText = `${event.summary} ${event.description}`.toLowerCase();
 
   // Administrative events - never show these
-  if (/\b(selection|deadline|due|opens|closes|registration|purchase)\b/i.test(eventText)) {
+  if (/\b(broadcast|lock|submit|mechanisms|built|programmed|integrated|complete|divisions|selection|deadline|due(?!\s+to)|opens|closes|registration|purchase|competitions|day \d+)\b/i.test(eventText)) {
     return 'administrative';
   }
 
-  if (/\b(mpr|all[-\s]*hands|pre[-\s]*leads|leads|meeting|drive[-\s]*team|prep|preparation|practice|trailer|travel|software|em|electro|electrical|mechanical|scout|scouting|bacs|strategy|safety|business|load|un[-\s]*load|unloading|hbrb|pack)\b/i.test(eventText)) {
+  if (/\b(call|verifications|verification|volunteer|volunteering|interview|interviews|photo|team|drive|driving|hotel|sales|visit|fundraising|voting|fundraiser|spirit|subgroup|meetings|design|review|testing|mpr|all[-\s]*hands|pre[-\s]*leads|leads|meeting|hours|drive[-\s]*team|prep|preparation|practice|trailer|travel|software|em|electro|electrical|mechanical|scout|scouting|bacs|strategy|safety|business|load|un[-\s]*load|unloading|hbrb|pack|setup|cleanup|clean up)\b/i.test(eventText)) {
     return 'meeting';
   }
 
-  if (/\b(competition|regional|district|qualifier|tournament|championship|governor's cup|gov cup|mayhem in merrimack|battle of the bay|cyberknight|river rage|girls behind the glass|dcmp|worlds|battle\s*cry|championship|district\s+event|\bweek\s+\d|minuteman|pine\s+tree|granite\s+state|western\s+ne|north\s+shore|waterbury|greater\s+boston|hartford|unh|uvm|wpi|uri)\b/i.test(eventText)){
+  if (/\b(competition|regional|district|qualifier|tournament|championship|governor's cup|governors cup|governor cup|gov cup|mayhem in merrimack|battle of the bay|cyberknight|river rage|girls behind the glass|dcmp|worlds|battle\s*cry|championship|district\s+event|\bweek\s+\d|minuteman|pine\s+tree|granite\s+state|western\s+ne|western\s+new\s+england|north\s+shore|waterbury|greater\s+boston|hartford|unh|uvm|wpi|uri)\b/i.test(eventText)){
     return 'competition';
   }
 
   return 'other';
 }
 
-function filterUpcomingEvents(events, days = 7) {
-  const now = new Date();
+function filterUpcomingEvents(events, days = 7, now = new Date()) {
   const cutoff = new Date(now.getTime() + days * 24 * 60 * 60 * 1000);
 
   return events.filter((event) => {
@@ -230,11 +228,19 @@ function formatEvent(event) {
   };
 }
 
-function outputText(meetings, competitions, otherEvents) {
-  console.log('\n=== NEXT COMPETITIONS (Next 3) ===');
-  if (competitions.length === 0) {
-    console.log('No competitions scheduled');
-  } else {
+function outputText(administrative, meetings, competitions, otherEvents) {
+  if (administrative.length > 0) {
+    console.log(`\n### Administrative Items (Next ${administrative.length})\n`);
+    administrative.forEach((event, i) => {
+      console.log(`\n${i + 1}. ${event.title}`);
+      console.log(`   Start: ${event.start}`);
+      console.log(`   End: ${event.end}`);
+      if (event.location) console.log(`   Location: ${event.location}`);
+    });
+  }
+
+  if (competitions.length > 0) {
+    console.log(`\n### Next ${competitions.length} Competitions\n`);
     competitions.forEach((event, i) => {
       console.log(`\n${i + 1}. ${event.title}`);
       console.log(`   Start: ${event.start}`);
@@ -243,10 +249,8 @@ function outputText(meetings, competitions, otherEvents) {
     });
   }
 
-  console.log('\n=== OTHER EVENTS (Next 3) ===');
-  if (otherEvents.length === 0) {
-    console.log('No other events scheduled');
-  } else {
+  if (otherEvents.length > 0) {
+    console.log(`\n### Next ${otherEvents.length} Events\n`);
     otherEvents.forEach((event, i) => {
       console.log(`\n${i + 1}. ${event.title}`);
       console.log(`   Start: ${event.start}`);
@@ -254,10 +258,9 @@ function outputText(meetings, competitions, otherEvents) {
       if (event.location) console.log(`   Location: ${event.location}`);
     });
   }
-  console.log('\n=== UPCOMING MEETINGS (Next 7 Days) ===');
-  if (meetings.length === 0) {
-    console.log('No meetings scheduled');
-  } else {
+
+  if (meetings.length > 0) {
+    console.log('\n### This Week\'s Meetings\n');
     meetings.forEach((event, i) => {
       console.log(`\n${i + 1}. ${event.title}`);
       console.log(`   Start: ${event.start}`);
@@ -312,14 +315,19 @@ function renderMarkdownEvents(events) {
   });
 }
 
-function outputMarkdown(meetings, competitions, otherEvents) {
+function outputMarkdown(administrative, meetings, competitions, otherEvents) {
+  if (administrative.length > 0) {
+    console.log(`\n### Administrative Items (Next ${administrative.length})\n`);
+    renderMarkdownEvents(administrative);
+  }
+
   if (competitions.length > 0) {
-    console.log('\n### Next 3 Competitions\n');
+    console.log(`\n### Next ${competitions.length} Competitions\n`);
     renderMarkdownEvents(competitions);
   }
 
   if (otherEvents.length > 0) {
-    console.log('\n### Next 3 Events\n');
+    console.log(`\n### Next ${otherEvents.length} Events\n`);
     renderMarkdownEvents(otherEvents);
   }
 
@@ -329,10 +337,11 @@ function outputMarkdown(meetings, competitions, otherEvents) {
   }
 }
 
-function outputJSON(meetings, competitions, otherEvents) {
+function outputJSON(administrative, meetings, competitions, otherEvents) {
   console.log(
     JSON.stringify(
       {
+        administrative,
         competitions,
         otherEvents,
         meetings,
@@ -346,56 +355,97 @@ function outputJSON(meetings, competitions, otherEvents) {
 function parseArgs() {
   const args = process.argv.slice(2);
   let format = 'json'; // default
+  let meetingsDays = 7;
+  let competitionsLimit = 3;
+  let eventsLimit = 3;
+  let administrativeDays = 0;
+  let startDate = new Date();
 
-  if (args.includes('--text')) {
-    format = 'text';
-  } else if (args.includes('--markdown')) {
-    format = 'markdown';
-  } else if (args.includes('--json')) {
-    format = 'json';
-  } else if (args.includes('--help')) {
-    console.log('Usage: parse-calendar.js [OPTIONS]');
-    console.log('\nOptions:');
-    console.log('  --text       Output as text (human-readable)');
-    console.log('  --markdown   Output as markdown');
-    console.log('  --json       Output as JSON (default)');
-    console.log('  --help       Show this help message');
-    console.log('\nExamples:');
-    console.log('  node parse-calendar.js');
-    console.log('  node parse-calendar.js --text');
-    console.log('  node parse-calendar.js --markdown');
-    process.exit(0);
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === '--text') {
+      format = 'text';
+    } else if (args[i] === '--markdown') {
+      format = 'markdown';
+    } else if (args[i] === '--json') {
+      format = 'json';
+    } else if (args[i] === '--meetings') {
+      meetingsDays = parseInt(args[i + 1]);
+      i++;
+    } else if (args[i] === '--competitions') {
+      competitionsLimit = parseInt(args[i + 1]);
+      i++;
+    } else if (args[i] === '--events') {
+      eventsLimit = parseInt(args[i + 1]);
+      i++;
+    } else if (args[i] === '--administrative') {
+      administrativeDays = parseInt(args[i + 1]);
+      i++;
+    } else if (args[i] === '--date') {
+      const dateStr = args[i + 1];
+      startDate = new Date(dateStr);
+      if (isNaN(startDate.getTime())) {
+        console.error(`Invalid date format: ${dateStr}. Use YYYY-MM-DD`);
+        process.exit(1);
+      }
+      i++;
+    } else if (args[i] === '--help') {
+      console.log('Usage: parse-calendar.js [OPTIONS]');
+      console.log('\nOptions:');
+      console.log('  --text              Output as text (human-readable)');
+      console.log('  --markdown          Output as markdown');
+      console.log('  --json              Output as JSON (default)');
+      console.log('  --meetings DAYS     Number of days to look ahead for meetings (default: 7)');
+      console.log('  --competitions N    Number of competitions to show (default: 3)');
+      console.log('  --events N          Number of events to show (default: 3)');
+      console.log('  --administrative D  Number of days to look ahead for administrative events (default: 0)');
+      console.log('  --date DATE         Start date for scanning (YYYY-MM-DD, default: today)');
+      console.log('  --help              Show this help message');
+      console.log('\nExamples:');
+      console.log('  node parse-calendar.js');
+      console.log('  node parse-calendar.js --text');
+      console.log('  node parse-calendar.js --markdown --competitions 5');
+      console.log('  node parse-calendar.js --meetings 365 --competitions 50 --events 50');
+      console.log('  node parse-calendar.js --date 2026-01-01 --text');
+      console.log('  node parse-calendar.js --administrative 30 --markdown');
+      process.exit(0);
+    }
   }
 
-  return format;
+  return { format, meetingsDays, competitionsLimit, eventsLimit, administrativeDays, startDate };
 }
 
 async function main() {
   try {
-    const format = parseArgs();
+    const { format, meetingsDays, competitionsLimit, eventsLimit, administrativeDays, startDate } = parseArgs();
 
     const icsContent = await fetchCalendar(CALENDAR_URL);
-    const allEvents = parseICS(icsContent);
+    const allEvents = parseICS(icsContent, startDate);
 
-    // Get events for different periods: 1 week for meetings, 12 months for competitions/other
-    const meetingEvents = filterUpcomingEvents(allEvents, 7);
-    const allComingEvents = filterUpcomingEvents(allEvents, 365);
+    // Get events for different periods: configurable for meetings/administrative, 12 months for competitions/other
+    const meetingEvents = filterUpcomingEvents(allEvents, meetingsDays, startDate);
+    const administrativeEvents = administrativeDays > 0 ? filterUpcomingEvents(allEvents, administrativeDays, startDate) : [];
+    const allComingEvents = filterUpcomingEvents(allEvents, 365, startDate);
 
     let meetings = [];
     let competitions = [];
     let otherEvents = [];
+    let administrative = [];
 
     // Process events with appropriate lookahead periods
     for (const event of allComingEvents) {
       const category = categorizeEvent(event);
 
-      if (category === null || category === 'administrative') {
+      if (category === null) {
         continue;
       }
 
       const formattedEvent = formatEvent(event);
 
-      if (category === 'meeting') {
+      if (category === 'administrative') {
+        if (administrativeEvents.includes(event)) {
+          administrative.push(formattedEvent);
+        }
+      } else if (category === 'meeting') {
         if (meetingEvents.includes(event)) {
           meetings.push(formattedEvent);
         }
@@ -406,21 +456,22 @@ async function main() {
       }
     }
 
+    administrative.sort((a, b) => new Date(a.start) - new Date(b.start));
     meetings.sort((a, b) => new Date(a.start) - new Date(b.start));
     competitions.sort((a, b) => new Date(a.start) - new Date(b.start));
     otherEvents.sort((a, b) => new Date(a.start) - new Date(b.start));
 
     // Apply limits
-    competitions = competitions.slice(0, 3);
-    otherEvents = otherEvents.slice(0, 3);
+    competitions = competitions.slice(0, competitionsLimit);
+    otherEvents = otherEvents.slice(0, eventsLimit);
 
     // Output in requested format
     if (format === 'text') {
-      outputText(meetings, competitions, otherEvents);
+      outputText(administrative, meetings, competitions, otherEvents);
     } else if (format === 'markdown') {
-      outputMarkdown(meetings, competitions, otherEvents);
+      outputMarkdown(administrative, meetings, competitions, otherEvents);
     } else {
-      outputJSON(meetings, competitions, otherEvents);
+      outputJSON(administrative, meetings, competitions, otherEvents);
     }
   } catch (error) {
     console.error('Error:', error.message);
