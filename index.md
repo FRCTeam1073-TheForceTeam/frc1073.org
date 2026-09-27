@@ -15,28 +15,29 @@ Tickets for the 2026 raffle are available now! [Get your tickets]({{ site.baseur
 
 ## Recent Activities
 
-<div class="section-background">
-  <div class="section-content">
-    <div class="section-image">
-      <img src="{{ site.baseurl }}/assets/images/crashout-robot.jpg" alt="Crashout Robot">
-    </div>
-    <div class="section-text">
-      <p>From April 2-4, Team 1073 participated in its second official 2026 event at the University of Vermont in Burlington, VT: Week 5 NE FIRST UVM District Event!</p>
+### The Force Team Wins the Governor's Cup
 
-      <p>The team did amazing! We were the 1st pick of Alliance 3 Captain, Team 95, Grasshoppers along with Team 138, Entropy as the 2nd pick.</p>
+On September 26, 2026 the force team took home the top prize at the [Governor's Cup competition](https://www.firstnh.org/governorscup) at Plymouth State University in Holderness, NH.
 
-      <p>The team's robot, Crashout, has improved each week. Following the UVM event, Crashout raised its Expected Points Added (EPA) to 144.9 and our team is now in the top 4% of teams in the world!</p>
+The team had good results in the qualification matches, finishing with a record of 3-1. The [last of the four qualification matches the team played was a nail biter lost by only two points](https://www.youtube.com/live/N_ef0BToOgc?si=VyDVDU2QOyXAuA70&t=13004). Still, the team ranked second going into playoffs in a position to be the Alliance 2 captain.  [Scouting data](https://public.viperscout.com/stats.html#event=2026nhhol) showed The Force Team with the highest average number of points scored in qualification matches:
 
-      <p>The team also earned the Quality Award for our robot's robustness and workmanship, a result of our students' work in designing, prototyping, and refining a robot that was able to withstand the rigors of competition.</p>
+![]({{ site.baseurl }}/assets/images/2026-gc-scouting.png)
 
-      <p>In addition, we'd like to congratulate our Semi-Finalist for the FIRST Leadership Award, Vivi S.!!!</p>
+The other teams to watch were:
 
-      <p>Now, we move onto the New England District Championship! Thank you to everyone for supporting us. Together we are building more than a robot. We are building futures!</p>
+- 166 Chop Shop — ranked #1 to captain Alliance 1.
+- 3467 Windam Windup — a New England powerhouse, but having an inconsistent day sometimes having trouble intaking fuel with a rookie driver. Still, had the highest points scored in a qualification match.
+- 5813 Morpheus — a fantastic team that had just come to Hollis to practice with The Force Team the previous Wednesday.
 
-      <p><a href="{{ site.baseurl }}/media">Follow the fun on social media!</a></p>
-    </div>
-  </div>
-</div>
+As expected, Chop Shop picked Windam for alliance 1 to take advantage of their high scoring potential.  The Force Team picked Morpheus, setting up the double elimination bracket for showdown between two very powerful and fairly evenly matched alliances.  Neither alliance 1 nor alliance 2 lost a match in the double elimination playoff bracket until they faced each other in [playoff match 11](https://www.youtube.com/live/N_ef0BToOgc?si=hY0emK3DqQzHzEUy&t=25664).  Alliance 2 with The Force Team won that match 416 to 333 setting a high score record for the day. Alliance 1 was sent to the losers bracket from where they battled their way back to the finals for a rematch.
+
+The finals are a "best of three" showdown where the results of previous matches don't matter.  Whichever alliance won 2 matches would take home the cup.  Alliance 2 won [the first match of the finals](https://www.youtube.com/live/N_ef0BToOgc?si=GxflnaoRjeTiEy5w&t=29527) 327 to 302.  In [the second match](https://www.youtube.com/live/N_ef0BToOgc?si=7LsLKl0PAQZPsOIW&t=31009), Alliance 1 got everything working together perfectly, set a new high score for the day of 477 and won the match. This set up a sudden death, winner-take-all finals match 3.
+
+For [the last final](https://www.youtube.com/live/N_ef0BToOgc?si=L1vu9JanX6m5va-r&t=32642), The Force Team knew they were out-gunned if alliance 1 were allowed to score undefended.  It was time to break out the secret weapon: a dumper blocker developed during the offseason that could be deployed when playing defense to block opponents' shots. This strategy pivot was successful and Alliance 2 won the final match with a score of 279 to 251!
+
+![]({{ site.baseurl }}/assets/images/2026-gc-cup-drawing.jpg)
+
+See more updates: [Follow the fun on social media!]({{ site.baseurl }}/media)
 
 ## Upcoming Activities
 
