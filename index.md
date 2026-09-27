@@ -38,6 +38,14 @@ Tickets for the 2026 raffle are available now! [Get your tickets]({{ site.baseur
   </div>
 </div>
 
+## Upcoming Activities
+
+<!-- begin auto-generated events -->
+
+<!-- end auto-generated events -->
+
+For a full list and last-minute changes [see the full calendar]({{ site.baseurl }}/our-calendar/).
+
 ## Kickoff Preparations
 
 ### Engineering Notebook

@@ -1,0 +1,37 @@
+name: Update Calendar
+
+on:
+  schedule:
+    # 12:47 AM EST = 5:47 AM UTC
+    - cron: '47 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run update script
+        run: bash scripts/update-calendar.sh
+
+      - name: Check if index.md changed
+        id: check
+        run: |
+          if git diff --quiet index.md; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.md
+          git commit -m "chore: auto-update calendar"
+          git push

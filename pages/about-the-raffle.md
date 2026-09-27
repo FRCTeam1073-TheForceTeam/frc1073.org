@@ -12,6 +12,23 @@ The Hollis-Brookline Robotics Raffle is run by the FIRST® Robotics Team 1073: T
 
 ## Time Before Drawing
 
+<div id="raffle-countdown"></div>
+
+<script src="{{ '/assets/js/countdown.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ '/assets/css/countdown.css' | relative_url }}">
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // May 4, 2027 at 12:00 PM Eastern Time
+    new CountdownTimer('raffle-countdown', '2027-05-04T12:00:00-04:00', {
+      showDays: true,
+      showHours: true,
+      showMinutes: true,
+      showSeconds: true
+    });
+  });
+</script>
+
 ## How it Works
 
 The Force Team will be selling tickets for $10, $25, $50, and $100. The winning ticket can win up to 50 times the ticket's original cost. When the final pool is less than double the ticket's maximum earnings, up to half of the final pool can be won. After the final pool is more than double the ticket's maximum earnings, the winning ticket is worth 50 times its original cost. For example, a $10 ticket wins $500 when the final pool is $2,000 or over, while a $100 ticket wins $5,000 when the pool is $20,000 or over.
