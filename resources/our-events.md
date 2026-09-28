@@ -13,4 +13,3 @@ Team 1073 annually hosts a FIRST® Lego League Jr. Expo for more than 36 area te
 ![FIRST® Lego League Jr. Expo]({{ site.baseurl }}/resources/our-events/events-fll-jr-expo.jpg)
 
 [More Info]({{ site.baseurl }}/first-lego-league-jr-expo/)
-

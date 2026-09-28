@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "calendar": "node scripts/parse-calendar.js",
-    "calendar:watch": "node scripts/parse-calendar.js && sleep 3600 && npm run calendar:watch"
-  },
-  "dependencies": {
-    "puppeteer": "^25.12.0"
-  }
-}

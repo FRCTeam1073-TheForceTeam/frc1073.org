@@ -12,15 +12,15 @@ permalink: /contact-us/
   <div style="margin-bottom: 15px;">
     <input type="text" name="name" placeholder="Name *" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px;">
   </div>
-  
+
   <div style="margin-bottom: 15px;">
     <input type="email" name="email" placeholder="Email *" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px;">
   </div>
-  
+
   <div style="margin-bottom: 15px;">
     <textarea name="message" placeholder="Add a message *" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; min-height: 150px;"></textarea>
   </div>
-  
+
   <button type="submit" style="background-color: #f25a02; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">Send</button>
 </form>
 
@@ -30,6 +30,6 @@ permalink: /contact-us/
 
 ## P.O. Box Address:
 
-FRC 1073  
-P.O. Box 1073  
+FRC 1073
+P.O. Box 1073
 Hollis NH, 03049

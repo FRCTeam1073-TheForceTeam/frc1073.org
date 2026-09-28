@@ -62,7 +62,7 @@ Edit `parse-calendar.js` to:
 2. **Adjust meeting duration:**
    ```javascript
    // Currently: 2-4 hours
-   duration >= 2 * 60 * 60 * 1000 && 
+   duration >= 2 * 60 * 60 * 1000 &&
    duration <= 4 * 60 * 60 * 1000
    ```
 
