@@ -1,9 +1,9 @@
 #!/bin/bash
-# Update the calendar section in index.md with latest events
+# Update the calendar section in home.md with latest events
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
-INDEX_FILE="$PROJECT_ROOT/index.md"
+INDEX_FILE="$PROJECT_ROOT/home.md"
 
 # Create temporary files
 TEMP_CALENDAR=$(mktemp)
