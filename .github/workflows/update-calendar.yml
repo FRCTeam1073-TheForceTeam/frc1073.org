@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write
 
     steps:
       - uses: actions/checkout@v4
@@ -40,3 +41,9 @@ jobs:
           git add home.md
           git commit -m "chore: auto-update calendar"
           git push
+
+      - name: Trigger pre-commit workflow
+        if: steps.check.outputs.changed == 'true'
+        run: gh workflow run pre-commit.yaml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
