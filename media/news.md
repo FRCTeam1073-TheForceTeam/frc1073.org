@@ -1,7 +1,8 @@
 ---
 layout: page
 title: FRC 1073 in the News
-permalink: /frc-1073-in-the-news/
+permalink: /media/news
+redirect_from: /frc-1073-in-the-news/
 ---
 
 FRC Team 1073: The Force Team is always looking for opportunities to inspire. News sources frequently report 1073's involvement in local and global communities, helping us spread the word about the life-changing programs within FIRST® Robotics. Scroll down to see some of our favorite articles about 1073!
@@ -10,7 +11,7 @@ FRC Team 1073: The Force Team is always looking for opportunities to inspire. Ne
 
 ## 2024
 
-[HB Robotics: The Force Team Season Recap](https://hbrb1073.wixsite.com/frc1073/post/hb-robotics-the-force-team-season-recap)
+HB Robotics: The Force Team Season Recap
 
 Thursday, Feb 29, 2024
 
@@ -18,53 +19,53 @@ Thursday, Feb 29, 2024
 
 Saturday, Feb 24, 2024
 
-[HBHS Robotics Team Heading to the FIRST Robotics Championship!](https://hbrb1073.wixsite.com/frc1073/post/hbhs-robotics-team-heading-to-the-first-robotics-championship)
+HBHS Robotics Team Heading to the FIRST Robotics Championship!
 
 Thursday, Feb 29, 2024
 
-[HBHS Robotics Team Season Recap & Summer Camp Info](https://hbrb1073.wixsite.com/frc1073/post/hbhs-robotics-team-season-recap-summer-camp-info)
+HBHS Robotics Team Season Recap & Summer Camp Info
 
 Thursday, Feb 29, 2024
 
 ## 2021
 
-[Hollis Old Home Days Returns on September 10th and 11th](https://hbrb1073.wixsite.com/frc1073/post/hollis-old-home-days-returns-on-september-10th-and-11th)
+Hollis Old Home Days Returns on September 10th and 11th
 
 07 September 2021
 
-[Robotic Cow Soon to Become Legendary](https://hbrb1073.wixsite.com/frc1073/post/robotic-cow-soon-to-become-legendary)
+Robotic Cow Soon to Become Legendary
 
 03 September 2021
 
-[It's Not Your Grandfather's Cow - RoboCow Takes on Cow Patty Bingo at Old Home Days!](https://hbrb1073.wixsite.com/frc1073/post/it-s-not-your-grandfather-s-cow-robocow-takes-on-cow-patty-bingo-at-old-home-days)
+It's Not Your Grandfather's Cow - RoboCow Takes on Cow Patty Bingo at Old Home Days!
 
 21 August 2021
 
-[Hollis Brookline High School Graduation 2021](https://hbrb1073.wixsite.com/frc1073/post/hollis-brookline-high-school-graduation-2021)
+Hollis Brookline High School Graduation 2021
 
 18 June 2021
 
-[HBHS FIRST® Robotics Team 1073 Successful Again in a Strange Season](https://hbrb1073.wixsite.com/frc1073/post/hbhs-first-robotics-team-1073-successful-again-in-a-strange-season)
+HBHS FIRST® Robotics Team 1073 Successful Again in a Strange Season
 
 25 May 2021
 
-[AP Computer Science Female Diversity Award](https://hbrb1073.wixsite.com/frc1073/post/ap-computer-science-female-diversity-award)
+AP Computer Science Female Diversity Award
 
 14 May 2021
 
-[Second Scholarship for HBHS Robotics Students](https://hbrb1073.wixsite.com/frc1073/post/second-scholarship-for-hbhs-robotics-students)
+Second Scholarship for HBHS Robotics Students
 
 21 April 2021
 
-[HB Robotics Boosters Announces New Scholarship Opportunity](https://hbrb1073.wixsite.com/frc1073/post/hb-robotics-boosters-announces-new-scholarship-opportunity)
+HB Robotics Boosters Announces New Scholarship Opportunity
 
 20 Mar 2021
 
-[Hollis Brookline High School Students Win New Hampshire NCWIT Award for Aspirations in Computing](https://hbrb1073.wixsite.com/frc1073/post/hollis-brookline-high-school-students-win-new-hampshire-ncwit-award-for-aspirations-in-computing)
+Hollis Brookline High School Students Win New Hampshire NCWIT Award for Aspirations in Computing
 
 07 Mar 2021
 
-[Community Scavenger Hunt Planned by HB Robotics Boosters](https://hbrb1073.wixsite.com/frc1073/post/community-scavenger-hunt-planned-by-hb-robotics-boosters)
+Community Scavenger Hunt Planned by HB Robotics Boosters
 
 14 Jan 2021
 

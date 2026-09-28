@@ -40,7 +40,7 @@
 - title: Media
   children:
     - title: FRC 1073 in the News
-      url: "/frc-1073-in-the-news/"
+      url: "/media/news/"
     - title: Social Media
       url: "/media/"
 

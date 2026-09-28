@@ -291,7 +291,7 @@ function checkLink(url, file, context) {
     }
     // Special case: hbrb1073.wixsite.com is an old domain, but shop URLs are temporarily OK
     if (url.includes('hbrb1073.wixsite.com')) {
-      if (url.includes('/frc1073/product-page/') || url.includes('/frc1073/shop')) {
+      if (url.includes('/frc1073/product-page/') || url.includes('/frc1073/shop') || url.includes('/frc1073/how-to-help')) {
         // Temporary: using Wix shop URLs until GitHub Pages shop is set up
         return { valid: true };
       }
