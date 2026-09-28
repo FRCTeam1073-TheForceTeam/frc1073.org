@@ -9,38 +9,38 @@
     - title: What is FIRST
       url: "/what-is-first/"
     - title: Our Awards
-      url: "/our-awards/"
+      url: "/awards/"
 
 - title: Safety
   url: "/safety/"
   children:
     - title: Workplace
-      url: "/workplace/"
+      url: "/safety/workplace/"
     - title: Personnel
-      url: "/sample/"
+      url: "/safety/personnel/"
 
 - title: Structure
   children:
     - title: Electromechanical
-      url: "/subgroupelectromechanical/"
+      url: "/subgroups/electromechanical/"
     - title: Software
-      url: "/subgroupsoftware/"
+      url: "/subgroups/software/"
     - title: Business
-      url: "/subgroupbusiness/"
+      url: "/subgroups/business/"
     - title: Strategy
-      url: "/subgroupstrategy/"
+      url: "/subgroups/strategy/"
 
 - title: Raffle
   children:
     - title: About the Raffle
       url: "/about-the-raffle/"
     - title: Raffle Terms and Conditions
-      url: "/raffle-terms-and-conditions/"
+      url: "/raffle/terms-and-conditions/"
 
 - title: Media
   children:
     - title: FRC 1073 in the News
-      url: "/frc-1073-in-the-news/"
+      url: "/media/news/"
     - title: Social Media
       url: "/media/"
 
