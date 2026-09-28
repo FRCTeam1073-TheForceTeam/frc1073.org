@@ -88,7 +88,7 @@ Thursday, Feb 29, 2024
 
 ## 2019
 
-[HB Students Crush It at FIRST® Worlds in Detroit](http://www.nashuatelegraph.com/news/local-news/2019/05/04/hb-students-crush-it-at-first-worlds-in-detroit/)
+[HB Students Crush It at FIRST® Worlds in Detroit](https://www.nashuatelegraph.com/news/local-news/2019/05/04/hb-students-crush-it-at-first-worlds-in-detroit/)
 
 04 May 2019
 
@@ -96,25 +96,25 @@ Thursday, Feb 29, 2024
 
 01 May 2019
 
-[Robotics Team Bring Home Silver](http://www.cabinet.com/news/hb-news/2019/04/07/robotics-team-bring-home-silver/)
+[Robotics Team Bring Home Silver](https://www.cabinet.com/news/hb-news/2019/04/07/robotics-team-bring-home-silver/)
 
 07 April 2019
 
-[Hollis-Brookline FIRST® Robotics Competition Team 1073 is Gearing Up for Competition Season](http://www.cabinet.com/news/hb-news/2019/03/03/hollis-brookline-first-robotics-competition-team-1073-is-gearing-up-for-competition-season/)
+[Hollis-Brookline FIRST® Robotics Competition Team 1073 is Gearing Up for Competition Season](https://www.cabinet.com/news/hb-news/2019/03/03/hollis-brookline-first-robotics-competition-team-1073-is-gearing-up-for-competition-season/)
 
 03 March 2019
 
-[Got Tech? Area Female Students Explore STEM Careers](http://www.nashuatelegraph.com/news/2019/02/07/got-tech/)
+[Got Tech? Area Female Students Explore STEM Careers](https://www.nashuatelegraph.com/news/2019/02/07/got-tech/)
 
 07 February 2019
 
 ## 2018
 
-[Venue Swap: Iconic Hollis Strawberry Festival Moves Indoors](http://www.nashuatelegraph.com/news/local-news/2018/06/25/venue-swap-iconic-hollis-strawberry-festival-moves-indoors/)
+[Venue Swap: Iconic Hollis Strawberry Festival Moves Indoors](https://www.nashuatelegraph.com/news/local-news/2018/06/25/venue-swap-iconic-hollis-strawberry-festival-moves-indoors/)
 
 25 June 2018
 
-[Hollis Brookline High School FIRST Robotics Team Competes at World Championships](http://www.cabinet.com/news/hb-news/2018/05/21/hollis-brookline-high-school-first-robotics-team-competes-at-world-championships/)
+[Hollis Brookline High School FIRST Robotics Team Competes at World Championships](https://www.cabinet.com/news/hb-news/2018/05/21/hollis-brookline-high-school-first-robotics-team-competes-at-world-championships/)
 
 21 May 2018
 
@@ -160,15 +160,15 @@ Thursday, Feb 29, 2024
 
 05 September 2017
 
-[Best Bots](http://www.hippopress.com/read-article/best-bots)
+[Best Bots](https://www.hippopress.com/read-article/best-bots)
 
 08 August 2017
 
-[Thank You to All Who Made Strawberry Festival Happen](http://www.cabinet.com/opinion/hb-letters/2017/07/06/thank-you-to-all-who-made-strawberry-festival-happen/)
+[Thank You to All Who Made Strawberry Festival Happen](https://www.cabinet.com/opinion/hb-letters/2017/07/06/thank-you-to-all-who-made-strawberry-festival-happen/)
 
 06 July 2017
 
-[A Taste of Summer](http://www.cabinet.com/news/hb-news/2017/07/06/a-taste-of-summer/)
+[A Taste of Summer](https://www.cabinet.com/news/hb-news/2017/07/06/a-taste-of-summer/)
 
 06 July 2017
 
@@ -176,11 +176,11 @@ Thursday, Feb 29, 2024
 
 25 May 2017
 
-[HBHS FIRST® Robotics Team Competes at World Championships](http://www.cabinet.com/news/hb-news/2017/05/19/hbhs-first-robotics-team-competes-at-world-championships/)
+[HBHS FIRST® Robotics Team Competes at World Championships](https://www.cabinet.com/news/hb-news/2017/05/19/hbhs-first-robotics-team-competes-at-world-championships/)
 
 19 May 2017
 
-[HBHS Robotics Team 1073 Grateful for Support](http://www.cabinet.com/opinion/hb-letters/2017/05/17/hbhs-robotics-team-1073-grateful-for-support/)
+[HBHS Robotics Team 1073 Grateful for Support](https://www.cabinet.com/opinion/hb-letters/2017/05/17/hbhs-robotics-team-1073-grateful-for-support/)
 
 17 May 2017
 
@@ -188,7 +188,7 @@ Thursday, Feb 29, 2024
 
 05 May 2017
 
-[Cyberknights Survive Damage Come Away with a Silver Medal in St. Louis](http://southingtonobserver.com/2017/05/03/cyberknights-survive-damage-come-away-with-a-silver-medal-in-st-louis/)
+[Cyberknights Survive Damage Come Away with a Silver Medal in St. Louis](https://southingtonobserver.com/2017/05/03/cyberknights-survive-damage-come-away-with-a-silver-medal-in-st-louis/)
 
 03 May 2017
 
@@ -208,7 +208,7 @@ Thursday, Feb 29, 2024
 
 27 April 2017
 
-[HBHS FIRST® Robotics Team Advances to World Championship](http://www.cabinet.com/news/hb-news/2017/04/21/hbhs-first-robotics-team-advances-to-world-championship/)
+[HBHS FIRST® Robotics Team Advances to World Championship](https://www.cabinet.com/news/hb-news/2017/04/21/hbhs-first-robotics-team-advances-to-world-championship/)
 
 21 April 2017
 
@@ -228,7 +228,7 @@ Thursday, Feb 29, 2024
 
 06 March 2017
 
-[HB Robotics Team Educates Young Students at STEM Fair](http://www.cabinet.com/news/hb-news/2017/02/11/hb-robotics-team-educates-young-students-at-stem-fair/)
+[HB Robotics Team Educates Young Students at STEM Fair](https://www.cabinet.com/news/hb-news/2017/02/11/hb-robotics-team-educates-young-students-at-stem-fair/)
 
 11 February 2017
 
@@ -246,7 +246,7 @@ Thursday, Feb 29, 2024
 
 21 December 2016
 
-[High School FIRST® Robotics Team Appreciates Community Support](http://www.cabinet.com/opinion/bedford-letters/2016/11/18/high-school-first-robotics-team-appreciates-community-support/)
+[High School FIRST® Robotics Team Appreciates Community Support](https://www.cabinet.com/opinion/bedford-letters/2016/11/18/high-school-first-robotics-team-appreciates-community-support/)
 
 18 November 2016
 
@@ -258,15 +258,15 @@ Thursday, Feb 29, 2024
 
 26 September 2016
 
-[HBHS FIRST® Robotics Team Seeks Mentors for 2016-17](http://www.cabinet.com/news/hb-news/2016/08/28/hbhs-first-robotics-team-seeks-mentors-for-2016-17/)
+[HBHS FIRST® Robotics Team Seeks Mentors for 2016-17](https://www.cabinet.com/news/hb-news/2016/08/28/hbhs-first-robotics-team-seeks-mentors-for-2016-17/)
 
 28 August 2016
 
-[Inspiring the Next Generation of Scientists and Engineers One Robot at a Time](http://www.utc.com/News/Pages/Inspiring-the-Next-Generation-of-Scientists-and-Engineers-One-Robot-at-a-Time.aspx)
+[Inspiring the Next Generation of Scientists and Engineers One Robot at a Time](https://www.utc.com/News/Pages/Inspiring-the-Next-Generation-of-Scientists-and-Engineers-One-Robot-at-a-Time.aspx)
 
 27 May 2016
 
-[HBHS FIRST® Robotics Team Goes to World Championship](http://www.cabinet.com/news/hb-news/2016/04/30/hbhs-first-robotics-team-goes-to-world-championship/)
+[HBHS FIRST® Robotics Team Goes to World Championship](https://www.cabinet.com/news/hb-news/2016/04/30/hbhs-first-robotics-team-goes-to-world-championship/)
 
 30 April 2016
 
@@ -274,7 +274,7 @@ Thursday, Feb 29, 2024
 
 08 April 2016
 
-[Hollis-Brookline Students Having Fun with Robotics](http://www.cabinet.com/opinion/hb-letters/2017/05/17/hbhs-robotics-team-1073-grateful-for-support/)
+[Hollis-Brookline Students Having Fun with Robotics](https://www.cabinet.com/opinion/hb-letters/2017/05/17/hbhs-robotics-team-1073-grateful-for-support/)
 
 02 April 2016
 
@@ -288,15 +288,15 @@ Thursday, Feb 29, 2024
 
 02 December 2015
 
-[Student Attends Science Leaders Congress](http://www.nashuatelegraph.com/news/community-news/2015/09/24/student-attends-science-leaders-congress/)
+[Student Attends Science Leaders Congress](https://www.nashuatelegraph.com/news/community-news/2015/09/24/student-attends-science-leaders-congress/)
 
 24 September 2015
 
-[Brookline Students Attends Congress of Future Science](http://www.cabinet.com/news/hb-news/2015/09/18/brookline-student-attends-congress-of-future-science/)
+[Brookline Students Attends Congress of Future Science](https://www.cabinet.com/news/hb-news/2015/09/18/brookline-student-attends-congress-of-future-science/)
 
 18 September 2015
 
-[Hollis Strawberry Festival: Sweet Time Despite Rain](http://www.cabinet.com/opinion/hb-letters/2015/07/31/hollis-strawberry-festival-sweet-time-despite-rain/)
+[Hollis Strawberry Festival: Sweet Time Despite Rain](https://www.cabinet.com/opinion/hb-letters/2015/07/31/hollis-strawberry-festival-sweet-time-despite-rain/)
 
 31 July 2015
 
@@ -326,7 +326,7 @@ Thursday, Feb 29, 2024
 
 18 November 2014
 
-[Hollis Women's Club, Town Band Appreciate Support for Festival](http://www.cabinet.com/opinion/hb-letters/2014/10/24/hollis-women-8217s-club-town-band-appreciate-support-for-festival/)
+[Hollis Women's Club, Town Band Appreciate Support for Festival](https://www.cabinet.com/opinion/hb-letters/2014/10/24/hollis-women-8217s-club-town-band-appreciate-support-for-festival/)
 
 24 October 2014
 
@@ -338,11 +338,11 @@ Thursday, Feb 29, 2024
 
 21 September 2014
 
-[Hollis Strawberry Festival by the Numbers](http://www.cabinet.com/news/hb-news/2014/06/20/hollis-strawberry-festival-by-the-numbers/)
+[Hollis Strawberry Festival by the Numbers](https://www.cabinet.com/news/hb-news/2014/06/20/hollis-strawberry-festival-by-the-numbers/)
 
 20 June 2014
 
-[Hollis Primary School Visit](http://www.nashuatelegraph.com/news/education/2014/06/12/hollis-primary-school-students-have-fun-with-robotics/)
+[Hollis Primary School Visit](https://www.nashuatelegraph.com/news/education/2014/06/12/hollis-primary-school-students-have-fun-with-robotics/)
 
 14 June 2014
 
@@ -372,7 +372,7 @@ Thursday, Feb 29, 2024
 
 06 November 2013
 
-[Thanks for Success of Hollis Apple Festival](http://www.cabinet.com/opinion/hb-letters/2013/10/11/thanks-for-success-of-hollis-apple-festival/)
+[Thanks for Success of Hollis Apple Festival](https://www.cabinet.com/opinion/hb-letters/2013/10/11/thanks-for-success-of-hollis-apple-festival/)
 
 11 October 2013
 
@@ -380,67 +380,67 @@ Thursday, Feb 29, 2024
 
 02 October 2013
 
-[Strawberry Festival a Sweet Success](http://www.cabinet.com/opinion/hb-letters/2013/06/28/strawberry-festival-a-sweet-success/)
+[Strawberry Festival a Sweet Success](https://www.cabinet.com/opinion/hb-letters/2013/06/28/strawberry-festival-a-sweet-success/)
 
 28 June 2013
 
-[Strawberries and Ice Cream: Hollis's Unbeatable Combo](http://www.nashuatelegraph.com/news/local-news/2013/06/24/strawberries-and-ice-cream-hollis-8217s-unbeatable-combo/)
+[Strawberries and Ice Cream: Hollis's Unbeatable Combo](https://www.nashuatelegraph.com/news/local-news/2013/06/24/strawberries-and-ice-cream-hollis-8217s-unbeatable-combo/)
 
 24 June 2013
 
-[Hollis Brookline Robotics Team Wins FIRST® Award](http://www.cabinet.com/news/hb-news/2013/03/08/hollis-brookline-robotics-team-wins-first-award/)
+[Hollis Brookline Robotics Team Wins FIRST® Award](https://www.cabinet.com/news/hb-news/2013/03/08/hollis-brookline-robotics-team-wins-first-award/)
 
 08 March 2013
 
-[FIRST® Robotics Fills Verizon Arena in Manchester on Saturday](http://www.nashuatelegraph.com/news/local-news/2013/03/01/first-robotics-fills-verizon-arena-in-manchester-on-saturday/)
+[FIRST® Robotics Fills Verizon Arena in Manchester on Saturday](https://www.nashuatelegraph.com/news/local-news/2013/03/01/first-robotics-fills-verizon-arena-in-manchester-on-saturday/)
 
 01 March 2013
 
 ## 2012
 
-[FIRST® Teams Deserve Coverage](http://www.cabinet.com/opinion/hb-letters/2012/12/07/first-teams-deserve-coverage/)
+[FIRST® Teams Deserve Coverage](https://www.cabinet.com/opinion/hb-letters/2012/12/07/first-teams-deserve-coverage/)
 
 07 December 2012
 
-[Annual Hollis Apple Festival and Concert a Success](http://www.cabinet.com/opinion/hb-letters/2012/10/19/annual-hollis-apple-festival-and-concert-a-success/)
+[Annual Hollis Apple Festival and Concert a Success](https://www.cabinet.com/opinion/hb-letters/2012/10/19/annual-hollis-apple-festival-and-concert-a-success/)
 
 19 October 2012
 
-[Festival Great Community Event](http://www.cabinet.com/opinion/hb-letters/2012/07/06/festival-great-community-event/)
+[Festival Great Community Event](https://www.cabinet.com/opinion/hb-letters/2012/07/06/festival-great-community-event/)
 
 06 July 2012
 
-[FIRST® Robotics Team Was Not in Danger](http://www.nashuatelegraph.com/opinion/letters/2012/03/08/first-robotics-team-was-not-in-danger/)
+[FIRST® Robotics Team Was Not in Danger](https://www.nashuatelegraph.com/opinion/letters/2012/03/08/first-robotics-team-was-not-in-danger/)
 
 08 March 2012
 
-[Hollis-Brookline Voters Uphold School Tech Program](http://www.nashuatelegraph.com/news/local-news/2012/03/07/hollis-brookline-voters-uphold-school-tech-program/)
+[Hollis-Brookline Voters Uphold School Tech Program](https://www.nashuatelegraph.com/news/local-news/2012/03/07/hollis-brookline-voters-uphold-school-tech-program/)
 
 07 March 2012
 
 ## 2011
 
-[Strawberry Festival a Success](http://www.cabinet.com/opinion/hb-letters/2011/07/08/strawberry-festival-a-success/)
+[Strawberry Festival a Success](https://www.cabinet.com/opinion/hb-letters/2011/07/08/strawberry-festival-a-success/)
 
 08 July 2011
 
-[Getting in Gear](http://www.cabinet.com/news/hb-news/2011/03/11/getting-in-gear/)
+[Getting in Gear](https://www.cabinet.com/news/hb-news/2011/03/11/getting-in-gear/)
 
 11 March 2011
 
-[Getting in Gear for Robotics Competition](http://www.nashuatelegraph.com/news/local-news/2011/03/05/getting-in-gear-for-robotics-competition/)
+[Getting in Gear for Robotics Competition](https://www.nashuatelegraph.com/news/local-news/2011/03/05/getting-in-gear-for-robotics-competition/)
 
 05 March 2011
 
-[Sen. Jeanne Shaheen Meets with HB FIRST® Robotics Competition Team](http://www.cabinet.com/news/hb-news/2011/03/04/sen-jeanne-shaheen-meets-with-h-b-first-robotics-competition-team/)
+[Sen. Jeanne Shaheen Meets with HB FIRST® Robotics Competition Team](https://www.cabinet.com/news/hb-news/2011/03/04/sen-jeanne-shaheen-meets-with-h-b-first-robotics-competition-team/)
 
 04 March 2011
 
-[About 50 Teams Slates to Compete at FIRST® Event](http://www.cabinet.com/news/hb-news/2011/02/25/about-50-teams-slated-to-compete-at-first-event/)
+[About 50 Teams Slates to Compete at FIRST® Event](https://www.cabinet.com/news/hb-news/2011/02/25/about-50-teams-slated-to-compete-at-first-event/)
 
 25 February 2011
 
-[A 'Force' to Be Reckoned With](http://www.cabinet.com/news/hb-news/2011/01/07/a-8216force-8217-to-be-reckoned-with/)
+[A 'Force' to Be Reckoned With](https://www.cabinet.com/news/hb-news/2011/01/07/a-8216force-8217-to-be-reckoned-with/)
 
 07 January 2011
 
@@ -450,15 +450,15 @@ Thursday, Feb 29, 2024
 
 12 November 2010
 
-[Thanks for Strawberry Fest Success](http://www.cabinet.com/opinion/hb-letters/2010/07/23/thanks-for-strawberry-fest-success/)
+[Thanks for Strawberry Fest Success](https://www.cabinet.com/opinion/hb-letters/2010/07/23/thanks-for-strawberry-fest-success/)
 
 23 July 2010
 
-[Seasons Ripe for Strawberries](http://www.cabinet.com/news/hb-news/2010/07/02/season-8217s-ripe-for-strawberries/)
+[Seasons Ripe for Strawberries](https://www.cabinet.com/news/hb-news/2010/07/02/season-8217s-ripe-for-strawberries/)
 
 02 July 2010
 
-[FIRST® Team Places at World Event](http://www.cabinet.com/news/hb-news/2010/04/30/first-team-places-at-world-event/)
+[FIRST® Team Places at World Event](https://www.cabinet.com/news/hb-news/2010/04/30/first-team-places-at-world-event/)
 
 30 April 2010
 
@@ -466,10 +466,10 @@ Thursday, Feb 29, 2024
 
 26 April 2010
 
-[HB FIRST® Team Seeks Donations](http://www.cabinet.com/news/hb-news/2010/03/19/h-b-first-team-seeks-donations/)
+[HB FIRST® Team Seeks Donations](https://www.cabinet.com/news/hb-news/2010/03/19/h-b-first-team-seeks-donations/)
 
 19 March 2010
 
-[FIRST® Attracting More Girls Than Ever to Its Annual School Robotics Competition](http://www.nashuatelegraph.com/news/local-news/2010/03/07/first-attracting-more-girls-than-ever-to-its-annual-high-school-robotics-competition/)
+[FIRST® Attracting More Girls Than Ever to Its Annual School Robotics Competition](https://www.nashuatelegraph.com/news/local-news/2010/03/07/first-attracting-more-girls-than-ever-to-its-annual-high-school-robotics-competition/)
 
 07 March 2010

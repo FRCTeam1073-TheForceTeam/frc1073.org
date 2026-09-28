@@ -22,13 +22,13 @@
 - title: Structure
   children:
     - title: Electromechanical
-      url: "/subgroupelectromechanical/"
+      url: "/subgroups/electromechanical/"
     - title: Software
-      url: "/subgroupsoftware/"
+      url: "/subgroups/software/"
     - title: Business
-      url: "/subgroupbusiness/"
+      url: "/subgroups/business/"
     - title: Strategy
-      url: "/subgroupstrategy/"
+      url: "/subgroups/strategy/"
 
 - title: Raffle
   children:

@@ -14,18 +14,3 @@ Team 1073 annually hosts a FIRST® Lego League Jr. Expo for more than 36 area te
 
 [More Info]({{ site.baseurl }}/first-lego-league-jr-expo/)
 
-## FIRST® LEGO League
-
-We annually host a FIRST® LEGO League tournament for 24 teams of 10 to 15 students in 3rd to 6th grade. These brilliant students have worked long and hard to collaboratively engineer LEGO robots that perform tasks. These students are not just judged based on their robots, but also about their team's core values. Some 1073 students mentor FLL teams.
-
-![FIRST® LEGO League Tournament]({{ site.baseurl }}/resources/our-events/events-fll-tournament.jpg)
-
-[More Info]({{ site.baseurl }}/first-lego-league-tournament/)
-
-## Alumni Sponsor Night
-
-All of our alumni are invited to interact and talk to current team members. This event is new enough to Team 1073 that we are growing the event each year. Our alum love visiting the team each year and sharing current and past stories.
-
-![Alumni Sponsor Night]({{ site.baseurl }}/resources/our-events/events-alumni.jpg)
-
-[More Info]({{ site.baseurl }}/alumni-sponsor-night/)

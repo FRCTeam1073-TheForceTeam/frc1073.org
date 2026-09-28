@@ -112,6 +112,7 @@ function buildValidUrlsAndRedirects(markdownFiles, assetFiles) {
   // Parse markdown for permalinks and redirects
   // Only process files with front matter (Jekyll pages)
   for (const mdFile of markdownFiles) {
+    if (!fs.existsSync(mdFile)) continue;
     const content = fs.readFileSync(mdFile, 'utf-8');
     if (!content.startsWith('---')) {
       // Skip non-Jekyll files (documentation, references)
@@ -164,6 +165,7 @@ function detectCollisions(markdownFiles) {
 
   // Check for redirect_from collisions with another file's permalink/redirect_from
   for (const mdFile of markdownFiles) {
+    if (!fs.existsSync(mdFile)) continue;
     const content = fs.readFileSync(mdFile, 'utf-8');
     // Skip files without front matter
     if (!content.startsWith('---')) {
@@ -383,6 +385,7 @@ function checkMarkdownLinks(markdownFiles) {
   const linksByFile = new Map();
 
   for (const mdFile of markdownFiles) {
+    if (!fs.existsSync(mdFile)) continue;
     const content = fs.readFileSync(mdFile, 'utf-8');
     // Skip files without front matter (not Jekyll pages)
     if (!content.startsWith('---')) {

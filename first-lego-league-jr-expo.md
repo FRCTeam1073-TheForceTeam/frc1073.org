@@ -26,8 +26,8 @@ For more information visit the [FIRST® LEGO League Explore website](https://www
 
 <div id="fll-countdown"></div>
 
-<script src="{{ '/assets/js/countdown.js' | relative_url }}"></script>
-<link rel="stylesheet" href="{{ '/assets/css/countdown.css' | relative_url }}">
+<script src="{{ site.baseurl }}/assets/js/countdown.js"></script>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/countdown.css">
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {

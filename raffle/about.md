@@ -8,7 +8,7 @@ permalink: /about-the-raffle/
 
 The Hollis-Brookline Robotics Raffle is run by the FIRST® Robotics Team 1073: The Force Team located at the Hollis-Brookline High School. This raffle started in 2018 as a means for the team to raise funds for new equipment and the building of our robot. We hope that this raffle promotes community awareness of The Force Team.
 
-[**Buy Tickets Here!**](https://www.frc1073.org/product-page/2025-raffle-ticket)
+[**Buy Tickets Here!**](https://hbrb1073.wixsite.com/frc1073/product-page/2025-raffle-ticket)
 
 ## Time Before Drawing
 
