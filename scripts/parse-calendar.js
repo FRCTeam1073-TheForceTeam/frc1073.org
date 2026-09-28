@@ -310,29 +310,37 @@ function renderMarkdownEvents(events) {
   }
 
   events.forEach((event) => {
-    const location = event.location && event.location !== 'No location' ? `— *${event.location}*` : '';
-    console.log(`- **${event.title}** — ${formatEventDate(event)} ${location}`);
+    const location = event.location && event.location !== 'No location' ? ` — *${event.location}*` : '';
+    console.log(`- **${event.title}** — ${formatEventDate(event)}${location}`);
   });
 }
 
 function outputMarkdown(administrative, meetings, competitions, otherEvents) {
+  let isFirst = true;
+
   if (administrative.length > 0) {
-    console.log(`\n### Administrative Items (Next ${administrative.length})\n`);
+    console.log(`### Administrative Items (Next ${administrative.length})\n`);
     renderMarkdownEvents(administrative);
+    isFirst = false;
   }
 
   if (competitions.length > 0) {
-    console.log(`\n### Next ${competitions.length} Competitions\n`);
+    if (!isFirst) console.log('');
+    console.log(`### Next ${competitions.length} Competitions\n`);
     renderMarkdownEvents(competitions);
+    isFirst = false;
   }
 
   if (otherEvents.length > 0) {
-    console.log(`\n### Next ${otherEvents.length} Events\n`);
+    if (!isFirst) console.log('');
+    console.log(`### Next ${otherEvents.length} Events\n`);
     renderMarkdownEvents(otherEvents);
+    isFirst = false;
   }
 
   if (meetings.length > 0) {
-    console.log('\n### This Week\'s Meetings\n');
+    if (!isFirst) console.log('');
+    console.log('### This Week\'s Meetings\n');
     renderMarkdownEvents(meetings);
   }
 }
