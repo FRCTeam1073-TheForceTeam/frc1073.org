@@ -47,3 +47,9 @@ jobs:
         run: gh workflow run pre-commit.yaml --ref main
         env:
           GH_TOKEN: ${{ github.token }}
+
+      - name: Trigger pages deployment workflow
+        if: steps.check.outputs.changed == 'true'
+        run: gh workflow run pages.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
