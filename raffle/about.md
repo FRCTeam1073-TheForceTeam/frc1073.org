@@ -14,7 +14,7 @@ The Hollis-Brookline Robotics Raffle is run by the FIRST® Robotics Team 1073: T
 
 <div id="raffle-countdown"></div>
 
-<script src="{{ site.baseurl }}/assets/js/countdown.js"></script>
+<script src="/assets/js/countdown.js"></script>
 <link rel="{{ site.baseurl }}/assets/css/countdown.css">
 
 <script>
