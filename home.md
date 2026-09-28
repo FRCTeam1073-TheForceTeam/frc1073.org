@@ -1,17 +1,18 @@
 ---
 layout: home
 title: FRC Team 1073 - The Force Team
+permalink: /
 ---
 
 The Force Team, also known as Team 1073, is a high school FIRST® Robotics Competition team from Hollis, NH. Our base of operations is at Hollis-Brookline High School, where we assemble students from the towns of Hollis and Brookline.
 
-![FRC Team 1073 Banner]({{ site.baseurl }}/assets/images/hero-banner.jpg)
+![FRC Team 1073 Banner]({{ site.baseurl }}/home/hero-banner.jpg)
 
 The purpose of the FIRST® Robotics Competition Team at Hollis-Brookline High School is to inspire and prepare our students to become the leaders, innovators and technologically-literate citizens of tomorrow. We follow FIRST®'s vision of inspiring young people to pursue opportunities in science, technology, engineering and math by providing an accessible, innovative program that builds self-confidence, knowledge, professionalism and life skills.
 
 **Congratulations to the winner of our 2025 raffle!**
 
-Tickets for the 2026 raffle are available now! [Get your tickets]({{ site.baseurl }}/raffle)
+[Tickets for the 2026 raffle are available now!](https://hbrb1073.wixsite.com/frc1073/product-page/2025-raffle-ticket)
 
 ## Recent Activities
 
@@ -21,7 +22,7 @@ On September 26, 2026 the force team took home the top prize at the [Governor's 
 
 The team had good results in the qualification matches, finishing with a record of 3-1. The [last of the four qualification matches the team played was a nail biter lost by only two points](https://www.youtube.com/live/N_ef0BToOgc?si=VyDVDU2QOyXAuA70&t=13004). Still, the team ranked second going into playoffs in a position to be the Alliance 2 captain.  [Scouting data](https://public.viperscout.com/stats.html#event=2026nhhol) showed The Force Team with the highest average number of points scored in qualification matches:
 
-![]({{ site.baseurl }}/assets/images/2026-gc-scouting.png)
+![]({{ site.baseurl }}/home/2026-gc-scouting.png)
 
 The other teams to watch were:
 
@@ -35,7 +36,7 @@ The finals are a "best of three" showdown where the results of previous matches 
 
 For [the last final](https://www.youtube.com/live/N_ef0BToOgc?si=L1vu9JanX6m5va-r&t=32642), The Force Team knew they were out-gunned if alliance 1 were allowed to score undefended.  It was time to break out the secret weapon: a dumper blocker developed during the offseason that could be deployed when playing defense to block opponents' shots. This strategy pivot was successful and Alliance 2 won the final match with a score of 279 to 251!
 
-![]({{ site.baseurl }}/assets/images/2026-gc-cup-drawing.jpg)
+![]({{ site.baseurl }}/home/2026-gc-cup-drawing.jpg)
 
 See more updates: [Follow the fun on social media!]({{ site.baseurl }}/media)
 

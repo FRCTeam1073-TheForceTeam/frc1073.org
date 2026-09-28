@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "The Hollis-Brookline Robotics Raffle: Terms and Conditions"
-permalink: /raffle-terms-and-conditions/
+permalink: /raffle/terms-and-conditions/
+redirect_from: /raffle-terms-and-conditions/
 ---
 
 # The Hollis-Brookline Robotics Raffle: Terms and Conditions
@@ -43,4 +44,3 @@ For the purpose of verification, please retain your ticket stub as a receipt to 
 Winners will be required to provide their Taxpayer Identification Number and will have to sign an acceptance form. Taxes may be withheld per IRS regulations.
 
 The remaining funds following the drawing of one winner are the property of FRC Team 1073.
-

@@ -16,7 +16,7 @@ In an email congratulating The Force Team's qualification for the 2019 Detroit W
 
 The Business subgroup informs team members and sponsors of events that The Force Team will partake in within the community. Upcoming events are always reflected on the team's calendar found here on the team's website, another element that the subgroup works on.
 
-![Business Team Photo]({{ site.baseurl }}/assets/images/subgroupbusiness-team-photo.png)
+![Business Team Photo]({{ site.baseurl }}/structure/business/subgroupbusiness-team-photo.png)
 
 ## Marketing
 

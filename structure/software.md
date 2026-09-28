@@ -10,7 +10,7 @@ permalink: /subgroupsoftware/
 
 The Software subgroup of Team 1073 works during the Competition and Off-Season to learn how to solve problems and program responsive mechanisms with the use of well-integrated and organized code. Even with each member having differing levels of knowledge, it is an environment where all can learn how to program from their starting level of knowledge and collaborate with others who may have more experience.
 
-![Software Team]({{ site.baseurl }}/assets/images/subgroupsoftware-team.png)
+![Software Team]({{ site.baseurl }}/structure/software/subgroupsoftware-team.png)
 
 ## Programming Languages
 

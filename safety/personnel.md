@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Personnel Safety
-permalink: /sample/
+permalink: /safety/personnel/
+redirect_from: /sample/
 ---
 
 # Personnel Safety
@@ -10,19 +11,19 @@ permalink: /sample/
 
 For Personal Protective Equipment (PPE), students are expected to buy their own safety glasses to maintain. Those who wear eyeglasses are suggested to get prescription safety glasses or are required to obtain safety glasses that are meant to cover their eyeglasses. When carrying equipment that could cause possible injuries, gloves are required to protect hands from cuts and splinters.
 
-![Field trip to MilliporeSigma PPE]({{ site.baseurl }}/assets/images/personnel-ppe-field-trip.jpg)
+![Field trip to MilliporeSigma PPE]({{ site.baseurl }}/safety/personnel/personnel-ppe-field-trip.jpg)
 
 ## Mentor Safety
 
 Adults must be cleared with our school in order to become a mentor. These mentors are to respect physical and emotional boundaries of students, practice and teach Gracious Professionalism®, and act in a role of guidance rather than driving toward the end decision. Additionally, the use of alcohol, tobacco, and drugs is strictly prohibited. If a tool and/or object has been deemed dangerous, mentors will come in and help the students so that they do not get hurt.
 
-![Mentor Safety Diagram]({{ site.baseurl }}/assets/images/personnel-mentor-safety.png)
+![Mentor Safety Diagram]({{ site.baseurl }}/safety/personnel/personnel-mentor-safety.png)
 
 ## Student Safety
 
 Students are required to sign a leads-approved team handbook to be on the team. This standardization of behavior and expectations set the foundation for the safety culture. Students are expected to learn and develop their knowledge of safety through the Integration subgroup and to exhibit it at all times. There is a presentation every year along with safety-related activities for the students to become more educated on our safety culture.
 
-![Team Handbook]({{ site.baseurl }}/assets/images/personnel-team-handbook.png)
+![Team Handbook]({{ site.baseurl }}/safety/personnel/personnel-team-handbook.png)
 
 ## Attendance
 
