@@ -55,16 +55,20 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 
 ### Next 3 Competitions
 
-- **Mayhem in Merrimack** — Saturday, October 10, 2026
-- **CyberKnight Invitational Competition** — Saturday, October 17, 2026
-- **River Rage** — Saturday, October 24, 2026
+- **Mayhem in Merrimack** — Saturday, October 10, 2026 
+- **CyberKnight Invitational Competition** — Saturday, October 17, 2026 
+- **River Rage** — Saturday, October 24, 2026 
 
 ### Next 3 Events
 
 - **NE RoboCon** — Saturday, November 14, 2026 at 11:30 AM — *1 Memorial Dr, Cambridge, MA 02142, USA*
-- **FLL Finale Event** — Saturday, December 12, 2026
-- **FRC Kickoff!** — Saturday, January 9, 2027
+- **FLL Finale Event** — Saturday, December 12, 2026 
+- **FRC Kickoff!** — Saturday, January 9, 2027 
 
+### This Week's Meetings
+
+- **Pre-Leads Meeting** — Wednesday, September 30, 2026 at 6:00 PM 
+- **All Hands Meeting** — Wednesday, September 30, 2026 at 6:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
 <!-- end auto-generated events -->
 
 For a full list and last-minute changes [see the full calendar]({{ site.baseurl }}/our-calendar/).
