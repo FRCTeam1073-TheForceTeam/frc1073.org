@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Workplace Safety
-permalink: /workplace/
+permalink: /safety/workplace/
+redirect_from: /workplace/
 ---
 
 # Workplace Safety

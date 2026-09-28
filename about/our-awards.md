@@ -1,7 +1,8 @@
 ---
 layout: page
 title: 1073's Awards
-permalink: /our-awards/
+permalink: /awards/
+redirect_from: /our-awards/
 ---
 
 # 1073's Awards

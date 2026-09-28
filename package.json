@@ -1,9 +1,11 @@
 {
   "scripts": {
     "calendar": "node scripts/parse-calendar.js",
-    "calendar:watch": "node scripts/parse-calendar.js && sleep 3600 && npm run calendar:watch"
+    "calendar:watch": "node scripts/parse-calendar.js && sleep 3600 && npm run calendar:watch",
+    "verify": "node scripts/check-links.js"
   },
   "dependencies": {
-    "puppeteer": "^25.12.0"
+    "puppeteer": "^25.12.0",
+    "js-yaml": "^4.1.0"
   }
 }

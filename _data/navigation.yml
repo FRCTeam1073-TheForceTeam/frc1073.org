@@ -9,15 +9,15 @@
     - title: What is FIRST
       url: "/what-is-first/"
     - title: Our Awards
-      url: "/our-awards/"
+      url: "/awards/"
 
 - title: Safety
   url: "/safety/"
   children:
     - title: Workplace
-      url: "/workplace/"
+      url: "/safety/workplace/"
     - title: Personnel
-      url: "/sample/"
+      url: "/safety/personnel/"
 
 - title: Structure
   children:
@@ -35,7 +35,7 @@
     - title: About the Raffle
       url: "/about-the-raffle/"
     - title: Raffle Terms and Conditions
-      url: "/raffle-terms-and-conditions/"
+      url: "/raffle/terms-and-conditions/"
 
 - title: Media
   children:

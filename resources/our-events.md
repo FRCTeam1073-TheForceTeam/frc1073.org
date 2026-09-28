@@ -12,7 +12,7 @@ Team 1073 annually hosts a FIRST® Lego League Jr. Expo for more than 36 area te
 
 ![FIRST® Lego League Jr. Expo]({{ site.baseurl }}/resources/our-events/events-fll-jr-expo.jpg)
 
-[More Info](/first-lego-league-jr-expo/)
+[More Info]({{ site.baseurl }}/first-lego-league-jr-expo/)
 
 ## FIRST® LEGO League
 
@@ -20,7 +20,7 @@ We annually host a FIRST® LEGO League tournament for 24 teams of 10 to 15 stude
 
 ![FIRST® LEGO League Tournament]({{ site.baseurl }}/resources/our-events/events-fll-tournament.jpg)
 
-[More Info](/first-lego-league-tournament/)
+[More Info]({{ site.baseurl }}/first-lego-league-tournament/)
 
 ## Alumni Sponsor Night
 
@@ -28,4 +28,4 @@ All of our alumni are invited to interact and talk to current team members. This
 
 ![Alumni Sponsor Night]({{ site.baseurl }}/resources/our-events/events-alumni.jpg)
 
-[More Info](/alumni-sponsor-night/)
+[More Info]({{ site.baseurl }}/alumni-sponsor-night/)
