@@ -30,12 +30,12 @@ permalink: /calendar/
 Edit the following items to affect the look and feel of the entire site:
 
 - [`_config.yml`](_config.yml): Site name and URL
-- [`_includes/header.html`](_includes/header.html): The layout of the header with the logo and the navigation menu
+- [`_includes/header.html`](_includes/header.html): The layout of the page header
 - [`assets/images/logo.png`](assets/images/logo.png): The claw logo
-- [`_data/navigation.yml`](_data/navigation.yml): The contents of the menu
+- [`_data/navigation.yml`](_data/navigation.yml): The contents of the navigation menu
 - [`assets/css/`](assets/css/): Custom stylesheets for colors, fonts, and layout
 
-## Checking out the site locally
+## Getting a copy of the site locally
 
 Clone the repository on your computer to get a copy of the site that you can edit and test locally:
 
@@ -53,9 +53,9 @@ On Windows, you may want to use graphical tools rather than the command line to 
 
 We recommend using [VSCode](https://code.visualstudio.com/) for editing. This extension allows you to preview most pages:
 
-- [**Markdown Preview Enhanced**](https://marketplace.visualstudio.com/items?itemName=shd101wyy) - Use the Markdown preview (Ctrl+Shift+V) to see how your changes will look
+- [**Markdown Preview Enhanced**](https://marketplace.visualstudio.com/items?itemName=shd101wyy) - Use (Ctrl+Shift+V) to see how your changes will look
 
-Videos or iframe embeds (like the calendar) won't show up in this preview. You'll need to install a local server to preview those pages.  See the "Local Development" instructions below.
+Videos or iframe embeds (like the calendar) won't show up in Markdown Preview. Nor will you be able to see the menu or the site's styles.  For those, you'll need to install a local server following the "Local Development" instructions below.
 
 ## Local Development
 
@@ -81,32 +81,18 @@ This site is automatically deployed to GitHub Pages when changes are pushed to t
 
 ### CI/CD Pipeline
 
-When you push changes, an automated pipeline runs:
+When you push changes, an automated pipeline runs that lints the site for errors and the publishes it to Github pages. If the lint validation fails, the site is blocked from publishing. Common reasons that validation might fail:
 
-1. **Pre-commit checks** run first, including a link validator that checks for:
-   - Broken internal links (links to pages that don't exist)
-   - Missing `{{ site.baseurl }}` in internal links
-   - Insecure `http://` links (should use `https://`)
-   - Links pointing to old domains
-   - Duplicate page URLs or redirects
+- Broken internal links (links to pages that don't exist)
+- Missing `{{ site.baseurl }}` in internal links
+- Insecure `http://` links (should use `https://`)
+- Links pointing to old domains
+- Duplicate page URLs or redirects
+- More than one consecutive blank line in markdown files
+- Trailing whitespace on any line
+- No new line at the end of a file
 
-2. **If checks pass**, the site is built with Jekyll and deployed to GitHub Pages
-3. **If checks fail**, deployment is blocked and the PR review will show what needs to be fixed
-
-### Checking Deployment Status
-
-To see if your changes were successfully deployed:
-
-1. Go to the [Actions tab](https://github.com/FRCTeam1073-TheForceTeam/frc1073.org/actions) in the GitHub repository
-2. Click on the latest workflow run
-3. Look for the "Build and deploy to GitHub Pages" workflow
-4. If all checks have a green checkmark ✅, your changes are live
-5. If any checks have a red ❌, click on it to see what needs to be fixed
-
-Common reasons for deployment failure:
-- **Broken link**: You linked to a page that doesn't exist
-- **Missing baseurl**: Internal links must use `{{ site.baseurl }}/path/to/page`
-- **Insecure link**: External links must use `https://` not `http://`
+To see if your changes were successfully deployed go to the [Actions tab](https://github.com/FRCTeam1073-TheForceTeam/frc1073.org/actions) in the GitHub repository.
 
 ## Approval Workflow
 
@@ -117,3 +103,7 @@ Common reasons for deployment failure:
 3. **Adult reviews**: Looks at the changes and leaves feedback
 4. **Approval**: Once approved, the adult merges the PR
 5. **Auto-publish**: Changes are immediately processed by GitHub Actions to go live!
+
+## Automated Edits
+
+The [`scripts/parse-calendar.js`](scripts/parse-calendar.js) script automatically updates the upcoming events section on the home page with the latest calendar entries. This script runs on a schedule via GitHub Actions to keep the homepage calendar fresh without manual updates. If the calendar receives last-minute updates, you can manually trigger the update by running the [update-calendar workflow](https://github.com/FRCTeam1073-TheForceTeam/frc1073.org/actions/workflows/update-calendar.yml) in the Actions tab.
