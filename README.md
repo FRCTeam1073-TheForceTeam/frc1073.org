@@ -35,6 +35,19 @@ Edit the following items to affect the look and feel of the entire site:
 - [`_data/navigation.yml`](_data/navigation.yml): The contents of the navigation menu
 - [`assets/css/`](assets/css/): Custom stylesheets for colors, fonts, and layout
 
+## Quick Edits in GitHub's Web Interface
+
+You can make quick edits to pages directly on GitHub without downloading anything. Simply:
+
+1. Navigate to the file you want to edit in the [repository](https://github.com/FRCTeam1073-TheForceTeam/frc1073.org)
+2. Click the pencil icon (✏️) in the top right of the file
+3. Make your changes in the editor
+4. Scroll down and click "Commit changes"
+5. Choose "Create a new branch for this commit and start a pull request"
+6. Click "Propose changes" and then "Create pull request"
+
+Your changes will now be in a pull request waiting for review. This method works best for simple content edits and doesn't require any software installation.
+
 ## Getting a Copy of the Site Locally
 
 Clone the repository on your computer to get a copy of the site that you can edit and test locally:
