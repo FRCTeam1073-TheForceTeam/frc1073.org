@@ -8,7 +8,7 @@ This is the source for the FRC Team 1073 website, hosted on GitHub Pages.
 
 ### Pages
 
-Pages are written in Markdown. Edit `.md` files directly. See [this Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/) to know
+Pages are written in Markdown `.md` files and can be edited directly. See [this Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/) to know
 how to use Markdown syntax. Pages are arranged in a directory structure that mirrors the menu:
 
 - [`home.md`](home.md) - Homepage with its images in [`home/`](home/)
@@ -16,7 +16,7 @@ how to use Markdown syntax. Pages are arranged in a directory structure that mir
 - [`resources/calendar.md`](resources/calendar.md) - Our calendar
 - etc.
 
-New pages need a section at the top called [Frontmatter](https://docs.github.com/en/contributing/writing-for-github-docs/using-yaml-frontmatter). At the very minimum, every page should have a layout, a page title, and a permalink that gives the page a URL.  For example:
+Every page's Markdown needs a block at the top called [Frontmatter](https://docs.github.com/en/contributing/writing-for-github-docs/using-yaml-frontmatter). At the very minimum, every page should specify a layout, a page title, and a permalink that gives the page a URL.  For example:
 ```
 ---
 layout: page
@@ -35,7 +35,7 @@ Edit the following items to affect the look and feel of the entire site:
 - [`_data/navigation.yml`](_data/navigation.yml): The contents of the navigation menu
 - [`assets/css/`](assets/css/): Custom stylesheets for colors, fonts, and layout
 
-## Getting a copy of the site locally
+## Getting a Copy of the Site Locally
 
 Clone the repository on your computer to get a copy of the site that you can edit and test locally:
 
@@ -49,15 +49,16 @@ On Windows, you may want to use graphical tools rather than the command line to 
 - [Github Desktop](https://desktop.github.com/)
 - [Git for Windows](https://gitforwindows.org/)
 
-## Editing pages with vscode
+## Editing Pages with Visual Studio Code
 
-We recommend using [VSCode](https://code.visualstudio.com/) for editing. This extension allows you to preview most pages:
+We recommend using [VSCode](https://code.visualstudio.com/) for editing. In addition, installing one of the extensions makes editing markdown easier and provides a rendered preview:
 
-- [**Markdown Preview Enhanced**](https://marketplace.visualstudio.com/items?itemName=shd101wyy) - Use (Ctrl+Shift+V) to see how your changes will look
+- [**Markdown Preview Enhanced**](https://marketplace.visualstudio.com/items?itemName=shd101wyy) - Open the preview pane (Ctrl+Shift+V) to see how your changes will look.
+- [**Markdown All in One**](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - Adds a formatting toolbar, keyboard shortcuts, and preview.
 
-Videos or iframe embeds (like the calendar) won't show up in Markdown Preview. Nor will you be able to see the menu or the site's styles.  For those, you'll need to install a local server following the "Local Development" instructions below.
+Videos or iframe embeds (like the calendar) won't show up in markdown previews. Nor will you be able to see the menu or the site's styles.  For those, you'll need to install a local server as described in the following section.
 
-## Local Development
+## Running the Full Site Locally
 
 ### Prerequisites
 - [Ruby 2.7 or higher](https://www.ruby-lang.org/en/downloads/)
@@ -66,12 +67,51 @@ Videos or iframe embeds (like the calendar) won't show up in Markdown Preview. N
 - [GNU Make](https://www.gnu.org/software/make/)
 - [pre-commit](https://pre-commit.com/)
 
-### Setup
+#### Installing Prerequisites
+
+<details>
+<summary>Windows</summary>
+
+Using [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) (recommended):
+```powershell
+winget install RubyLang.Ruby RubyLang.RubyDevKit OpenJS.NodeJS Python.Python.3.12 PreCommit.PreCommit GnuWin32.Make
+```
+
+Or using [Chocolatey](https://chocolatey.org/):
+```powershell
+choco install make nodejs ruby pre-commit
+```
+
+Or install each manually from their download pages
+</details>
+<details>
+<summary>macOS</summary>
+
+```bash
+# Install Homebrew first if you don't have it: https://brew.sh
+brew install ruby node make pre-commit
+sudo gem install bundler
+```
+</details>
+<details>
+<summary>Linux (Debian/Ubuntu)</summary>
+
+```bash
+sudo apt-get update
+sudo apt-get install -y ruby ruby-dev build-essential nodejs npm python3-pipx make
+pipx install pre-commit
+sudo gem install bundler
+```
+</details>
+
+### Running the Site
 
 ```bash
 make install
 make run
 ```
+
+`make install` downloads and installs all required dependencies (Ruby gems, Node packages, and pre-commit hooks). `make run` starts the Jekyll development server with live reload, so your changes appear instantly in the browser. When you're done, stop the server with `make stop`.
 
 The site will be available at `http://localhost:4000`
 
@@ -81,7 +121,7 @@ This site is automatically deployed to GitHub Pages when changes are pushed to t
 
 ### CI/CD Pipeline
 
-When you push changes, an automated pipeline runs that lints the site for errors and the publishes it to Github pages. If the lint validation fails, the site is blocked from publishing. Common reasons that validation might fail:
+When you push changes, an automated pipeline runs that lints the site for errors and the publishes it to GitHub pages. If the lint validation fails, the site is blocked from publishing. Common reasons that validation might fail:
 
 - Broken internal links (links to pages that don't exist)
 - Missing `{{ site.baseurl }}` in internal links
