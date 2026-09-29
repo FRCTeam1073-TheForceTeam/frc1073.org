@@ -1,7 +1,7 @@
 - title: Home
   url: "/"
 
-- title: About the Team
+- title: About
   url: "/about/"
   children:
     - title: About the Team
@@ -24,6 +24,7 @@
       url: "/safety/personnel/"
 
 - title: Structure
+  url: "/subgroups/"
   children:
     - title: Electromechanical
       url: "/subgroups/electromechanical/"
@@ -70,7 +71,7 @@
 
 - title: Support
   children:
-    - title: How to Help
+    - title: Donate
       url: "https://hbrb1073.wixsite.com/frc1073/how-to-help"
     - title: Our Sponsors
       url: "/sponsors/"
