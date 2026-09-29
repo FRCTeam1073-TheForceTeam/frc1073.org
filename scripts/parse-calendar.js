@@ -464,10 +464,20 @@ async function main() {
       }
     }
 
-    administrative.sort((a, b) => new Date(a.start) - new Date(b.start));
-    meetings.sort((a, b) => new Date(a.start) - new Date(b.start));
-    competitions.sort((a, b) => new Date(a.start) - new Date(b.start));
-    otherEvents.sort((a, b) => new Date(a.start) - new Date(b.start));
+    const sortByDateDurationTitle = (a, b) => {
+      const dateCompare = new Date(a.start) - new Date(b.start);
+      if (dateCompare !== 0) return dateCompare;
+
+      const endCompare = new Date(a.end) - new Date(b.end);
+      if (endCompare !== 0) return endCompare;
+
+      return a.title.localeCompare(b.title);
+    };
+
+    administrative.sort(sortByDateDurationTitle);
+    meetings.sort(sortByDateDurationTitle);
+    competitions.sort(sortByDateDurationTitle);
+    otherEvents.sort(sortByDateDurationTitle);
 
     // Apply limits
     competitions = competitions.slice(0, competitionsLimit);
