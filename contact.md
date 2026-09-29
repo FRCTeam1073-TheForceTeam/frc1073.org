@@ -1,14 +1,15 @@
 ---
 layout: page
 title: Contact Us
-permalink: /contact-us/
+permalink: /contact/
+redirect_from: /contact-us/
 ---
 
 ## Have a question, want more information? Send us a message!
 
 *If you are an HBHS student interested in robotics, please do not submit a message with your SAU 41 email (for example: 29005@sau41.org). Our messages won't be able to reach you!*
 
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<form action="https://formspree.io/f/xqpawnyd" method="POST">
   <div style="margin-bottom: 15px;">
     <input type="text" name="name" placeholder="Name *" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px;">
   </div>

@@ -7,7 +7,7 @@ redirect_from: /frc-1073-in-the-news/
 
 FRC Team 1073: The Force Team is always looking for opportunities to inspire. News sources frequently report 1073's involvement in local and global communities, helping us spread the word about the life-changing programs within FIRST® Robotics. Scroll down to see some of our favorite articles about 1073!
 
-**Editor's note: This page on our site is special! One of the core pillars of FIRST® (which 1073 feels often gets overlooked) is FUN! We have included some April Fools articles below for your enjoyment. Can you find all of them? Hit the chat button/contact us when you do, send proof, and we'll send something cool!
+**Editor's note:** This page on our site is special! One of the core pillars of FIRST® (which 1073 feels often gets overlooked) is FUN! We have included some April Fools articles below for your enjoyment. Can you find all of them? Hit the chat button/contact us when you do, send proof, and we'll send something cool!
 
 ## 2024
 

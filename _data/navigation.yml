@@ -31,9 +31,10 @@
       url: "/subgroups/strategy/"
 
 - title: Raffle
+  url: "/raffle/"
   children:
     - title: About the Raffle
-      url: "/about-the-raffle/"
+      url: "/raffle/"
     - title: Raffle Terms and Conditions
       url: "/raffle/terms-and-conditions/"
 
@@ -70,4 +71,4 @@
       url: "/sponsors/"
 
 - title: Contact Us
-  url: "/contact-us/"
+  url: "/contact/"

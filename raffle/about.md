@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About the Raffle
-permalink: /about-the-raffle/
+permalink: /raffle/
+redirect_from: /about-the-raffle/
 ---
 
 # About The Hollis-Brookline Robotics Raffle

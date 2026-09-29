@@ -7,6 +7,16 @@ redirect_from: /our-awards/
 
 # 1073's Awards
 
+## 2026
+
+- **2026 NE District Granite State Event:** Finalist
+- **2026 NE District Granite State Event:** Excellence in Engineering Award
+- **2026 NE District UVM Event:** FIRST® Leadership Award Semi-Finalist - Vivi S
+- **2026 NE District UVM Event:** Quality Award
+- **2026 New England FIRST District Championship - Burns Division:** Excellence in Engineering Award
+- **2026 World Championship - Johnson Division:** Quality Award
+- **2026 NH Governor's Cup:** Winner
+
 ## 2025
 
 - **2025 BattleCry@WPI:** Silver Star
