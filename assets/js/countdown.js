@@ -8,6 +8,7 @@ class CountdownTimer {
       showHours: true,
       showMinutes: true,
       showSeconds: true,
+      completeMessage: 'Countdown complete!',
       ...options
     };
 
@@ -28,7 +29,7 @@ class CountdownTimer {
     const diff = this.targetDate - now;
 
     if (diff <= 0) {
-      this.element.innerHTML = '<div class="countdown-complete">The drawing has begun!</div>';
+      this.element.innerHTML = `<div class="countdown-complete">${this.options.completeMessage}</div>`;
       return;
     }
 

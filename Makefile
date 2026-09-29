@@ -17,7 +17,8 @@ clean:
 install:
 	bundle install
 	npm install
+	pre-commit install
 
 .PHONY: verify
 verify:
-	node scripts/check-links.js
+	@node scripts/check-links.js

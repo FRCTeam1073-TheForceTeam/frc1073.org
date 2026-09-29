@@ -35,7 +35,8 @@ For more information visit the [FIRST® LEGO League Explore website](https://www
       showDays: true,
       showHours: true,
       showMinutes: true,
-      showSeconds: true
+      showSeconds: true,
+      completeMessage: 'The event is underway!'
     });
   });
 </script>
