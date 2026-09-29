@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About the Team
-permalink: /about-the-team/
+permalink: /about/
+redirect_from: /about-the-team/
 ---
 
 # About the Team

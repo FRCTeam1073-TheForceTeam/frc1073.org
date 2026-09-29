@@ -1,7 +1,8 @@
 ---
 layout: page
 title: External Resources
-permalink: /github/
+permalink: /resources/external/
+redirect_from: /github/
 ---
 
 ## Blue Alliance
