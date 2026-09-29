@@ -70,7 +70,7 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 - **All Hands Meeting** — Wednesday, September 30, 2026 at 6:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
 <!-- end auto-generated events -->
 
-For a full list and last-minute changes [see the full calendar]({{ site.baseurl }}/our-calendar/).
+For a full list and last-minute changes [see the full calendar]({{ site.baseurl }}/calendar/).
 
 ## Kickoff Preparations
 

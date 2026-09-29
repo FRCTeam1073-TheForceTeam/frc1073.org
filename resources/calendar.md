@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Team 1073 Calendar
-permalink: /our-calendar/
+permalink: /calendar/
+redirect_from: /our-calendar/
 ---
 
 # Calendar
