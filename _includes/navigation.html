@@ -29,8 +29,48 @@
 </nav>
 
 <script>
+  // Detect if device supports touch
+  const isTouchDevice = () => {
+    return (('ontouchstart' in window) ||
+            (navigator.maxTouchPoints > 0) ||
+            (navigator.msMaxTouchPoints > 0) ||
+            window.matchMedia('(hover: none)').matches);
+  };
+
+  // Toggle main mobile menu
   document.querySelector('.navbar-toggle').addEventListener('click', function() {
     this.classList.toggle('active');
     document.querySelector('.navbar-menu').classList.toggle('active');
+  });
+
+  // Handle dropdown items on touch devices
+  const dropdownItems = document.querySelectorAll('.navbar-item.has-dropdown');
+  const isTouch = isTouchDevice();
+
+  dropdownItems.forEach(item => {
+    const link = item.querySelector('.navbar-link');
+    if (link) {
+      link.addEventListener('click', function(e) {
+        // On touch devices, prevent navigation on first click and toggle submenu
+        if (isTouch) {
+          if (!item.classList.contains('submenu-open')) {
+            e.preventDefault();
+            item.classList.add('submenu-open');
+          } else {
+            // Second click navigates normally
+            item.classList.remove('submenu-open');
+          }
+        }
+      });
+    }
+  });
+
+  // Close submenu when clicking outside
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.navbar-item.has-dropdown')) {
+      dropdownItems.forEach(item => {
+        item.classList.remove('submenu-open');
+      });
+    }
   });
 </script>
