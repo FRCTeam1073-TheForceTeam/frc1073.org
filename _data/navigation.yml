@@ -55,6 +55,7 @@
   url: "https://hbrb1073.wixsite.com/frc1073/shop"
 
 - title: Resources
+  url: "/resources/"
   children:
     - title: Our Events
       url: "/our-events/"
