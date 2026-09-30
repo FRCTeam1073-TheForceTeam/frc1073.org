@@ -160,3 +160,31 @@ To see if your changes were successfully deployed go to the [Actions tab](https:
 ## Automated Edits
 
 The [`scripts/parse-calendar.js`](scripts/parse-calendar.js) script automatically updates the upcoming events section on the home page with the latest calendar entries. This script runs on a schedule via GitHub Actions to keep the homepage calendar fresh without manual updates. If the calendar receives last-minute updates, you can manually trigger the update by running the [update-calendar workflow](https://github.com/FRCTeam1073-TheForceTeam/frc1073.org/actions/workflows/update-calendar.yml) in the Actions tab.
+
+## Infrastructure and Hosting
+
+```mermaid
+graph TD
+    A["Squarespace<br/>Domain Registrar<br/>frc1073.org<br/>Admins: Ken, Paul, Stephen"]
+    B["Route 53<br/>DNS Host<br/>AWS<br/>Admins: Stephen"]
+    C["Google Workspace<br/>Email Hosting<br/>Admins: Elizabeth"]
+    D["GitHub Pages<br/>Web Hosting<br/>Admins: Ken, Paul, Stephen, Nate"]
+    E["Wix<br/>Web Shop<br/>Admins: Paul, Stephen, Elizabeth"]
+    F["FormSpree.io<br/>Contact Form<br/>Admins: Stephen"]
+    G["Google Calendar<br/>Calendar<br/>Admins: Elizabeth"]
+    H["YouTube<br/>Video Hosting<br/>Admins:  ?"]
+    I["Instagram<br/>Social Media<br/>Admins:  ?"]
+    J["Facebook<br/>Social Media<br/>Admins:  ?"]
+    K["X/Twitter<br/>Social Media<br/>Admins:  ?"]
+
+    A -->|NS Records| B
+    B -->|MX Records| C
+    B -->|A/AAAA/CNAME Records| D
+    D -->|Link| E
+    D -->|Link| F
+    D -->|Embed| G
+    D -->|Embed| H
+    D -->|Link| I
+    D -->|Link| J
+    D -->|Link| K
+```
