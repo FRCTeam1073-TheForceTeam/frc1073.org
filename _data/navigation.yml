@@ -71,6 +71,7 @@
       url: "/resources/external/"
 
 - title: Support
+  url: "/support/"
   children:
     - title: Donate
       url: "https://hbrb1073.wixsite.com/frc1073/how-to-help"
