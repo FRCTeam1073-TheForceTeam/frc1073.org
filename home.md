@@ -66,8 +66,9 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 
 ### This Week's Meetings
 
-- **Pre-Leads Meeting** — Wednesday, September 30, 2026 at 6:00 PM
-- **All Hands Meeting** — Wednesday, September 30, 2026 at 6:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
+- **Pre-Leads Meeting** — Wednesday, October 7, 2026 at 6:00 PM
+- **All Hands Meeting** — Wednesday, October 7, 2026 at 6:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
+- **Mayhem Prep** — Thursday, October 8, 2026 – Friday, October 9, 2026
 <!-- end auto-generated events -->
 
 For a full list and last-minute changes [see the full calendar]({{ site.baseurl }}/calendar/).

@@ -362,8 +362,10 @@ function outputJSON(administrative, meetings, competitions, otherEvents) {
 
 function parseArgs() {
   const args = process.argv.slice(2);
-  let format = 'json'; // default
-  let meetingsDays = 7;
+  let format = 'json';
+  // Default meeting days: a week from Sunday US Eastern time
+  const daysUntilSunday = (7 - new Date(new Date().getTime() - 4 * 60 * 60 * 1000).getDay()) % 7;
+  let meetingsDays = daysUntilSunday < 7 ? daysUntilSunday + 7 : daysUntilSunday;
   let competitionsLimit = 3;
   let eventsLimit = 3;
   let administrativeDays = 0;
