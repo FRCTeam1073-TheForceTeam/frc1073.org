@@ -6,6 +6,33 @@ const http = require('http');
 // Configuration
 const CALENDAR_URL = process.env.CALENDAR_URL || 'https://calendar.google.com/calendar/ical/7v5hqq6ro7gdt7b8rrkibrfvks%40group.calendar.google.com/public/basic.ics';
 
+// Get the current US Eastern timezone offset in hours
+function getUSEasternOffsetHours(date = new Date()) {
+  const formatter = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/New_York',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  });
+
+  const parts = formatter.formatToParts(date);
+  const easternHours = parseInt(parts.find(p => p.type === 'hour').value);
+  const easternMinutes = parseInt(parts.find(p => p.type === 'minute').value);
+
+  const utcHours = date.getUTCHours();
+  const utcMinutes = date.getUTCMinutes();
+
+  let offset = easternHours - utcHours;
+  if (easternMinutes !== utcMinutes) {
+    offset += (easternMinutes - utcMinutes) / 60;
+  }
+
+  if (offset > 12) offset -= 24;
+  if (offset < -12) offset += 24;
+
+  return offset;
+}
+
 // Parse RRULE to expand recurring events
 function expandRecurrence(event, rruleStr, lookupDays = 7, now = new Date()) {
   if (!rruleStr || !event.startDate) return [event];
@@ -100,6 +127,10 @@ function parseICS(icsContent, now = new Date()) {
         endDate: null,
         allDay: false,
         location: '',
+        rawStartStr: '',
+        rawEndStr: '',
+        startOffsetEastern: null,
+        endOffsetEastern: null,
       };
       currentRRule = null;
     } else if (line === 'END:VEVENT' && currentEvent) {
@@ -117,12 +148,18 @@ function parseICS(icsContent, now = new Date()) {
         currentEvent.location = unescapeICS(line.substring(9));
       } else if (line.startsWith('DTSTART')) {
         const dateStr = line.substring(line.lastIndexOf(':') + 1);
-        currentEvent.startDate = parseDate(dateStr);
+        currentEvent.rawStartStr = dateStr;
+        const parsedStart = parseDate(dateStr);
+        currentEvent.startDate = parsedStart.date;
+        currentEvent.startOffsetEastern = parsedStart.offset;
         // All-day events don't have a time component (T separator)
         currentEvent.allDay = line.includes('VALUE=DATE') || dateStr.length === 8;
       } else if (line.startsWith('DTEND')) {
         const dateStr = line.substring(line.lastIndexOf(':') + 1);
-        currentEvent.endDate = parseDate(dateStr);
+        currentEvent.rawEndStr = dateStr;
+        const parsedEnd = parseDate(dateStr);
+        currentEvent.endDate = parsedEnd.date;
+        currentEvent.endOffsetEastern = parsedEnd.offset;
       } else if (line.startsWith('RRULE:')) {
         currentRRule = line.substring(6);
       }
@@ -133,16 +170,16 @@ function parseICS(icsContent, now = new Date()) {
 }
 
 function parseDate(dateStr) {
-  if (!dateStr || dateStr.length === 0) return null;
+  if (!dateStr || dateStr.length === 0) return { date: null, offset: null };
 
   if (dateStr.length === 8) {
-    // Format: YYYYMMDD
+    // Format: YYYYMMDD (all-day event, no timezone)
     const year = parseInt(dateStr.substring(0, 4));
     const month = parseInt(dateStr.substring(4, 6)) - 1;
     const day = parseInt(dateStr.substring(6, 8));
-    return new Date(year, month, day);
+    return { date: new Date(year, month, day), offset: null };
   } else {
-    // Format: YYYYMMDDTHHmmssZ
+    // Format: YYYYMMDDTHHmmssZ (GMT) or YYYYMMDDTHHmmss (local)
     const dateOnly = dateStr.substring(0, 8);
     const year = parseInt(dateOnly.substring(0, 4));
     const month = parseInt(dateOnly.substring(4, 6)) - 1;
@@ -153,10 +190,22 @@ function parseDate(dateStr) {
       const hours = parseInt(timeOnly.substring(0, 2));
       const minutes = parseInt(timeOnly.substring(2, 4));
       const seconds = parseInt(timeOnly.substring(4, 6));
-      return new Date(year, month, day, hours, minutes, seconds);
+
+      // Check if this is GMT/UTC time (indicated by Z suffix)
+      const isGMT = dateStr.endsWith('Z');
+
+      if (isGMT) {
+        // Parse as UTC time - keep the Date as UTC, don't adjust it
+        const gmtDate = new Date(Date.UTC(year, month, day, hours, minutes, seconds));
+        const offset = getUSEasternOffsetHours(gmtDate);
+        return { date: gmtDate, offset };
+      } else {
+        // No timezone info, assume local/unspecified
+        return { date: new Date(year, month, day, hours, minutes, seconds), offset: null };
+      }
     }
 
-    return new Date(year, month, day);
+    return { date: new Date(year, month, day), offset: null };
   }
 }
 
@@ -216,8 +265,26 @@ function filterUpcomingEvents(events, days = 7, now = new Date()) {
 }
 
 function formatEvent(event) {
-  const start = event.startDate ? event.startDate.toLocaleString() : 'N/A';
-  const end = event.endDate ? event.endDate.toLocaleString() : 'N/A';
+  let start = 'N/A';
+  let end = 'N/A';
+
+  if (event.startDate) {
+    // If this event had a GMT offset applied, format with America/New_York timezone
+    if (event.startOffsetEastern !== null) {
+      start = event.startDate.toLocaleString('en-US', { timeZone: 'America/New_York' });
+    } else {
+      start = event.startDate.toLocaleString();
+    }
+  }
+
+  if (event.endDate) {
+    // If this event had a GMT offset applied, format with America/New_York timezone
+    if (event.endOffsetEastern !== null) {
+      end = event.endDate.toLocaleString('en-US', { timeZone: 'America/New_York' });
+    } else {
+      end = event.endDate.toLocaleString();
+    }
+  }
 
   return {
     title: event.summary,
@@ -225,6 +292,10 @@ function formatEvent(event) {
     end,
     location: event.location || 'No location',
     description: event.description || '',
+    rawStart: event.rawStartStr,
+    rawEnd: event.rawEndStr,
+    startOffsetEastern: event.startOffsetEastern,
+    endOffsetEastern: event.endOffsetEastern,
   };
 }
 
@@ -272,13 +343,19 @@ function outputText(administrative, meetings, competitions, otherEvents) {
 
 function formatEventDate(event) {
   const startDate = new Date(event.start);
-  const endDate = new Date(event.end);
+  let endDate = new Date(event.end);
 
   const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-  const startDateStr = startDate.toLocaleDateString('en-US', dateOptions);
-  const endDateStr = endDate.toLocaleDateString('en-US', dateOptions);
+  let startDateStr = startDate.toLocaleDateString('en-US', dateOptions);
+  let endDateStr = endDate.toLocaleDateString('en-US', dateOptions);
 
-  // Check if exactly 24 hours (one-day event spanning midnight)
+  // If end time is at midnight on a different day, adjust to treat as same-day event
+  if (endDate.getHours() === 0 && endDate.getMinutes() === 0 && endDateStr !== startDateStr) {
+    endDate.setDate(endDate.getDate() - 1);
+    endDateStr = endDate.toLocaleDateString('en-US', dateOptions);
+  }
+
+  // Check if exactly 24 hours (one-day all-day event)
   const durationMs = endDate.getTime() - startDate.getTime();
   const is24Hours = durationMs === 24 * 60 * 60 * 1000;
 
@@ -294,9 +371,13 @@ function formatEventDate(event) {
       // All-day event, just show date
       return startDateStr;
     }
-    // Timed event on one day
-    const timeOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: '2-digit' };
-    return startDate.toLocaleString('en-US', timeOptions);
+    // Timed event on one day - show date and time range
+    const dateWithTimeOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    const timeOptions = { hour: 'numeric', minute: '2-digit' };
+    const dateStr = startDate.toLocaleDateString('en-US', dateWithTimeOptions);
+    const startTimeStr = startDate.toLocaleString('en-US', timeOptions);
+    const endTimeStr = endDate.toLocaleString('en-US', timeOptions);
+    return `${dateStr}; ${startTimeStr} to ${endTimeStr}`;
   }
 
   // Multi-day event
@@ -364,7 +445,8 @@ function parseArgs() {
   const args = process.argv.slice(2);
   let format = 'json';
   // Default meeting days: a week from Sunday US Eastern time
-  const daysUntilSunday = (7 - new Date(new Date().getTime() - 4 * 60 * 60 * 1000).getDay()) % 7;
+  const offset = getUSEasternOffsetHours();
+  const daysUntilSunday = (7 - new Date(new Date().getTime() + offset * 60 * 60 * 1000).getDay()) % 7;
   let meetingsDays = daysUntilSunday < 7 ? daysUntilSunday + 7 : daysUntilSunday;
   let competitionsLimit = 3;
   let eventsLimit = 3;

@@ -60,15 +60,15 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 
 ### Next 3 Events
 
-- **NE RoboCon** — Saturday, November 14, 2026 at 11:30 AM — *1 Memorial Dr, Cambridge, MA 02142, USA*
+- **NE RoboCon** — Saturday, November 14, 2026; 6:30 AM to 7:30 AM — *1 Memorial Dr, Cambridge, MA 02142, USA*
 - **FLL Finale Event** — Saturday, December 12, 2026
 - **FRC Kickoff!** — Saturday, January 9, 2027
 
 ### This Week's Meetings
 
-- **Pre-Leads Meeting** — Wednesday, October 7, 2026 at 6:00 PM
-- **All Hands Meeting** — Wednesday, October 7, 2026 at 6:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
-- **Mayhem Prep** — Thursday, October 8, 2026 – Friday, October 9, 2026
+- **Pre-Leads Meeting** — Wednesday, October 7, 2026; 6:00 PM to 6:30 PM
+- **All Hands Meeting** — Wednesday, October 7, 2026; 6:00 PM to 9:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
+- **Mayhem Prep** — Thursday, October 8, 2026; 6:00 PM to 9:00 PM
 <!-- end auto-generated events -->
 
 For a full list and last-minute changes [see the full calendar]({{ site.baseurl }}/calendar/).
