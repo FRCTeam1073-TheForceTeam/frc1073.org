@@ -79,4 +79,4 @@ For a full list and last-minute changes [see the full calendar](/calendar/).
 
 Our published information from last year involving electrical, mechanical, and software aspects of the robot.
 
-[Engineering Development Binder 2025.pdf](/assets/docs/Engineering%20Development%20Binder%202025.pdf)
+[Engineering Development Binder 2025.pdf](/docs/Engineering%20Development%20Binder%202025.pdf)

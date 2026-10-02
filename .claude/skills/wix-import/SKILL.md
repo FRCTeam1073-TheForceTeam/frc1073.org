@@ -12,7 +12,7 @@ Migrate content from Wix to Jekyll by converting pages to markdown, downloading 
 
 - **Base Wix URL**: `https://hbrb1073.wixsite.com/frc1073/`
 - **Input**: Wix page URL(s) or page description (relative path or full description)
-- **Output**: Jekyll markdown file + images in `/assets/` + updated `_data/navigation.yml`
+- **Output**: Jekyll markdown file + images in `/images/` + updated `_data/navigation.yml`
 - **Constraints**: No summarizing or paraphrasing; content must match Wix exactly
 
 ## Single Page Workflow
@@ -68,7 +68,7 @@ grep -o 'src="https://[^"]*\.png\|jpg\|gif"' .tmp/wix-page/page.html | sort -u
 
 **For videos**: Add `<iframe>` embeds directly to the markdown (YouTube, Vimeo, etc.)
 
-**For background images**: Download them and reference with `![alt](/assets/images/filename.jpg)`
+**For background images**: Download them and reference with `![alt](/images/filename.jpg)`
 
 **Why this matters**: Interactive elements and background media are integral to the page and must be preserved exactly.
 
@@ -94,7 +94,7 @@ Transform content into clean Jekyll markdown:
 - `##` for section headings
 - `-` for bullet points
 - `[text](url)` for links
-- `![alt](/assets/images/filename.jpg)` for images
+- `![alt](/images/filename.jpg)` for images
 
 ### 5. Match Wix URL Structure
 
@@ -159,7 +159,7 @@ Place in appropriate location under `/pages/` or root, using naming convention m
 ### 8. Download Images
 
 If page has images (excluding header/logo):
-- Download to `/assets/images/` with descriptive names (e.g., `page-title-image.png`)
+- Download to `/images/` with descriptive names (e.g., `page-title-image.png`)
 
 **IMPORTANT: Downloading from Wix URLs correctly:**
 - Wix URLs in `images.json` include transformation parameters (`/v1/fill/`, `/v1/crop/`, query strings with `q=`, `enc_avif`, etc.)
@@ -206,7 +206,7 @@ Image 1:
 
 [Section text...]
 
-![Image description](/assets/images/image-name.png)
+![Image description](/images/image-name.png)
 
 ## Next Section
 
@@ -251,7 +251,7 @@ Then confirm extracted content matches Wix page exactly (not summarized or parap
 
 ```bash
 # Check EVERY image downloaded for this page
-cd /assets/images/
+cd /images/
 for img in page-name-*.{jpg,png,gif}; do
   echo -n "$img: "
   if identify "$img" 2>&1 | grep -q "error\|cannot"; then
@@ -342,8 +342,8 @@ Shop pages **cannot be hosted on GitHub Pages** and must remain on Wix:
 
 **Output locations:**
 - Markdown files: `/pages/` or root (following site structure)
-- Images: `/assets/images/` (with descriptive names)
-- Documents: `/assets/docs/` or similar
+- Images: `/images/` (with descriptive names)
+- Documents: `/docs/` or similar
 - Navigation: `_data/navigation.yml`
 
 ## Domain Handling

@@ -12,7 +12,7 @@ async function downloadImage(url, filename) {
         return;
       }
 
-      const filepath = path.join(__dirname, '..', 'assets', 'images', filename);
+      const filepath = path.join(__dirname, '..', 'images', filename);
       const writeStream = fs.createWriteStream(filepath);
       response.pipe(writeStream);
 
@@ -31,10 +31,10 @@ async function main() {
   const imagesFile = path.join(__dirname, '..', '.tmp', 'wix-page', 'images.json');
   const images = JSON.parse(fs.readFileSync(imagesFile, 'utf-8'));
 
-  // Create assets/images directory if it doesn't exist
-  const assetsDir = path.join(__dirname, '..', 'assets', 'images');
-  if (!fs.existsSync(assetsDir)) {
-    fs.mkdirSync(assetsDir, { recursive: true });
+  // Create images directory if it doesn't exist
+  const imgDir = path.join(__dirname, '..', 'images');
+  if (!fs.existsSync(imgDir)) {
+    fs.mkdirSync(imgDir, { recursive: true });
   }
 
   // Map of image index to descriptive filename

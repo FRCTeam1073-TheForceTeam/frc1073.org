@@ -31,9 +31,9 @@ Edit the following items to affect the look and feel of the entire site:
 
 - [`_config.yml`](_config.yml): Site name and URL
 - [`_includes/header.html`](_includes/header.html): The layout of the page header
-- [`assets/images/logo.png`](assets/images/logo.png): The claw logo
+- [`images/logo.png`](images/logo.png): The claw logo
 - [`_data/navigation.yml`](_data/navigation.yml): The contents of the navigation menu
-- [`assets/css/`](assets/css/): Custom stylesheets for colors, fonts, and layout
+- [`css/`](css/): Custom stylesheets for colors, fonts, and layout
 
 ## Quick Edits in GitHub's Web Interface
 
