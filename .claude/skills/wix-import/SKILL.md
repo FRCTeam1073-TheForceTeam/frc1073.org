@@ -68,7 +68,7 @@ grep -o 'src="https://[^"]*\.png\|jpg\|gif"' .tmp/wix-page/page.html | sort -u
 
 **For videos**: Add `<iframe>` embeds directly to the markdown (YouTube, Vimeo, etc.)
 
-**For background images**: Download them and reference with `![alt]({{ site.baseurl }}/assets/images/filename.jpg)`
+**For background images**: Download them and reference with `![alt](/assets/images/filename.jpg)`
 
 **Why this matters**: Interactive elements and background media are integral to the page and must be preserved exactly.
 
@@ -94,7 +94,7 @@ Transform content into clean Jekyll markdown:
 - `##` for section headings
 - `-` for bullet points
 - `[text](url)` for links
-- `![alt]({{ site.baseurl }}/assets/images/filename.jpg)` for images — **IMPORTANT: Always use `{{ site.baseurl }}` prefix in markdown content** so images load correctly when site has a baseurl configured
+- `![alt](/assets/images/filename.jpg)` for images
 
 ### 5. Match Wix URL Structure
 
@@ -103,8 +103,6 @@ Extract the page path from the Wix URL and use it for the Jekyll permalink:
 - Wix: `https://hbrb1073.wixsite.com/frc1073/about-the-team` → Jekyll permalink: `/about-the-team/`
 - If page exists with different permalink, update it
 - **ALWAYS update `_data/navigation.yml`** to reference the correct path when URL structure changes
-  - **Important**: Navigation URLs in `_data/navigation.yml` should be PLAIN PATHS (e.g., `/what-is-first/`) WITHOUT `{{ site.baseurl }}`
-  - The template's `| prepend: site.baseurl` filter handles adding the baseurl automatically
   - Example: Page URL changes from `/about/what-is-first/` to `/what-is-first/` → update navigation url to `/what-is-first/`
 
 **IMPORTANT: Wix uses flat URL structure** – all pages are at the root level like `/page-name/`, NOT nested like `/parent/child/`.
@@ -162,7 +160,6 @@ Place in appropriate location under `/pages/` or root, using naming convention m
 
 If page has images (excluding header/logo):
 - Download to `/assets/images/` with descriptive names (e.g., `page-title-image.png`)
-- **Reference images using `{{ site.baseurl }}/assets/images/filename.jpg`** in markdown to ensure they load correctly when site has a baseurl configured (e.g., `baseurl: "/frc1073.org"`)
 
 **IMPORTANT: Downloading from Wix URLs correctly:**
 - Wix URLs in `images.json` include transformation parameters (`/v1/fill/`, `/v1/crop/`, query strings with `q=`, `enc_avif`, etc.)
@@ -209,7 +206,7 @@ Image 1:
 
 [Section text...]
 
-![Image description]({{ site.baseurl }}/assets/images/image-name.png)
+![Image description](/assets/images/image-name.png)
 
 ## Next Section
 

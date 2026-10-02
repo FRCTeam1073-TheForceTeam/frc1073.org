@@ -39,4 +39,4 @@ Thank you to our sponsors!
 
 ## Sponsor Tiers
 
-![Sponsor Tiers Diagram]({{ site.baseurl }}/support/sponsors/sponsors-tiers.png)
+![Sponsor Tiers Diagram](/support/sponsors/sponsors-tiers.png)

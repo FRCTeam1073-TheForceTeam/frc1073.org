@@ -4,14 +4,14 @@ title: Resources
 permalink: /resources/
 ---
 
-## [Our Events]({{ site.baseurl }}/our-events)
+## [Our Events](/our-events)
 
-## [Scouting App]({{ site.baseurl }}/scouting-app)
+## [Scouting App](/scouting-app)
 
-## [STEM and The Force Team]({{ site.baseurl }}/resources/stem-initiatives)
+## [STEM and The Force Team](/resources/stem-initiatives)
 
-## [FIRST LEGO League Explore Expo]({{ site.baseurl }}/first-lego-league-jr-expo)
+## [FIRST LEGO League Explore Expo](/first-lego-league-jr-expo)
 
-## [Our Calendar]({{ site.baseurl }}/calendar)
+## [Our Calendar](/calendar)
 
-## [External Resources]({{ site.baseurl }}/resources/external)
+## [External Resources](/resources/external)

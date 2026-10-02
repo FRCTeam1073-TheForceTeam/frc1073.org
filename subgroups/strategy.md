@@ -11,7 +11,7 @@ redirect_from: /subgroupstrategy/
 
 Strategy is a non-technical subgroup that evaluates the FIRST® Robotics Competition (FRC) games, data, and runs Verification Tests on The Force Team's products. During the Off-Season, Strategy focuses on training its members on Game Analysis, Scouting, and Verification Testing. They also manage the Off-Season Drive Team at non-competitive competitions. During Build Season, Strategy focuses on learning about the new game, devising a strategy for the team to follow, creating and training the Official Drive Team, developing a Scouting System, and testing each requirement that is set by the Systems Team.
 
-![Strategy team photo]({{ site.baseurl }}/subgroups/strategy/subgroupstrategy-team.png)
+![Strategy team photo](/subgroups/strategy/subgroupstrategy-team.png)
 
 ## Game Analysis
 

@@ -12,6 +12,6 @@ Thousands of volunteers and over 3000 teams worldwide participate in FRC.
 
 Students who participate in FIRST® are significantly more likely to major in engineering, science, and technology. They are also more likely to earn a post-graduate degree and to volunteer in their communities. There is even a FIRST® scholarship program.
 
-![FIRST Program]({{ site.baseurl }}/about/what-is-first/what-is-first-hero.png)
+![FIRST Program](/about/what-is-first/what-is-first-hero.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UCc9NPefTgs?wmode=transparent&autoplay=1&mute=1&theme=dark&controls=1&autohide=1&loop=1&showinfo=0&rel=0&enablejsapi=0&playlist=UCc9NPefTgs" frameborder="0" allowfullscreen></iframe>

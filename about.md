@@ -29,9 +29,9 @@ In 2021 the program was restarted at a limited capacity and we completed at-home
 
 The team is structured like a business. The team, run by two student co-CEOs, is broken down into four subgroups: Electromechanical, Software, Business and Strategy. Each subgroup is led by a student, who is referred to as a VP or Lead. This structure is a vital part of the team's dynamics, and greatly improves productivity through following chains of communication and order while still delegating tasks and specializing in skill sets. The team also encourages its members to attend meetings and projects of other groups to widen their skillsets and perspectives.
 
-![Team photo 1]({{ site.baseurl }}/about/about-team-photo-1.jpg)
+![Team photo 1](/about/about-team-photo-1.jpg)
 
-![Team photo 2]({{ site.baseurl }}/about/about-team-photo-2.jpg)
+![Team photo 2](/about/about-team-photo-2.jpg)
 
 > "Team 1073 has been the most fun learning experience for my high school career."
 

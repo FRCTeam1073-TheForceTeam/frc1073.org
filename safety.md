@@ -10,7 +10,7 @@ We are proud to host and support a healthy and safe learning and working environ
 
 The Dupont Bradley Curve shows the progression from totally watching and enforcing safety to members enforcing it on their owns as a culture. We use this as our goal for each new year and to sustain the model from year to year.
 
-![Bradley Curve]({{ site.baseurl }}/safety/safety-bradley-curve.png)
+![Bradley Curve](/safety/safety-bradley-curve.png)
 
 ## First Aid, CPR, and AED Training
 
@@ -26,9 +26,9 @@ As part of our weekly meeting, the safety subgroup quizzes the team about precau
 
 ### Quiz Questions
 
-![Quiz Question 1]({{ site.baseurl }}/safety/safety-quiz-question-1.png)
+![Quiz Question 1](/safety/safety-quiz-question-1.png)
 
-![Quiz Question 2]({{ site.baseurl }}/safety/safety-quiz-question-2.png)
+![Quiz Question 2](/safety/safety-quiz-question-2.png)
 
 ## Competitions
 
@@ -36,4 +36,4 @@ During competitions, panic and stress can set in. It is the job of our General M
 
 ### Emergency Plans Through SportsYou
 
-![Emergency Meeting Spot Example]({{ site.baseurl }}/safety/safety-emergency-meeting-spot.png)
+![Emergency Meeting Spot Example](/safety/safety-emergency-meeting-spot.png)

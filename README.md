@@ -137,7 +137,6 @@ This site is automatically deployed to GitHub Pages when changes are pushed to t
 When you push changes, an automated pipeline runs that lints the site for errors and the publishes it to GitHub pages. If the lint validation fails, the site is blocked from publishing. Common reasons that validation might fail:
 
 - Broken internal links (links to pages that don't exist)
-- Missing `{{ site.baseurl }}` in internal links
 - Insecure `http://` links (should use `https://`)
 - Links pointing to old domains
 - Duplicate page URLs or redirects

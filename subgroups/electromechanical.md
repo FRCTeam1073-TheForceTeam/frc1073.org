@@ -11,7 +11,7 @@ redirect_from: /subgroupelectromechanical/
 
 The Electromechanical subgroup deals with all physical aspects of the robot. Formed at the conclusion of the Official Competition 2018-2019 Season, Electromechanical is the product of merging the former Electrical and Mechanical subgroups. Handling both the electrical and mechanical elements of robotics, Electromechanical is responsible for the design, construction, wiring, documentation, maintenance, and repairs of the robot. In order for the robot to perform to the best of its abilities, we work closely with the Software subgroup and Systems Task Group to excel in all technical fields of the robot. Aside from robot fabrication, output also includes Off-Season and community projects, such as light displays, robot demonstrations, 3D printing various models, and constructing parts for our local sponsors.
 
-![Electromechanical Team Photo]({{ site.baseurl }}/subgroups/electromechanical/subgroup-electromechanical-team.png)
+![Electromechanical Team Photo](/subgroups/electromechanical/subgroup-electromechanical-team.png)
 
 ## Design
 

@@ -6,7 +6,7 @@ permalink: /subgroups/
 
 The team is divided into subgroups that focus on a particular portion of the team's work. Students typically join one particular subgroup, but it is common for students to switch subgroups, especially from year to year.  Each subgroup has a student vice president.  The team has two student CEOs.
 
-## [Electromechanical]({{ site.baseurl }}/subgroups/electromechanical/)
+## [Electromechanical](/subgroups/electromechanical/)
 
 The EM subgroup is responsible for:
 
@@ -16,7 +16,7 @@ The EM subgroup is responsible for:
 - Wiring the robot
 - Repairing the robot
 
-## [Software]({{ site.baseurl }}/subgroups/software/)
+## [Software](/subgroups/software/)
 
 The Software subgroup is responsible for:
 
@@ -26,7 +26,7 @@ The Software subgroup is responsible for:
 - Autonomous routines — what the robot does in the portion of the match with no driver
 - Tuning — Getting the robot to shoot the right distance or stop in the right place
 
-## [Business]({{ site.baseurl }}/subgroups/business/)
+## [Business](/subgroups/business/)
 
 The business subgroup is responsible for:
 
@@ -36,7 +36,7 @@ The business subgroup is responsible for:
 - Community outreach
 - Finances
 
-## [Strategy]({{ site.baseurl }}/subgroups/strategy/)
+## [Strategy](/subgroups/strategy/)
 
 The strategy subgroup is responsible for:
 

@@ -6,7 +6,7 @@ permalink: /
 
 The Force Team, also known as Team 1073, is a high school FIRST® Robotics Competition team from Hollis, NH. Our base of operations is at Hollis-Brookline High School, where we assemble students from the towns of Hollis and Brookline.
 
-![FRC Team 1073 Banner]({{ site.baseurl }}/home/hero-banner.jpg)
+![FRC Team 1073 Banner](/home/hero-banner.jpg)
 
 The purpose of the FIRST® Robotics Competition Team at Hollis-Brookline High School is to inspire and prepare our students to become the leaders, innovators and technologically-literate citizens of tomorrow. We follow FIRST®'s vision of inspiring young people to pursue opportunities in science, technology, engineering and math by providing an accessible, innovative program that builds self-confidence, knowledge, professionalism and life skills.
 
@@ -22,7 +22,7 @@ On September 26, 2026 the force team took home the top prize at the [Governor's 
 
 The team had good results in the qualification matches, finishing with a record of 3-1. The [last of the four qualification matches the team played was a nail biter lost by only two points](https://www.youtube.com/live/N_ef0BToOgc?si=VyDVDU2QOyXAuA70&t=13004). Still, the team ranked second going into playoffs in a position to be the Alliance 2 captain.  [Scouting data](https://public.viperscout.com/stats.html#event=2026nhhol) showed The Force Team with the highest average number of points scored in qualification matches:
 
-![]({{ site.baseurl }}/home/2026-gc-scouting.png)
+![bar and whisker chart of scouting data from governors cup](/home/2026-gc-scouting.png)
 
 The other teams to watch were:
 
@@ -36,9 +36,9 @@ The finals are a "best of three" showdown where the results of previous matches 
 
 For [the last final](https://www.thebluealliance.com/match/2026nhgc_f1m3), The Force Team knew they were out-gunned if alliance 1 were allowed to score undefended.  It was time to break out the secret weapon: a dumper blocker developed during the offseason that could be deployed when playing defense to block opponents' shots. This strategy pivot was successful and Alliance 2 won the final match with a score of 279 to 251!
 
-![]({{ site.baseurl }}/home/2026-gc-cup-drawing.jpg)
+![drawing of crashout robot emerging as a new competitor](/home/2026-gc-cup-drawing.jpg)
 
-See more updates: [Follow the fun on social media!]({{ site.baseurl }}/media)
+See more updates: [Follow the fun on social media!](/media)
 
 ## Upcoming Activities
 
@@ -71,7 +71,7 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 - **Mayhem Prep** — Thursday, October 8, 2026; 6:00 PM to 9:00 PM
 <!-- end auto-generated events -->
 
-For a full list and last-minute changes [see the full calendar]({{ site.baseurl }}/calendar/).
+For a full list and last-minute changes [see the full calendar](/calendar/).
 
 ## Kickoff Preparations
 
@@ -79,4 +79,4 @@ For a full list and last-minute changes [see the full calendar]({{ site.baseurl 
 
 Our published information from last year involving electrical, mechanical, and software aspects of the robot.
 
-[Engineering Development Binder 2025.pdf]({{ site.baseurl }}/assets/docs/Engineering%20Development%20Binder%202025.pdf)
+[Engineering Development Binder 2025.pdf](/assets/docs/Engineering%20Development%20Binder%202025.pdf)

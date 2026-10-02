@@ -281,11 +281,11 @@ function checkLink(url, file, context) {
 
   // External URLs: handle special cases
   if (url.startsWith('http://') || url.startsWith('https://') || url.startsWith('//')) {
-    // Special case: frc1073.org links should be relative links using {{ site.baseurl }}
+    // Special case: frc1073.org links should be relative links
     if (url.includes('frc1073.org')) {
       return {
         valid: false,
-        reason: 'links to frc1073.org should be relative links using {{ site.baseurl }}',
+        reason: 'links to frc1073.org should be relative links',
         rawUrl: url
       };
     }
@@ -316,48 +316,14 @@ function checkLink(url, file, context) {
     }
   }
 
-  // For markdown content: must start with {{ site.baseurl }}
-  if (context === 'markdown') {
-    if (!url.startsWith('{{ site.baseurl }}')) {
-      if (url.startsWith('{{') || url.startsWith('{%')) {
-        return {
-          valid: false,
-          reason: 'uses Liquid filter instead of {{ site.baseurl }}',
-          rawUrl: url
-        };
-      }
-      return {
-        valid: false,
-        reason: 'internal link must use {{ site.baseurl }}',
-        rawUrl: url
-      };
-    }
-
-    // Strip {{ site.baseurl }} prefix
-    const stripped = url.slice('{{ site.baseurl }}'.length);
-    const normalized = normalizeUrl(stripped);
-
-    if (validUrls.has(normalized)) {
-      return { valid: true };
-    }
-
-    if (redirectUrls.has(normalized)) {
-      const redirect = redirectUrls.get(normalized);
-      return {
-        valid: false,
-        reason: `points to a redirect, canonical URL is ${redirect.canonicalUrl}`,
-        rawUrl: url
-      };
-    }
-
+  if (url.startsWith('{{') || url.startsWith('{%')) {
     return {
       valid: false,
-      reason: 'not found',
+      reason: 'Use relative links without Liquid syntax',
       rawUrl: url
     };
   }
 
-  // For navigation.yml: bare paths are expected, no baseurl required
   const normalized = normalizeUrl(url);
 
   if (validUrls.has(normalized)) {
