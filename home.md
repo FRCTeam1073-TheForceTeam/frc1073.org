@@ -64,7 +64,7 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 - **FLL Finale Event** — Saturday, December 12, 2026
 - **FRC Kickoff!** — Saturday, January 9, 2027
 
-### Upcoming's Meetings
+### Upcoming Meetings
 
 - **Pre-Leads Meeting** — Wednesday, October 7, 2026; 6:00 PM to 6:30 PM
 - **All Hands Meeting** — Wednesday, October 7, 2026; 6:00 PM to 9:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*

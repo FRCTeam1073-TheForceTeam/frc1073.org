@@ -55,21 +55,26 @@ function expandRecurrence(event, rruleStr, lookupDays = 7, now = new Date()) {
     untilDate = new Date(
       parseInt(untilStr.substring(0, 4)),
       parseInt(untilStr.substring(4, 6)) - 1,
-      parseInt(untilStr.substring(6, 8))
+      parseInt(untilStr.substring(6, 8)) + 1  // Add 1 day to include the entire UNTIL date
     );
   }
 
   if (countMatch) {
     maxCount = parseInt(countMatch[1]);
     // If COUNT is set, calculate when the last occurrence should be
-    // For WEEKLY: last = start + (count-1)*7 days
-    if (freq === 'WEEKLY') {
-      const recurrenceEndDate = new Date(event.startDate);
+    let recurrenceEndDate = new Date(event.startDate);
+    if (freq === 'DAILY') {
+      recurrenceEndDate.setDate(recurrenceEndDate.getDate() + (maxCount - 1));
+    } else if (freq === 'WEEKLY') {
       recurrenceEndDate.setDate(recurrenceEndDate.getDate() + (maxCount - 1) * 7);
-      // If the entire recurrence series ended before now, don't expand
-      if (recurrenceEndDate < now) {
-        return [event]; // Will be filtered out by filterUpcomingEvents
-      }
+    } else if (freq === 'MONTHLY') {
+      recurrenceEndDate.setUTCMonth(recurrenceEndDate.getUTCMonth() + (maxCount - 1));
+    } else if (freq === 'YEARLY') {
+      recurrenceEndDate.setUTCFullYear(recurrenceEndDate.getUTCFullYear() + (maxCount - 1));
+    }
+    // If the entire recurrence series ended before now, don't expand
+    if (recurrenceEndDate < now) {
+      return [event]; // Will be filtered out by filterUpcomingEvents
     }
   }
 
@@ -90,6 +95,97 @@ function expandRecurrence(event, rruleStr, lookupDays = 7, now = new Date()) {
     // Generate future occurrences
     while (occurrenceCount < maxCount && currentDate <= untilDate) {
       currentDate.setDate(currentDate.getDate() + 7);
+      occurrenceCount++;
+
+      if (occurrenceCount <= maxCount && currentDate >= now && currentDate <= cutoff && currentDate <= untilDate) {
+        const newEvent = { ...event };
+        const duration = event.endDate ? event.endDate.getTime() - event.startDate.getTime() : 0;
+
+        newEvent.startDate = new Date(currentDate);
+        if (duration) {
+          newEvent.endDate = new Date(currentDate.getTime() + duration);
+        }
+
+        expanded.push(newEvent);
+      }
+    }
+  } else if (freq === 'DAILY') {
+    let currentDate = new Date(event.startDate);
+
+    // Add the first occurrence if it's in range
+    if (event.startDate >= now && event.startDate <= cutoff && event.startDate <= untilDate) {
+      expanded.push(event);
+      occurrenceCount = 1;
+    } else if (event.startDate < now) {
+      occurrenceCount = 1; // Count the original even if it's in the past
+    }
+
+    // Generate future occurrences
+    while (occurrenceCount < maxCount && currentDate <= untilDate) {
+      currentDate.setDate(currentDate.getDate() + 1);
+      occurrenceCount++;
+
+      if (occurrenceCount <= maxCount && currentDate >= now && currentDate <= cutoff && currentDate <= untilDate) {
+        const newEvent = { ...event };
+        const duration = event.endDate ? event.endDate.getTime() - event.startDate.getTime() : 0;
+
+        newEvent.startDate = new Date(currentDate);
+        if (duration) {
+          newEvent.endDate = new Date(currentDate.getTime() + duration);
+        }
+
+        expanded.push(newEvent);
+      }
+    }
+  } else if (freq === 'MONTHLY') {
+    let currentDate = new Date(event.startDate);
+    const startDay = event.startDate.getUTCDate();
+
+    // Add the first occurrence if it's in range
+    if (event.startDate >= now && event.startDate <= cutoff && event.startDate <= untilDate) {
+      expanded.push(event);
+      occurrenceCount = 1;
+    } else if (event.startDate < now) {
+      occurrenceCount = 1; // Count the original even if it's in the past
+    }
+
+    // Generate future occurrences
+    while (occurrenceCount < maxCount && currentDate <= untilDate) {
+      currentDate.setUTCMonth(currentDate.getUTCMonth() + 1);
+      // Handle day-of-month edge case (e.g., Jan 31 -> Feb 28)
+      if (currentDate.getUTCDate() !== startDay) {
+        // We landed on a day that doesn't exist in this month (e.g., Feb 31)
+        // Set to the last day of the previous month
+        currentDate.setUTCDate(0);
+      }
+      occurrenceCount++;
+
+      if (occurrenceCount <= maxCount && currentDate >= now && currentDate <= cutoff && currentDate <= untilDate) {
+        const newEvent = { ...event };
+        const duration = event.endDate ? event.endDate.getTime() - event.startDate.getTime() : 0;
+
+        newEvent.startDate = new Date(currentDate);
+        if (duration) {
+          newEvent.endDate = new Date(currentDate.getTime() + duration);
+        }
+
+        expanded.push(newEvent);
+      }
+    }
+  } else if (freq === 'YEARLY') {
+    let currentDate = new Date(event.startDate);
+
+    // Add the first occurrence if it's in range
+    if (event.startDate >= now && event.startDate <= cutoff && event.startDate <= untilDate) {
+      expanded.push(event);
+      occurrenceCount = 1;
+    } else if (event.startDate < now) {
+      occurrenceCount = 1; // Count the original even if it's in the past
+    }
+
+    // Generate future occurrences
+    while (occurrenceCount < maxCount && currentDate <= untilDate) {
+      currentDate.setUTCFullYear(currentDate.getUTCFullYear() + 1);
       occurrenceCount++;
 
       if (occurrenceCount <= maxCount && currentDate >= now && currentDate <= cutoff && currentDate <= untilDate) {
@@ -456,7 +552,7 @@ function outputText(administrative, meetings, competitions, otherEvents) {
   }
 
   if (meetings.length > 0) {
-    console.log('\n### Upcoming\'s Meetings\n');
+    console.log('\n### Upcoming Meetings\n');
     meetings.forEach((event, i) => {
       console.log(`\n${i + 1}. ${event.title}`);
       console.log(`   Start: ${event.start}`);
@@ -546,7 +642,7 @@ function outputMarkdown(administrative, meetings, competitions, otherEvents) {
 
   if (meetings.length > 0) {
     if (!isFirst) console.log('');
-    console.log('### Upcoming\'s Meetings\n');
+    console.log('### Upcoming Meetings\n');
     renderMarkdownEvents(meetings);
   }
 }

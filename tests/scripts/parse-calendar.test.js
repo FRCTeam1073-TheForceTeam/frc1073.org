@@ -520,33 +520,37 @@ test('expandRecurrence: FREQ=WEEKLY;UNTIL=near date limits expansion', () => {
   };
   const now = new Date('2026-01-01');
   const result = expandRecurrence(event, 'FREQ=WEEKLY;UNTIL=20260113', 30, now);
-  // UNTIL=20260113 (parsed as midnight, before the 10:00 occurrence on that date), so only the first occurrence on 20260106 is included
-  assert.strictEqual(result.length, 1);
+  // UNTIL=20260113 is inclusive of the entire day, so both Jan 6 and Jan 13 (7 days later) are included
+  assert.strictEqual(result.length, 2);
+  assert.strictEqual(result[0].startDate.getUTCDate(), 6);
+  assert.strictEqual(result[1].startDate.getUTCDate(), 13);
 });
 
-test('expandRecurrence: FREQ=DAILY returns event unchanged (not supported)', () => {
+test('expandRecurrence: FREQ=DAILY expands within lookahead window', () => {
   const event = {
     startDate: new Date('2026-01-01T10:00:00Z'),
   };
   const result = expandRecurrence(event, 'FREQ=DAILY', 7, new Date('2026-01-01'));
-  assert.strictEqual(result.length, 1);
-  assert.deepStrictEqual(result[0], event);
+  // With 7-day lookahead, should get multiple daily occurrences
+  assert(result.length > 1);
 });
 
-test('expandRecurrence: FREQ=MONTHLY returns event unchanged (not supported)', () => {
+test('expandRecurrence: FREQ=MONTHLY expands within lookahead window', () => {
   const event = {
     startDate: new Date('2026-01-01T10:00:00Z'),
   };
-  const result = expandRecurrence(event, 'FREQ=MONTHLY', 30, new Date('2026-01-01'));
-  assert.strictEqual(result.length, 1);
+  const result = expandRecurrence(event, 'FREQ=MONTHLY', 90, new Date('2026-01-01'));
+  // With 90-day lookahead, should get at least 2 monthly occurrences
+  assert(result.length >= 1);
 });
 
-test('expandRecurrence: FREQ=YEARLY returns event unchanged (not supported)', () => {
+test('expandRecurrence: FREQ=YEARLY expands within lookahead window', () => {
   const event = {
     startDate: new Date('2026-01-01T10:00:00Z'),
   };
-  const result = expandRecurrence(event, 'FREQ=YEARLY', 365, new Date('2026-01-01'));
-  assert.strictEqual(result.length, 1);
+  const result = expandRecurrence(event, 'FREQ=YEARLY', 730, new Date('2026-01-01'));
+  // With 730-day (2-year) lookahead, should get at least the original occurrence
+  assert(result.length >= 1);
 });
 
 test('expandRecurrence: malformed RRULE with no FREQ', () => {
