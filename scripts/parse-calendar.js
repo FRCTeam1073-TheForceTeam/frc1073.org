@@ -109,18 +109,77 @@ function expandRecurrence(event, rruleStr, lookupDays = 7, now = new Date()) {
   return expanded.length > 0 ? expanded : [event];
 }
 
-// Parse ICS format
+// Apply EXDATE exclusions and RECURRENCE-ID overrides to expanded occurrences
+function applyOverrides(expandedOccurrences, master, overrides) {
+  if (!master.exdates || master.exdates.length === 0) {
+    master.exdates = [];
+  }
+
+  // Build a set of excluded timestamps from EXDATE
+  const excludedTimestamps = new Set();
+  master.exdates.forEach((exdate) => {
+    if (exdate) {
+      excludedTimestamps.add(exdate.getTime());
+    }
+  });
+
+  // Build a map of override timestamps to override events (RECURRENCE-ID matches)
+  const overridesByTimestamp = new Map();
+  overrides.forEach((override) => {
+    if (override.recurrenceId) {
+      overridesByTimestamp.set(override.recurrenceId.getTime(), override);
+    }
+  });
+
+  const result = [];
+
+  // Filter out excluded occurrences and splice in overrides
+  expandedOccurrences.forEach((occurrence) => {
+    const occurrenceTime = occurrence.startDate.getTime();
+
+    // Check if this occurrence is excluded by EXDATE
+    if (excludedTimestamps.has(occurrenceTime)) {
+      return; // Skip this occurrence
+    }
+
+    // Check if there's an override for this occurrence
+    const override = overridesByTimestamp.get(occurrenceTime);
+    if (override) {
+      // Check if it's a cancellation (STATUS:CANCELLED)
+      if (override.status === 'CANCELLED') {
+        return; // Skip this occurrence (treat as cancelled)
+      }
+      // Otherwise, splice in the override instead of the original
+      result.push(override);
+    } else {
+      // No override, include the original occurrence
+      result.push(occurrence);
+    }
+  });
+
+  // Add any overrides that didn't match an occurrence (fail-open: include them standalone)
+  overrides.forEach((override) => {
+    if (override.recurrenceId && !expandedOccurrences.some((occ) => occ.startDate.getTime() === override.recurrenceId.getTime())) {
+      result.push(override);
+    }
+  });
+
+  return result;
+}
+
+// Parse ICS format (two-pass: collect all events, then group by UID and apply overrides)
 function parseICS(icsContent, now = new Date(), maxLookupDays = 365) {
-  const events = [];
   const lines = icsContent.split('\n');
   let currentEvent = null;
-  let currentRRule = null;
+  const rawEvents = []; // Pass 1: collect all raw events
 
+  // Pass 1: Parse all VEVENTs into rawEvents
   for (let line of lines) {
     line = line.trim();
 
     if (line === 'BEGIN:VEVENT') {
       currentEvent = {
+        uid: '',
         summary: '',
         description: '',
         startDate: null,
@@ -131,16 +190,18 @@ function parseICS(icsContent, now = new Date(), maxLookupDays = 365) {
         rawEndStr: '',
         startOffsetEastern: null,
         endOffsetEastern: null,
+        rrule: null,
+        exdates: [],
+        recurrenceId: null,
+        status: '',
       };
-      currentRRule = null;
     } else if (line === 'END:VEVENT' && currentEvent) {
-      // Expand recurring events with the maximum lookahead needed
-      const expandedEvents = expandRecurrence(currentEvent, currentRRule, maxLookupDays, now);
-      events.push(...expandedEvents);
+      rawEvents.push(currentEvent);
       currentEvent = null;
-      currentRRule = null;
     } else if (currentEvent) {
-      if (line.startsWith('SUMMARY:')) {
+      if (line.startsWith('UID:')) {
+        currentEvent.uid = line.substring(4);
+      } else if (line.startsWith('SUMMARY:')) {
         currentEvent.summary = unescapeICS(line.substring(8));
       } else if (line.startsWith('DESCRIPTION:')) {
         currentEvent.description = unescapeICS(line.substring(12));
@@ -152,7 +213,6 @@ function parseICS(icsContent, now = new Date(), maxLookupDays = 365) {
         const parsedStart = parseDate(dateStr);
         currentEvent.startDate = parsedStart.date;
         currentEvent.startOffsetEastern = parsedStart.offset;
-        // All-day events don't have a time component (T separator)
         currentEvent.allDay = line.includes('VALUE=DATE') || dateStr.length === 8;
       } else if (line.startsWith('DTEND')) {
         const dateStr = line.substring(line.lastIndexOf(':') + 1);
@@ -161,12 +221,77 @@ function parseICS(icsContent, now = new Date(), maxLookupDays = 365) {
         currentEvent.endDate = parsedEnd.date;
         currentEvent.endOffsetEastern = parsedEnd.offset;
       } else if (line.startsWith('RRULE:')) {
-        currentRRule = line.substring(6);
+        currentEvent.rrule = line.substring(6);
+      } else if (line.startsWith('RECURRENCE-ID')) {
+        const dateStr = line.substring(line.lastIndexOf(':') + 1);
+        const parsedRecId = parseDate(dateStr);
+        currentEvent.recurrenceId = parsedRecId.date;
+      } else if (line.startsWith('EXDATE')) {
+        const dateStr = line.substring(line.lastIndexOf(':') + 1);
+        // EXDATE can have multiple comma-separated values
+        const dateParts = dateStr.split(',');
+        dateParts.forEach((part) => {
+          const parsed = parseDate(part.trim());
+          if (parsed.date) {
+            currentEvent.exdates.push(parsed.date);
+          }
+        });
+      } else if (line.startsWith('STATUS:')) {
+        currentEvent.status = line.substring(7);
       }
     }
   }
 
-  return events;
+  // Pass 2: Group by UID and expand/apply overrides
+  const eventsByUid = new Map();
+  const uidlessEvents = []; // Events with no UID
+
+  rawEvents.forEach((event) => {
+    if (event.uid) {
+      if (!eventsByUid.has(event.uid)) {
+        eventsByUid.set(event.uid, { master: null, overrides: [] });
+      }
+      const group = eventsByUid.get(event.uid);
+      if (event.recurrenceId === null) {
+        // This is a master event
+        group.master = event;
+      } else {
+        // This is an override
+        group.overrides.push(event);
+      }
+    } else {
+      // No UID: treat as independent singleton
+      uidlessEvents.push({ master: event, overrides: [] });
+    }
+  });
+
+  // Now expand each group
+  const result = [];
+
+  // Process UID-based groups
+  eventsByUid.forEach((group) => {
+    const master = group.master || group.overrides[0]; // Fallback to first override if no master
+    if (master && master.startDate) {
+      const expandedOccurrences = expandRecurrence(master, master.rrule, maxLookupDays, now);
+      const finalEvents = applyOverrides(expandedOccurrences, master, group.overrides);
+      result.push(...finalEvents);
+    } else if (group.overrides.length > 0) {
+      // Orphaned overrides (no master, no startDate on override)
+      result.push(...group.overrides);
+    }
+  });
+
+  // Process UID-less events (treat each independently)
+  uidlessEvents.forEach((group) => {
+    if (group.master.startDate) {
+      const expandedOccurrences = expandRecurrence(group.master, group.master.rrule, maxLookupDays, now);
+      result.push(...expandedOccurrences);
+    } else {
+      result.push(group.master);
+    }
+  });
+
+  return result;
 }
 
 function parseDate(dateStr) {
@@ -441,8 +566,8 @@ function outputJSON(administrative, meetings, competitions, otherEvents) {
   );
 }
 
-function parseArgs() {
-  const args = process.argv.slice(2);
+function parseArgs(argsOverride = null) {
+  const args = argsOverride !== null ? argsOverride : process.argv.slice(2);
   let format = 'json';
   // Default meeting days: a week from Sunday US Eastern time
   const offset = getUSEasternOffsetHours();
@@ -582,4 +707,24 @@ async function main() {
   }
 }
 
-main();
+module.exports = {
+  getUSEasternOffsetHours,
+  expandRecurrence,
+  parseICS,
+  parseDate,
+  unescapeICS,
+  fetchCalendar,
+  getEventDuration,
+  categorizeEvent,
+  filterUpcomingEvents,
+  formatEvent,
+  formatEventDate,
+  renderMarkdownEvents,
+  parseArgs,
+  main,
+  applyOverrides,
+};
+
+if (require.main === module) {
+  main();
+}
