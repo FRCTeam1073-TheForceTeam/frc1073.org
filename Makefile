@@ -19,6 +19,10 @@ install:
 	npm install
 	pre-commit install
 
+.PHONY: test
+test:
+	npm test
+
 .PHONY: verify
 verify:
 	@node scripts/check-links.js

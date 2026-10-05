@@ -158,7 +158,7 @@ To see if your changes were successfully deployed go to the [Actions tab](https:
 
 ## Automated Edits
 
-The [`scripts/parse-calendar.js`](scripts/parse-calendar.js) script automatically updates the upcoming events section on the home page with the latest calendar entries. This script runs on a schedule via GitHub Actions to keep the homepage calendar fresh without manual updates. If the calendar receives last-minute updates, you can manually trigger the update by running the [update-calendar workflow](https://github.com/FRCTeam1073-TheForceTeam/frc1073.org/actions/workflows/update-calendar.yml) in the Actions tab.
+The [`scripts/calendar-parse.js`](scripts/calendar-parse.js) script automatically updates the upcoming events section on the home page with the latest calendar entries. This script runs on a schedule via GitHub Actions to keep the homepage calendar fresh without manual updates. If the calendar receives last-minute updates, you can manually trigger the update by running the [calendar-update workflow](https://github.com/FRCTeam1073-TheForceTeam/frc1073.org/actions/workflows/calendar-update.yml) in the Actions tab.
 
 ## Infrastructure and Hosting
 

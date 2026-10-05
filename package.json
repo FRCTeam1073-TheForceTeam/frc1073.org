@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "calendar": "node scripts/parse-calendar.js",
-    "calendar:watch": "node scripts/parse-calendar.js && sleep 3600 && npm run calendar:watch",
+    "calendar": "node scripts/calendar-parse.js",
+    "calendar:watch": "node scripts/calendar-parse.js && sleep 3600 && npm run calendar:watch",
     "verify": "node scripts/check-links.js",
     "test": "node --test 'tests/**/*.test.js'"
   },

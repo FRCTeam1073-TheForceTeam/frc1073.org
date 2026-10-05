@@ -4,8 +4,8 @@ const assert = require('node:assert');
 // Pin timezone for deterministic tests
 process.env.TZ = 'America/New_York';
 
-// Load the parse-calendar module
-const { expandRecurrence, parseICS } = require('../../scripts/parse-calendar.js');
+// Load the calendar-parse module
+const { expandRecurrence, parseICS } = require('../../scripts/calendar-parse.js');
 
 // ============================================================================
 // FREQ=DAILY expansion tests

@@ -10,7 +10,7 @@ TEMP_CALENDAR=$(mktemp)
 TEMP_INDEX=$(mktemp)
 
 # Get markdown output from calendar parser, passing through all arguments
-node "$SCRIPT_DIR/parse-calendar.js" --markdown "$@" > "$TEMP_CALENDAR"
+node "$SCRIPT_DIR/calendar-parse.js" --markdown "$@" > "$TEMP_CALENDAR"
 
 # Extract the section before the markers
 sed -n '1,/<!-- begin auto-generated events -->/p' "$INDEX_FILE" > "$TEMP_INDEX"

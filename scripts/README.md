@@ -4,7 +4,7 @@
 
 ### Overview
 
-The `parse-calendar.js` script fetches and parses your Google Calendar, categorizing events into three categories:
+The `calendar-parse.js` script fetches and parses your Google Calendar, categorizing events into three categories:
 
 1. **Meetings** - Evening events (typically 5pm-9pm) lasting 2-4 hours
 2. **Competitions** - All-day events containing FRC-related keywords
@@ -14,12 +14,12 @@ The `parse-calendar.js` script fetches and parses your Google Calendar, categori
 
 #### Basic Usage (uses default Team 1073 calendar)
 ```bash
-node scripts/parse-calendar.js
+node scripts/calendar-parse.js
 ```
 
 #### With Custom Calendar URL
 ```bash
-CALENDAR_URL="https://calendar.google.com/calendar/ical/YOUR_CALENDAR_ID%40group.calendar.google.com/public/basic.ics" node scripts/parse-calendar.js
+CALENDAR_URL="https://calendar.google.com/calendar/ical/YOUR_CALENDAR_ID%40group.calendar.google.com/public/basic.ics" node scripts/calendar-parse.js
 ```
 
 #### With npm script (add to package.json)
@@ -51,7 +51,7 @@ The script outputs:
 
 ### Customization
 
-Edit `parse-calendar.js` to:
+Edit `calendar-parse.js` to:
 
 1. **Change meeting time window:**
    ```javascript

@@ -22,7 +22,7 @@ jobs:
           node-version: '24'
 
       - name: Run update script
-        run: bash scripts/update-calendar.sh
+        run: bash scripts/calendar-update.sh
 
       - name: Check if home.md changed
         id: check

@@ -6,7 +6,7 @@ const { resolve } = require('path');
 // Pin timezone for deterministic tests
 process.env.TZ = 'America/New_York';
 
-// Load the parse-calendar module
+// Load the calendar-parse module
 const {
   getUSEasternOffsetHours,
   expandRecurrence,
@@ -18,7 +18,7 @@ const {
   filterUpcomingEvents,
   formatEvent,
   formatEventDate,
-} = require('../../scripts/parse-calendar.js');
+} = require('../../scripts/calendar-parse.js');
 
 // Helper: read fixture file
 function readFixture(filename) {

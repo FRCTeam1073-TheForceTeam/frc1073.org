@@ -702,7 +702,7 @@ function parseArgs(argsOverride = null) {
       }
       i++;
     } else if (args[i] === '--help') {
-      console.log('Usage: parse-calendar.js [OPTIONS]');
+      console.log('Usage: calendar-parse.js [OPTIONS]');
       console.log('\nOptions:');
       console.log('  --text              Output as text (human-readable)');
       console.log('  --markdown          Output as markdown');
@@ -714,12 +714,12 @@ function parseArgs(argsOverride = null) {
       console.log('  --date DATE         Start date for scanning (YYYY-MM-DD, default: today)');
       console.log('  --help              Show this help message');
       console.log('\nExamples:');
-      console.log('  node parse-calendar.js');
-      console.log('  node parse-calendar.js --text');
-      console.log('  node parse-calendar.js --markdown --competitions 5');
-      console.log('  node parse-calendar.js --meetings 365 --competitions 50 --events 50');
-      console.log('  node parse-calendar.js --date 2026-01-01 --text');
-      console.log('  node parse-calendar.js --administrative 30 --markdown');
+      console.log('  node calendar-parse.js');
+      console.log('  node calendar-parse.js --text');
+      console.log('  node calendar-parse.js --markdown --competitions 5');
+      console.log('  node calendar-parse.js --meetings 365 --competitions 50 --events 50');
+      console.log('  node calendar-parse.js --date 2026-01-01 --text');
+      console.log('  node calendar-parse.js --administrative 30 --markdown');
       process.exit(0);
     }
   }

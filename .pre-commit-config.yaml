@@ -23,6 +23,12 @@ repos:
 
   - repo: local
     hooks:
+      - id: unit-tests
+        name: Run unit tests
+        entry: npm test
+        language: system
+        pass_filenames: false
+        always_run: true
       - id: link-checker
         name: Check links
         entry: npm run verify

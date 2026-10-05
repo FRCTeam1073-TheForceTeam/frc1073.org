@@ -43,8 +43,8 @@ See more updates: [Follow the fun on social media!](/media)
 ## Upcoming Activities
 
 <!--
-Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/workflows/update-calendar.yml`)
-- `scripts/parse-calendar.js` fetches the Google Calendar ICS feed, parses it, and classifies events based on their keywords:
+Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/workflows/calendar-update.yml`)
+- `scripts/calendar-parse.js` fetches the Google Calendar ICS feed, parses it, and classifies events based on their keywords:
   * Administrative (not shown): "deadline", "due", "registration", "selection", "purchase", "opens", "closes", etc.
   * Meetings (in next seven days): "meeting", "practice", "prep", "leads", "all hands", "strategy", etc.
   * Competitions (next 3): "competition", "regional", "district", "tournament", "championship", "worlds", event names (Battlecry, CyberKnight, River Rage, etc.)
