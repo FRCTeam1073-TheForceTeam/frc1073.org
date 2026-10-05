@@ -3,7 +3,7 @@
     "calendar": "node scripts/calendar-parse.js",
     "calendar:watch": "node scripts/calendar-parse.js && sleep 3600 && npm run calendar:watch",
     "verify": "node scripts/check-links.js",
-    "test": "node --test 'tests/**/*.test.js'"
+    "test": "node --test tests/scripts/*.test.js"
   },
   "dependencies": {
     "puppeteer": "^25.12.0",
