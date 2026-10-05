@@ -110,7 +110,7 @@ function expandRecurrence(event, rruleStr, lookupDays = 7, now = new Date()) {
 }
 
 // Parse ICS format
-function parseICS(icsContent, now = new Date()) {
+function parseICS(icsContent, now = new Date(), maxLookupDays = 365) {
   const events = [];
   const lines = icsContent.split('\n');
   let currentEvent = null;
@@ -134,8 +134,8 @@ function parseICS(icsContent, now = new Date()) {
       };
       currentRRule = null;
     } else if (line === 'END:VEVENT' && currentEvent) {
-      // Expand recurring events
-      const expandedEvents = expandRecurrence(currentEvent, currentRRule, 7, now);
+      // Expand recurring events with the maximum lookahead needed
+      const expandedEvents = expandRecurrence(currentEvent, currentRRule, maxLookupDays, now);
       events.push(...expandedEvents);
       currentEvent = null;
       currentRRule = null;
@@ -331,7 +331,7 @@ function outputText(administrative, meetings, competitions, otherEvents) {
   }
 
   if (meetings.length > 0) {
-    console.log('\n### This Week\'s Meetings\n');
+    console.log('\n### Upcoming\'s Meetings\n');
     meetings.forEach((event, i) => {
       console.log(`\n${i + 1}. ${event.title}`);
       console.log(`   Start: ${event.start}`);
@@ -421,7 +421,7 @@ function outputMarkdown(administrative, meetings, competitions, otherEvents) {
 
   if (meetings.length > 0) {
     if (!isFirst) console.log('');
-    console.log('### This Week\'s Meetings\n');
+    console.log('### Upcoming\'s Meetings\n');
     renderMarkdownEvents(meetings);
   }
 }
@@ -511,7 +511,8 @@ async function main() {
     const { format, meetingsDays, competitionsLimit, eventsLimit, administrativeDays, startDate } = parseArgs();
 
     const icsContent = await fetchCalendar(CALENDAR_URL);
-    const allEvents = parseICS(icsContent, startDate);
+    // Expand recurring events with the maximum lookahead we might need (365 days covers all scenarios)
+    const allEvents = parseICS(icsContent, startDate, 365);
 
     // Get events for different periods: configurable for meetings/administrative, 12 months for competitions/other
     const meetingEvents = filterUpcomingEvents(allEvents, meetingsDays, startDate);
