@@ -66,7 +66,6 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 
 ### Upcoming Meetings
 
-- **Mayhem Trailer Pack** — Thursday, October 8, 2026; 6:30 PM to 7:30 PM
 - **Pre-Leads Meeting** — Wednesday, October 14, 2026; 6:00 PM to 6:30 PM
 - **All Hands Meeting** — Wednesday, October 14, 2026; 6:00 PM to 9:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
 - **CKI Prep** — Thursday, October 15, 2026; 6:00 PM to 9:00 PM
