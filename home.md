@@ -54,9 +54,9 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 <!-- begin auto-generated events -->
 ### Next 3 Competitions
 
-- **Mayhem in Merrimack** — Saturday, October 10, 2026
 - **CyberKnight Invitational Competition** — Saturday, October 17, 2026
 - **River Rage** — Saturday, October 24, 2026
+- **Battle of the Bay Competition** — Saturday, November 7, 2026
 
 ### Next 3 Events
 
