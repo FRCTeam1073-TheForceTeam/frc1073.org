@@ -1,7 +1,7 @@
 .PHONY: run
 run:
 	@echo "Starting Jekyll server with live reload..."
-	bundle exec jekyll serve --livereload --open-url &
+	BUNDLE_PATH=vendor/bundle bundle exec jekyll serve --livereload --open-url &
 	@echo "Server started in background. Visit http://localhost:4000"
 
 .PHONY: stop
@@ -11,10 +11,11 @@ stop:
 
 .PHONY: clean
 clean:
-	bundle exec jekyll clean
+	BUNDLE_PATH=vendor/bundle bundle exec jekyll clean
 
 .PHONY: install
 install:
+	bundle config set path 'vendor/bundle'
 	bundle install
 	npm install
 	pre-commit install

@@ -111,7 +111,7 @@ sudo gem install bundler
 
 ```bash
 sudo apt-get update
-sudo apt-get install -y ruby ruby-dev build-essential nodejs npm python3-pipx make
+sudo apt-get install -y ruby ruby-dev build-essential nodejs npm pipx make
 pipx install pre-commit
 sudo gem install bundler
 ```
