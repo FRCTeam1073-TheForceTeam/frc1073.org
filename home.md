@@ -54,9 +54,9 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 <!-- begin auto-generated events -->
 ### Next 3 Competitions
 
-- **CyberKnight Invitational Competition** — Saturday, October 17, 2026
 - **River Rage** — Saturday, October 24, 2026
 - **Battle of the Bay Competition** — Saturday, November 7, 2026
+- **Girls Behind the Glass** — Sunday, November 8, 2026
 
 ### Next 3 Events
 
@@ -66,7 +66,6 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 
 ### Upcoming Meetings
 
-- **CKI Load In** — Friday, October 16, 2026; 5:00 PM to 8:00 PM
 - **Pre-Leads Meeting** — Wednesday, October 21, 2026; 6:00 PM to 6:30 PM
 - **All Hands Meeting** — Wednesday, October 21, 2026; 6:00 PM to 9:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
 <!-- end auto-generated events -->
