@@ -54,9 +54,9 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 <!-- begin auto-generated events -->
 ### Next 3 Competitions
 
-- **River Rage** — Saturday, October 24, 2026
-- **Battle of the Bay Competition** — Saturday, November 7, 2026
-- **Girls Behind the Glass** — Sunday, November 8, 2026
+- **Battle of the Bay Competition** — Saturday, November 7, 2026 — *Prospect Mountain High School, 242 Suncook Valley Rd, Alton, NH*
+- **Week 0 Competition** — Saturday, February 20, 2027
+- **Week 1** — Friday, March 5, 2027 – Sunday, March 7, 2027
 
 ### Next 3 Events
 
@@ -68,6 +68,8 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 
 - **Pre-Leads Meeting** — Wednesday, October 21, 2026; 6:00 PM to 6:30 PM
 - **All Hands Meeting** — Wednesday, October 21, 2026; 6:00 PM to 9:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
+- **River Rage** — Saturday, October 24, 2026
+- **EM Meeting: CAD Training** — Tuesday, October 27, 2026; 6:00 PM to 9:00 PM
 - **Parent Meeting** — Wednesday, October 28, 2026
 - **Pre-Leads Meeting** — Wednesday, October 28, 2026; 6:00 PM to 6:30 PM
 - **All Hands Meeting** — Wednesday, October 28, 2026; 6:00 PM to 9:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
