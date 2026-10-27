@@ -66,7 +66,6 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 
 ### Upcoming Meetings
 
-- **Mentor Meeting** — Monday, October 26, 2026; 6:00 PM to 8:00 PM — *Alamo Texas BBQ and Tequila Bar, 99 Rte 13, Brookline, NH 03033*
 - **EM&SW Meetings: CAD Training & Vision Development** — Tuesday, October 27, 2026; 6:30 PM to 9:00 PM
 - **Parent Meeting** — Wednesday, October 28, 2026
 - **Pre-Leads Meeting** — Wednesday, October 28, 2026; 6:00 PM to 6:30 PM
