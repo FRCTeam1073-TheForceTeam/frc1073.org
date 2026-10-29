@@ -66,9 +66,6 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 
 ### Upcoming Meetings
 
-- **Pre-Leads Meeting** — Wednesday, October 28, 2026; 6:00 PM to 6:30 PM
-- **All Hands Meeting** — Wednesday, October 28, 2026; 6:00 PM to 9:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
-- **FRC 1073 Parent Meeting** — Wednesday, October 28, 2026; 7:00 PM to 8:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
 - **Pre-Leads Meeting** — Wednesday, November 4, 2026; 6:00 PM to 6:30 PM
 - **All Hands Meeting** — Wednesday, November 4, 2026; 6:00 PM to 9:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
 - **BoB Prep and Practic3** — Thursday, November 5, 2026; 6:00 PM to 9:00 PM
