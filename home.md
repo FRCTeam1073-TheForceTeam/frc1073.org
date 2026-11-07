@@ -54,9 +54,9 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 <!-- begin auto-generated events -->
 ### Next 3 Competitions
 
-- **Battle of the Bay Competition** — Saturday, November 7, 2026 — *Prospect Mountain High School, 242 Suncook Valley Rd, Alton, NH*
 - **Week 0 Competition** — Saturday, February 20, 2027
 - **Week 1** — Friday, March 5, 2027 – Sunday, March 7, 2027
+- **Week 2** — Friday, March 12, 2027 – Sunday, March 14, 2027
 
 ### Next 3 Events
 
