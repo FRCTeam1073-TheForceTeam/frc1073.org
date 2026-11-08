@@ -61,8 +61,8 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 ### Next 3 Events
 
 - **NE RoboCon** — Saturday, November 14, 2026; 6:30 AM to 7:30 AM — *1 Memorial Dr, Cambridge, MA 02142, USA*
+- **MOCK KICKOFF** — Wednesday, December 2, 2026
 - **FLL Finale Event** — Saturday, December 12, 2026
-- **FRC Kickoff!** — Saturday, January 9, 2027
 
 ### Upcoming Meetings
 
