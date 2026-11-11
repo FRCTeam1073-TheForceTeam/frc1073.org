@@ -66,7 +66,6 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 
 ### Upcoming Meetings
 
-- **EM&SW Meetings: CAD Training & Vision Development** — Tuesday, November 10, 2026; 6:30 PM to 9:00 PM
 - **Pre-Leads Meeting** — Wednesday, November 11, 2026; 6:00 PM to 6:30 PM
 - **All Hands Meeting** — Wednesday, November 11, 2026; 6:00 PM to 9:00 PM — *Hollis Brookline Middle School, 25 Main St, Hollis, NH 03049,*
 - **EM&SW Meetings: CAD Training & Vision Development** — Tuesday, November 17, 2026; 6:30 PM to 9:00 PM
