@@ -461,15 +461,15 @@ function categorizeEvent(event) {
   const eventText = `${event.summary} ${event.description}`.toLowerCase();
 
   // Administrative events - never show these
-  if (/\b(broadcast|lock|submit|mechanisms|built|programmed|integrated|complete|divisions|selection|deadline|due(?!\s+to)|opens|closes|registration|purchase|competitions|day \d+)\b/i.test(eventText)) {
+  if (/\b(week\s+[1-9]|broadcast|lock|submit|mechanisms|built|programmed|integrated|complete|divisions|selection|deadline|due(?!\s+to)|opens|closes|registration|purchase|competitions|day \d+)\b/i.test(eventText)) {
     return 'administrative';
   }
 
-  if (/\b(call|verifications|verification|volunteer|volunteering|interview|interviews|photo|team|drive|driving|hotel|sales|visit|fundraising|voting|fundraiser|spirit|subgroup|meetings|design|review|testing|mpr|all[-\s]*hands|pre[-\s]*leads|leads|meeting|hours|drive[-\s]*team|prep|preparation|practice|trailer|travel|software|em|electro|electrical|mechanical|scout|scouting|bacs|strategy|safety|business|load|un[-\s]*load|unloading|hbrb|pack|setup|cleanup|clean up)\b/i.test(eventText)) {
+  if (/\b(mock|call|verifications|verification|volunteer|volunteering|interview|interviews|photo|team|drive|driving|hotel|sales|visit|fundraising|voting|fundraiser|spirit|subgroup|meetings|design|review|testing|mpr|all[-\s]*hands|pre[-\s]*leads|leads|meeting|hours|drive[-\s]*team|prep|preparation|practice|trailer|travel|software|em|electro|electrical|mechanical|scout|scouting|bacs|strategy|safety|business|load|un[-\s]*load|unloading|hbrb|pack|setup|cleanup|clean up)\b/i.test(eventText)) {
     return 'meeting';
   }
 
-  if (/\b(competition|regional|district|qualifier|tournament|championship|governor's cup|governors cup|governor cup|gov cup|mayhem in merrimack|battle of the bay|cyberknight|river rage|girls behind the glass|dcmp|worlds|battle\s*cry|championship|district\s+event|\bweek\s+\d|minuteman|pine\s+tree|granite\s+state|western\s+ne|western\s+new\s+england|north\s+shore|waterbury|greater\s+boston|hartford|unh|uvm|wpi|uri)\b/i.test(eventText)){
+  if (/\b(competition|regional|district|qualifier|tournament|championship|governor's cup|governors cup|governor cup|gov cup|mayhem in merrimack|battle of the bay|cyberknight|river\s*rage|girls behind the glass|dcmp|worlds|battle\s*cry|championship|district\s+event|week\s*0|week\s+zero|minuteman|pine\s+tree|granite\s+state|western\s+ne|western\s+new\s+england|north\s+shore|waterbury|greater\s+boston|hartford|unh|uvm|wpi|uri)\b/i.test(eventText)){
     return 'competition';
   }
 
@@ -786,6 +786,8 @@ async function main() {
     otherEvents.sort(sortByDateDurationTitle);
 
     // Apply limits
+    console.log('Competition limit:', competitionsLimit);
+    console.log('Events limit:', eventsLimit);
     competitions = competitions.slice(0, competitionsLimit);
     otherEvents = otherEvents.slice(0, eventsLimit);
 

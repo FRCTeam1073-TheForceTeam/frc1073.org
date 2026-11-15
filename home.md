@@ -52,17 +52,19 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 - To run manually: Go to GitHub Actions > "Update Calendar" > "Run workflow"
 -->
 <!-- begin auto-generated events -->
+Competition limit: 3
+Events limit: 3
 ### Next 3 Competitions
 
 - **Week 0 Competition** — Saturday, February 20, 2027
-- **Week 1** — Friday, March 5, 2027 – Sunday, March 7, 2027
-- **Week 2** — Friday, March 12, 2027 – Sunday, March 14, 2027
+- **NE DCMP** — Wednesday, April 14, 2027 – Saturday, April 17, 2027
+- **FIRST World Championship** — Wednesday, April 28, 2027 – Saturday, May 1, 2027
 
 ### Next 3 Events
 
-- **MOCK KICKOFF** — Wednesday, December 2, 2026
 - **FLL Finale Event** — Saturday, December 12, 2026
 - **FRC Kickoff!** — Saturday, January 9, 2027
+- **Field Build Weekend** — Saturday, January 16, 2027
 
 ### Upcoming Meetings
 
