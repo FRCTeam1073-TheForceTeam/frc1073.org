@@ -52,8 +52,6 @@ Auto-generated events: Updated nightly by GitHub Actions workflow (`.github/work
 - To run manually: Go to GitHub Actions > "Update Calendar" > "Run workflow"
 -->
 <!-- begin auto-generated events -->
-Competition limit: 3
-Events limit: 3
 ### Next 3 Competitions
 
 - **Week 0 Competition** — Saturday, February 20, 2027

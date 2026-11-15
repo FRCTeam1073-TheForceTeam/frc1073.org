@@ -786,8 +786,6 @@ async function main() {
     otherEvents.sort(sortByDateDurationTitle);
 
     // Apply limits
-    console.log('Competition limit:', competitionsLimit);
-    console.log('Events limit:', eventsLimit);
     competitions = competitions.slice(0, competitionsLimit);
     otherEvents = otherEvents.slice(0, eventsLimit);
 
